@@ -4,7 +4,7 @@ A staged port of `tribaltrouble-main`. See `PORT_ROADMAP.md` for the plan.
 
 ## Open it (Stage 0)
 
-1. **Unity Hub → Add → Add project from disk** → choose this folder → open it with a **Unity 6.1 (6000.1.x)** editor.
+1. **Unity Hub → Add → Add project from disk** → choose this folder → open it with a **Unity 6.6 (6000.6.6f1)** editor.
    The first import takes a few minutes: Unity fetches URP and glTFast and imports 76 `.glb` models.
 2. On first load, **Tools → Tribal Trouble → Setup Project** runs by itself. It creates and assigns a URP asset and switches to Linear
    colour space. Check the Console for `[Tribal Trouble] Project setup done`. You can run it again from the menu at any time.
@@ -24,7 +24,7 @@ If the URP auto-setup fails, use **Assets → Create → Rendering → URP Asset
 ## Re-importing assets from the Java repo
 
 ```
-python PortTools/import_tt_assets.py "C:\Users\tre24\Desktop\ttremastered\tribaltrouble-main(Working)1.4.1"
+python PortTools/import_tt_assets.py "C:\Users\tribaltrouble-main"
 ```
 
 The script needs Python 3 and numpy. It overwrites `Assets/TribalTrouble/Art`, `Audio` and `Localization/Source`.
