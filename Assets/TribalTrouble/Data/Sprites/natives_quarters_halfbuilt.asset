@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c721b67d8d87a14280969847e89d0c4, type: 3}
+  m_Name: natives_quarters_halfbuilt
+  m_EditorClassIdentifier: 
+  group: natives
+  spriteName: quarters_halfbuilt
+  model: {fileID: 6299272903207284790, guid: 1b6388dd4f2704641b41c43b75a4e1d4, type: 3}
+  skinned: 0
+  lods:
+  - nodeName: lod0
+    textures:
+    - name: native_building_hi
+      baseMap: {fileID: 2800000, guid: e9125c707d69a2e489d6b64afcf5d97e, type: 3}
+      teamMask: {fileID: 2800000, guid: 7e36e6459f3ab0842a640bd9f83b9165, type: 3}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  - nodeName: lod1
+    textures:
+    - name: native_building_lo
+      baseMap: {fileID: 2800000, guid: ab8a1981913528b458b2d6ff248240f2, type: 3}
+      teamMask: {fileID: 2800000, guid: 08805036b6c622d45b5a33fe8e5040a8, type: 3}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  animations: []

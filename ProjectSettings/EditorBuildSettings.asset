@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/TribalTrouble/Scenes/FaithfulSkirmish.unity
+    guid: 6aa2839d70ec7ed47886b7a2c74b7dee
+  - enabled: 1
+    path: Assets/TribalTrouble/Scenes/Skirmish.unity
+    guid: 6a6ef7a40a53eab4bb16090d7ee3c7ad
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

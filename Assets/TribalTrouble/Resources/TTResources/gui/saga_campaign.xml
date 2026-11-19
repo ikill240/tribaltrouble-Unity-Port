@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE saga_campaign [
+        <!ELEMENT saga_campaign (map,
+                island0,
+                island1,
+                island2,
+                island3,
+                island4,
+                island5,
+                island6,
+                island7,
+                island8,
+                island9,
+                island10,
+                island11,
+                island12,
+                island13,
+                island14,
+                island15,
+                island16,
+                island17,
+                island18,
+                island19,
+                island20,
+                island21,
+                island22,
+                island23,
+                island24,
+                island25,
+                island26,
+                island27,
+                island28,
+                flag0,
+                flag1,
+                flag2,
+                boat0,
+                boat1,
+                boat2,
+                route8_21,
+                route7_21,
+                route3_22,
+                route1_22,
+                route4_23,
+                route5_23,
+                route10_24,
+                route12_24,
+                route12_25,
+                route13_25,
+                route15_26,
+                route20_26,
+                route19_27,
+                route6_27,
+                route13_28,
+                route12_28)>
+        <!ATTLIST saga_campaign texture CDATA #REQUIRED>
+        <!ELEMENT map (quad)>
+        <!ATTLIST map offset_x CDATA #REQUIRED offset_y CDATA #REQUIRED width CDATA #REQUIRED height CDATA #REQUIRED>
+        <!ELEMENT island0 (island)>
+        <!ELEMENT island1 (island)>
+        <!ELEMENT island2 (island)>
+        <!ELEMENT island3 (island)>
+        <!ELEMENT island4 (island)>
+        <!ELEMENT island5 (island)>
+        <!ELEMENT island6 (island)>
+        <!ELEMENT island7 (island)>
+        <!ELEMENT island8 (island)>
+        <!ELEMENT island9 (island)>
+        <!ELEMENT island10 (island)>
+        <!ELEMENT island11 (island)>
+        <!ELEMENT island12 (island)>
+        <!ELEMENT island13 (island)>
+        <!ELEMENT island14 (island)>
+        <!ELEMENT island15 (island)>
+        <!ELEMENT island16 (island)>
+        <!ELEMENT island17 (island)>
+        <!ELEMENT island18 (island)>
+        <!ELEMENT island19 (island)>
+        <!ELEMENT island20 (island)>
+        <!ELEMENT island21 (island)>
+        <!ELEMENT island22 (island)>
+        <!ELEMENT island23 (island)>
+        <!ELEMENT island24 (island)>
+        <!ELEMENT island25 (island)>
+        <!ELEMENT island26 (island)>
+        <!ELEMENT island27 (island)>
+        <!ELEMENT island28 (island)>
+        <!ELEMENT island (normal, active, disabled)>
+        <!ATTLIST island x CDATA #REQUIRED y CDATA #REQUIRED pin_index CDATA #REQUIRED pin_x CDATA #REQUIRED pin_y CDATA #REQUIRED>
+        <!ELEMENT normal (quad)>
+        <!ELEMENT active (quad)>
+        <!ELEMENT disabled (quad)>
+        <!ELEMENT flag0 (quad)>
+        <!ELEMENT boat0 (quad)>
+        <!ELEMENT flag1 (quad)>
+        <!ELEMENT boat1 (quad)>
+        <!ELEMENT flag2 (quad)>
+        <!ELEMENT boat2 (quad)>
+        <!ELEMENT route8_21 (quad)>
+        <!ATTLIST route8_21 x CDATA #REQUIRED y CDATA #REQUIRED>
+        <!ELEMENT route7_21 (quad)>
+        <!ATTLIST route7_21 x CDATA #REQUIRED y CDATA #REQUIRED>
+        <!ELEMENT route3_22 (quad)>
+        <!ATTLIST route3_22 x CDATA #REQUIRED y CDATA #REQUIRED>
+        <!ELEMENT route1_22 (quad)>
+        <!ATTLIST route1_22 x CDATA #REQUIRED y CDATA #REQUIRED>
+        <!ELEMENT route4_23 (quad)>
+        <!ATTLIST route4_23 x CDATA #REQUIRED y CDATA #REQUIRED>
+        <!ELEMENT route5_23 (quad)>
+        <!ATTLIST route5_23 x CDATA #REQUIRED y CDATA #REQUIRED>
+        <!ELEMENT route10_24 (quad)>
+        <!ATTLIST route10_24 x CDATA #REQUIRED y CDATA #REQUIRED>
+        <!ELEMENT route12_24 (quad)>
+        <!ATTLIST route12_24 x CDATA #REQUIRED y CDATA #REQUIRED>
+        <!ELEMENT route12_25 (quad)>
+        <!ATTLIST route12_25 x CDATA #REQUIRED y CDATA #REQUIRED>
+        <!ELEMENT route13_25 (quad)>
+        <!ATTLIST route13_25 x CDATA #REQUIRED y CDATA #REQUIRED>
+        <!ELEMENT route15_26 (quad)>
+        <!ATTLIST route15_26 x CDATA #REQUIRED y CDATA #REQUIRED>
+        <!ELEMENT route20_26 (quad)>
+        <!ATTLIST route20_26 x CDATA #REQUIRED y CDATA #REQUIRED>
+        <!ELEMENT route19_27 (quad)>
+        <!ATTLIST route19_27 x CDATA #REQUIRED y CDATA #REQUIRED>
+        <!ELEMENT route6_27 (quad)>
+        <!ATTLIST route6_27 x CDATA #REQUIRED y CDATA #REQUIRED>
+        <!ELEMENT route13_28 (quad)>
+        <!ATTLIST route13_28 x CDATA #REQUIRED y CDATA #REQUIRED>
+        <!ELEMENT route12_28 (quad)>
+        <!ATTLIST route12_28 x CDATA #REQUIRED y CDATA #REQUIRED>
+        <!ELEMENT quad EMPTY>
+        <!ATTLIST quad left CDATA #REQUIRED top CDATA #REQUIRED right CDATA #REQUIRED bottom CDATA #REQUIRED>
+]>
+
+<!-- The Rising Tide: the New Tides campaign's sea chart (generated by gen_saga_chart.py) //added (saga) -->
+<saga_campaign texture="/textures/gui/saga_campaign">
+    <map offset_x="50" offset_y="50" width="700" height="500">
+        <quad left="0" top="424" right="800" bottom="1024"/>
+    </map>
+    <island0>
+        <island x="48" y="976" pin_index="0" pin_x="76" pin_y="926">
+            <normal><quad left="0" top="0" right="64" bottom="64"/></normal>
+            <active><quad left="0" top="64" right="64" bottom="128"/></active>
+            <disabled><quad left="0" top="128" right="64" bottom="192"/></disabled>
+        </island>
+    </island0>
+    <island1>
+        <island x="198" y="986" pin_index="0" pin_x="226" pin_y="936">
+            <normal><quad left="64" top="0" right="128" bottom="64"/></normal>
+            <active><quad left="64" top="64" right="128" bottom="128"/></active>
+            <disabled><quad left="64" top="128" right="128" bottom="192"/></disabled>
+        </island>
+    </island1>
+    <island2>
+        <island x="68" y="846" pin_index="0" pin_x="96" pin_y="796">
+            <normal><quad left="128" top="0" right="192" bottom="64"/></normal>
+            <active><quad left="128" top="64" right="192" bottom="128"/></active>
+            <disabled><quad left="128" top="128" right="192" bottom="192"/></disabled>
+        </island>
+    </island2>
+    <island3>
+        <island x="208" y="856" pin_index="0" pin_x="236" pin_y="806">
+            <normal><quad left="192" top="0" right="256" bottom="64"/></normal>
+            <active><quad left="192" top="64" right="256" bottom="128"/></active>
+            <disabled><quad left="192" top="128" right="256" bottom="192"/></disabled>
+        </island>
+    </island3>
+    <island4>
+        <island x="358" y="976" pin_index="0" pin_x="386" pin_y="926">
+            <normal><quad left="256" top="0" right="320" bottom="64"/></normal>
+            <active><quad left="256" top="64" right="320" bottom="128"/></active>
+            <disabled><quad left="256" top="128" right="320" bottom="192"/></disabled>
+        </island>
+    </island4>
+    <island5>
+        <island x="368" y="841" pin_index="0" pin_x="396" pin_y="791">
+            <normal><quad left="320" top="0" right="384" bottom="64"/></normal>
+            <active><quad left="320" top="64" right="384" bottom="128"/></active>
+            <disabled><quad left="320" top="128" right="384" bottom="192"/></disabled>
+        </island>
+    </island5>
+    <island6>
+        <island x="258" y="726" pin_index="0" pin_x="286" pin_y="676">
+            <normal><quad left="384" top="0" right="448" bottom="64"/></normal>
+            <active><quad left="384" top="64" right="448" bottom="128"/></active>
+            <disabled><quad left="384" top="128" right="448" bottom="192"/></disabled>
+        </island>
+    </island6>
+    <island7>
+        <island x="518" y="981" pin_index="0" pin_x="546" pin_y="931">
+            <normal><quad left="448" top="0" right="512" bottom="64"/></normal>
+            <active><quad left="448" top="64" right="512" bottom="128"/></active>
+            <disabled><quad left="448" top="128" right="512" bottom="192"/></disabled>
+        </island>
+    </island7>
+    <island8>
+        <island x="528" y="841" pin_index="0" pin_x="556" pin_y="791">
+            <normal><quad left="512" top="0" right="576" bottom="64"/></normal>
+            <active><quad left="512" top="64" right="576" bottom="128"/></active>
+            <disabled><quad left="512" top="128" right="576" bottom="192"/></disabled>
+        </island>
+    </island8>
+    <island9>
+        <island x="408" y="711" pin_index="0" pin_x="436" pin_y="661">
+            <normal><quad left="576" top="0" right="640" bottom="64"/></normal>
+            <active><quad left="576" top="64" right="640" bottom="128"/></active>
+            <disabled><quad left="576" top="128" right="640" bottom="192"/></disabled>
+        </island>
+    </island9>
+    <island10>
+        <island x="598" y="726" pin_index="0" pin_x="626" pin_y="676">
+            <normal><quad left="640" top="0" right="704" bottom="64"/></normal>
+            <active><quad left="640" top="64" right="704" bottom="128"/></active>
+            <disabled><quad left="640" top="128" right="704" bottom="192"/></disabled>
+        </island>
+    </island10>
+    <island11>
+        <island x="488" y="606" pin_index="0" pin_x="516" pin_y="556">
+            <normal><quad left="704" top="0" right="768" bottom="64"/></normal>
+            <active><quad left="704" top="64" right="768" bottom="128"/></active>
+            <disabled><quad left="704" top="128" right="768" bottom="192"/></disabled>
+        </island>
+    </island11>
+    <island12>
+        <island x="698" y="636" pin_index="0" pin_x="726" pin_y="586">
+            <normal><quad left="768" top="0" right="832" bottom="64"/></normal>
+            <active><quad left="768" top="64" right="832" bottom="128"/></active>
+            <disabled><quad left="768" top="128" right="832" bottom="192"/></disabled>
+        </island>
+    </island12>
+    <island13>
+        <island x="628" y="516" pin_index="0" pin_x="656" pin_y="466">
+            <normal><quad left="832" top="0" right="896" bottom="64"/></normal>
+            <active><quad left="832" top="64" right="896" bottom="128"/></active>
+            <disabled><quad left="832" top="128" right="896" bottom="192"/></disabled>
+        </island>
+    </island13>
+    <island14>
+        <island x="488" y="496" pin_index="0" pin_x="516" pin_y="446">
+            <normal><quad left="896" top="0" right="960" bottom="64"/></normal>
+            <active><quad left="896" top="64" right="960" bottom="128"/></active>
+            <disabled><quad left="896" top="128" right="960" bottom="192"/></disabled>
+        </island>
+    </island14>
+    <island15>
+        <island x="358" y="606" pin_index="0" pin_x="386" pin_y="556">
+            <normal><quad left="960" top="0" right="1024" bottom="64"/></normal>
+            <active><quad left="960" top="64" right="1024" bottom="128"/></active>
+            <disabled><quad left="960" top="128" right="1024" bottom="192"/></disabled>
+        </island>
+    </island15>
+    <island16>
+        <island x="328" y="496" pin_index="0" pin_x="356" pin_y="446">
+            <normal><quad left="0" top="192" right="64" bottom="256"/></normal>
+            <active><quad left="0" top="256" right="64" bottom="320"/></active>
+            <disabled><quad left="0" top="320" right="64" bottom="384"/></disabled>
+        </island>
+    </island16>
+    <island17>
+        <island x="198" y="536" pin_index="0" pin_x="226" pin_y="486">
+            <normal><quad left="64" top="192" right="128" bottom="256"/></normal>
+            <active><quad left="64" top="256" right="128" bottom="320"/></active>
+            <disabled><quad left="64" top="320" right="128" bottom="384"/></disabled>
+        </island>
+    </island17>
+    <island18>
+        <island x="78" y="556" pin_index="0" pin_x="106" pin_y="506">
+            <normal><quad left="128" top="192" right="192" bottom="256"/></normal>
+            <active><quad left="128" top="256" right="192" bottom="320"/></active>
+            <disabled><quad left="128" top="320" right="192" bottom="384"/></disabled>
+        </island>
+    </island18>
+    <island19>
+        <island x="88" y="686" pin_index="0" pin_x="116" pin_y="636">
+            <normal><quad left="192" top="192" right="256" bottom="256"/></normal>
+            <active><quad left="192" top="256" right="256" bottom="320"/></active>
+            <disabled><quad left="192" top="320" right="256" bottom="384"/></disabled>
+        </island>
+    </island19>
+    <island20>
+        <island x="208" y="646" pin_index="0" pin_x="236" pin_y="596">
+            <normal><quad left="256" top="192" right="320" bottom="256"/></normal>
+            <active><quad left="256" top="256" right="320" bottom="320"/></active>
+            <disabled><quad left="256" top="320" right="320" bottom="384"/></disabled>
+        </island>
+    </island20>
+    <island21>
+        <island x="658" y="916" pin_index="0" pin_x="686" pin_y="866">
+            <normal><quad left="320" top="192" right="384" bottom="256"/></normal>
+            <active><quad left="320" top="256" right="384" bottom="320"/></active>
+            <disabled><quad left="320" top="320" right="384" bottom="384"/></disabled>
+        </island>
+    </island21>
+    <island22>
+        <island x="268" y="916" pin_index="0" pin_x="296" pin_y="866">
+            <normal><quad left="384" top="192" right="448" bottom="256"/></normal>
+            <active><quad left="384" top="256" right="448" bottom="320"/></active>
+            <disabled><quad left="384" top="320" right="448" bottom="384"/></disabled>
+        </island>
+    </island22>
+    <island23>
+        <island x="443" y="911" pin_index="0" pin_x="471" pin_y="861">
+            <normal><quad left="448" top="192" right="512" bottom="256"/></normal>
+            <active><quad left="448" top="256" right="512" bottom="320"/></active>
+            <disabled><quad left="448" top="320" right="512" bottom="384"/></disabled>
+        </island>
+    </island23>
+    <island24>
+        <island x="713" y="766" pin_index="0" pin_x="741" pin_y="716">
+            <normal><quad left="512" top="192" right="576" bottom="256"/></normal>
+            <active><quad left="512" top="256" right="576" bottom="320"/></active>
+            <disabled><quad left="512" top="320" right="576" bottom="384"/></disabled>
+        </island>
+    </island24>
+    <island25>
+        <island x="608" y="606" pin_index="0" pin_x="636" pin_y="556">
+            <normal><quad left="576" top="192" right="640" bottom="256"/></normal>
+            <active><quad left="576" top="256" right="640" bottom="320"/></active>
+            <disabled><quad left="576" top="320" right="640" bottom="384"/></disabled>
+        </island>
+    </island25>
+    <island26>
+        <island x="278" y="586" pin_index="0" pin_x="306" pin_y="536">
+            <normal><quad left="640" top="192" right="704" bottom="256"/></normal>
+            <active><quad left="640" top="256" right="704" bottom="320"/></active>
+            <disabled><quad left="640" top="320" right="704" bottom="384"/></disabled>
+        </island>
+    </island26>
+    <island27>
+        <island x="148" y="766" pin_index="0" pin_x="176" pin_y="716">
+            <normal><quad left="704" top="192" right="768" bottom="256"/></normal>
+            <active><quad left="704" top="256" right="768" bottom="320"/></active>
+            <disabled><quad left="704" top="320" right="768" bottom="384"/></disabled>
+        </island>
+    </island27>
+    <island28>
+        <island x="718" y="536" pin_index="0" pin_x="746" pin_y="486">
+            <normal><quad left="768" top="192" right="832" bottom="256"/></normal>
+            <active><quad left="768" top="256" right="832" bottom="320"/></active>
+            <disabled><quad left="768" top="320" right="832" bottom="384"/></disabled>
+        </island>
+    </island28>
+    <flag0><quad left="800" top="424" right="896" bottom="520"/></flag0>
+    <flag1><quad left="800" top="520" right="896" bottom="616"/></flag1>
+    <flag2><quad left="800" top="616" right="896" bottom="712"/></flag2>
+    <boat0><quad left="896" top="424" right="992" bottom="520"/></boat0>
+    <boat1><quad left="896" top="520" right="992" bottom="616"/></boat1>
+    <boat2><quad left="896" top="616" right="992" bottom="712"/></boat2>
+    <route8_21 x="585" y="876"><quad left="832" top="192" right="902" bottom="234"/></route8_21>
+    <route7_21 x="584" y="945"><quad left="904" top="192" right="991" bottom="237"/></route7_21>
+    <route3_22 x="244" y="875"><quad left="993" top="192" right="1023" bottom="226"/></route3_22>
+    <route1_22 x="247" y="948"><quad left="832" top="239" right="879" bottom="286"/></route1_22>
+    <route4_23 x="408" y="941"><quad left="881" top="239" right="934" bottom="277"/></route4_23>
+    <route5_23 x="406" y="870"><quad left="936" top="239" right="980" bottom="284"/></route5_23>
+    <route10_24 x="643" y="736"><quad left="832" top="288" right="907" bottom="320"/></route10_24>
+    <route12_24 x="720" y="719"><quad left="800" top="712" right="819" bottom="810"/></route12_24>
+    <route12_25 x="658" y="593"><quad left="909" top="288" right="968" bottom="311"/></route12_25>
+    <route13_25 x="633" y="557"><quad left="970" top="288" right="987" bottom="347"/></route13_25>
+    <route15_26 x="337" y="563"><quad left="832" top="349" right="872" bottom="366"/></route15_26>
+    <route20_26 x="257" y="611"><quad left="821" top="712" right="868" bottom="753"/></route20_26>
+    <route19_27 x="122" y="721"><quad left="870" top="712" right="906" bottom="762"/></route19_27>
+    <route6_27 x="200" y="719"><quad left="874" top="349" right="947" bottom="376"/></route6_27>
+    <route13_28 x="674" y="511"><quad left="949" top="349" right="1008" bottom="366"/></route13_28>
+    <route12_28 x="739" y="590"><quad left="908" top="712" right="926" bottom="771"/></route12_28>
+</saga_campaign>

@@ -1,0 +1,24 @@
+{
+    "name": "TribalTrouble.Steam",
+    "rootNamespace": "TribalTrouble",
+    "references": [
+        "TribalTrouble.Runtime",
+        "TribalTrouble.JavaSim",
+        "com.rlabrecque.steamworks.net"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "LinuxStandalone64",
+        "macOSStandalone",
+        "WindowsStandalone32",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

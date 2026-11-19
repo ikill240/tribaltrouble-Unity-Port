@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4830e8a0f3a8fc4ea36a099637bca5c, type: 3}
+  m_Name: steam_vikings_tower_halfbuilt
+  m_EditorClassIdentifier: 
+  group: vikings
+  spriteName: tower_halfbuilt
+  model: {fileID: 9019582530312897933, guid: a5cd632b5de0dc74ca8e4b1d2ea1892d, type: 3}
+  skinned: 0
+  lods:
+  - nodeName: lod0
+    textures:
+    - name: viking_building_lookout
+      baseMap: {fileID: 2800000, guid: 4624d03ab21ce364f819798164686e92, type: 3}
+      teamMask: {fileID: 2800000, guid: 3e1ca8ec11396fb4c95aeb2327ba7b75, type: 3}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  - nodeName: lod1
+    textures:
+    - name: viking_building_lookout
+      baseMap: {fileID: 2800000, guid: 4624d03ab21ce364f819798164686e92, type: 3}
+      teamMask: {fileID: 2800000, guid: 3e1ca8ec11396fb4c95aeb2327ba7b75, type: 3}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  animations: []

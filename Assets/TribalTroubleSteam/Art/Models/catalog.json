@@ -1,0 +1,6981 @@
+{
+ "source": "assets/geometry/geometry.xml",
+ "units": "meters",
+ "upAxis": "Y (converted from TT Z-up)",
+ "animationClipSeconds": 1.0,
+ "groups": [
+  {
+   "name": "vikings",
+   "sprites": [
+    {
+     "name": "warrior",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/warrior/warrior_mesh.xml",
+       "textures": [
+        {
+         "name": "viking_warrior_rock",
+         "team": "viking_warrior_rock_team"
+        },
+        {
+         "name": "viking_warrior_iron",
+         "team": "viking_warrior_iron_team"
+        },
+        {
+         "name": "viking_warrior_rubber",
+         "team": "viking_warrior_rubber_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 384,
+       "triangles": 468,
+       "maxInfluences": 4,
+       "boundsMin": [
+        -1.173140048980713,
+        0.0,
+        -0.2681899964809418
+       ],
+       "boundsMax": [
+        1.3792099952697754,
+        2.30679988861084,
+        0.6429359912872314
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "vikings/warrior/warrior_low_poly_mesh.xml",
+       "textures": [
+        {
+         "name": "viking_warrior_rock",
+         "team": "viking_warrior_rock_team"
+        },
+        {
+         "name": "viking_warrior_iron",
+         "team": "viking_warrior_iron_team"
+        },
+        {
+         "name": "viking_warrior_rubber",
+         "team": "viking_warrior_rubber_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 97,
+       "triangles": 78,
+       "maxInfluences": 2,
+       "boundsMin": [
+        -1.1649999618530273,
+        9.974460226658266e-07,
+        -0.21197299659252167
+       ],
+       "boundsMax": [
+        1.4095100164413452,
+        2.315500020980835,
+        0.680188000202179
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 60
+      },
+      {
+       "name": "run",
+       "wpc": 5.0,
+       "type": "loop",
+       "frames": 62
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 58
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 125
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "file": "vikings/warrior.glb"
+    },
+    {
+     "name": "warrior_axe_held",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/warrior/warrior_axe_held.xml",
+       "textures": [
+        {
+         "name": "viking_warrior_axe_held_rock",
+         "team": "viking_warrior_axe_held_rock_team"
+        },
+        {
+         "name": "viking_warrior_axe_held_iron",
+         "team": "viking_warrior_axe_held_iron_team"
+        },
+        {
+         "name": "viking_warrior_axe_held_rubber",
+         "team": "viking_warrior_axe_held_rubber_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 39,
+       "triangles": 32,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.4137500524520874,
+        1.0699800252914429,
+        0.003870780114084482
+       ],
+       "boundsMax": [
+        -0.8673120141029358,
+        2.2499101161956787,
+        0.19995999336242676
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "vikings/warrior/warrior_axe_held_lo.xml",
+       "textures": [
+        {
+         "name": "viking_warrior_axe_held_rock",
+         "team": "viking_warrior_axe_held_rock_team"
+        },
+        {
+         "name": "viking_warrior_axe_held_iron",
+         "team": "viking_warrior_axe_held_iron_team"
+        },
+        {
+         "name": "viking_warrior_axe_held_rubber",
+         "team": "viking_warrior_axe_held_rubber_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 6,
+       "triangles": 2,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.4137500524520874,
+        1.074280023574829,
+        0.03642230108380318
+       ],
+       "boundsMax": [
+        -0.8673120141029358,
+        2.2475500106811523,
+        0.15544100105762482
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 60
+      },
+      {
+       "name": "run",
+       "wpc": 5.0,
+       "type": "loop",
+       "frames": 62
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 58
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 125
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "warrior",
+     "slot": "weapon",
+     "default": "true",
+     "file": "vikings/warrior_axe_held.glb"
+    },
+    {
+     "name": "chieftain",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/chieftain/viking_chief.xml",
+       "textures": [
+        {
+         "name": "viking_chieftain",
+         "team": "viking_chieftain_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 557,
+       "triangles": 720,
+       "maxInfluences": 6,
+       "boundsMin": [
+        -0.5332540273666382,
+        -1.8829599639502703e-06,
+        -2.5120599269866943
+       ],
+       "boundsMax": [
+        1.1005200147628784,
+        2.935689926147461,
+        2.506659984588623
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "vikings/chieftain/viking_chief_lo.xml",
+       "textures": [
+        {
+         "name": "viking_chieftain",
+         "team": "viking_chieftain_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 128,
+       "triangles": 93,
+       "maxInfluences": 2,
+       "boundsMin": [
+        -0.6248419880867004,
+        -1.1742099559342023e-05,
+        -2.506890058517456
+       ],
+       "boundsMax": [
+        1.1005200147628784,
+        2.935689926147461,
+        2.506890058517456
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 75
+      },
+      {
+       "name": "run",
+       "wpc": 6.4,
+       "type": "loop",
+       "frames": 80
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 120
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 150
+      },
+      {
+       "name": "magic",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 160
+      },
+      {
+       "name": "thor",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 75
+      }
+     ],
+     "file": "vikings/chieftain.glb"
+    },
+    {
+     "name": "chieftain_lur",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/chieftain/chieftain_lur.xml",
+       "textures": [
+        {
+         "name": "viking_chieftain_lur",
+         "team": "viking_chieftain_lur_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 90,
+       "triangles": 82,
+       "maxInfluences": 3,
+       "boundsMin": [
+        -1.1624499559402466,
+        0.8014659881591797,
+        -3.792479991912842
+       ],
+       "boundsMax": [
+        2.004580020904541,
+        2.556030035018921,
+        -1.1112099885940552
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "vikings/chieftain/chieftain_lur_lo.xml",
+       "textures": [
+        {
+         "name": "viking_chieftain_lur",
+         "team": "viking_chieftain_lur_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 24,
+       "triangles": 8,
+       "maxInfluences": 2,
+       "boundsMin": [
+        -2.2059099674224854,
+        0.5459309816360474,
+        -4.051350116729736
+       ],
+       "boundsMax": [
+        2.7768800258636475,
+        3.1064798831939697,
+        -1.0492000579833984
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 75
+      },
+      {
+       "name": "run",
+       "wpc": 6.4,
+       "type": "loop",
+       "frames": 80
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 120
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 150
+      },
+      {
+       "name": "magic",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 160
+      },
+      {
+       "name": "thor",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 75
+      }
+     ],
+     "base": "chieftain",
+     "slot": "weapon",
+     "default": "true",
+     "file": "vikings/chieftain_lur.glb"
+    },
+    {
+     "name": "peon",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/peon/peon_mesh.xml",
+       "textures": [
+        {
+         "name": "viking_peon",
+         "team": "viking_peon_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 385,
+       "triangles": 473,
+       "maxInfluences": 4,
+       "boundsMin": [
+        -0.7472990155220032,
+        -3.841710061180947e-09,
+        -0.36834201216697693
+       ],
+       "boundsMax": [
+        0.8610470294952393,
+        1.8616000413894653,
+        0.2717680037021637
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "vikings/peon/peon_low_poly_mesh.xml",
+       "textures": [
+        {
+         "name": "viking_peon",
+         "team": "viking_peon_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 103,
+       "triangles": 78,
+       "maxInfluences": 2,
+       "boundsMin": [
+        -0.7560189962387085,
+        1.0460299790793215e-06,
+        -0.423444002866745
+       ],
+       "boundsMax": [
+        0.8452860116958618,
+        2.061579942703247,
+        0.30991899967193604
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 60
+      },
+      {
+       "name": "run",
+       "wpc": 3.85,
+       "type": "loop",
+       "frames": 16
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 39
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 27
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "steer",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 96
+      },
+      {
+       "name": "paddle_right",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_left",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "file": "vikings/peon.glb"
+    },
+    {
+     "name": "peon_hammer",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/peon/peon_hammer.xml",
+       "textures": [
+        {
+         "name": "viking_peon_hammer",
+         "team": "viking_peon_hammer_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 30,
+       "triangles": 26,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.8109229803085327,
+        0.8957139849662781,
+        0.006316000130027533
+       ],
+       "boundsMax": [
+        -0.500324010848999,
+        1.658120036125183,
+        0.10883300006389618
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "vikings/peon/peon_hammer_lo.xml",
+       "textures": [
+        {
+         "name": "viking_peon_hammer",
+         "team": "viking_peon_hammer_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 6,
+       "triangles": 2,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.8606550097465515,
+        0.6234999895095825,
+        0.04914829879999161
+       ],
+       "boundsMax": [
+        -0.46309301257133484,
+        1.6655800342559814,
+        0.06049489974975586
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 60
+      },
+      {
+       "name": "run",
+       "wpc": 3.85,
+       "type": "loop",
+       "frames": 16
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 39
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 27
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "steer",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 96
+      },
+      {
+       "name": "paddle_right",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_left",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "peon",
+     "slot": "weapon",
+     "default": "true",
+     "file": "vikings/peon_hammer.glb"
+    },
+    {
+     "name": "rock_resource",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/rock_fragment_viking.xml",
+       "textures": [
+        {
+         "name": "Generator:com.oddlabs.tt.procedural.GeneratorRock",
+         "team": null
+        },
+        {
+         "name": "Generator:com.oddlabs.tt.procedural.GeneratorIron",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 12,
+       "triangles": 20,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.13973699510097504,
+        0.662854015827179,
+        -0.3216409981250763
+       ],
+       "boundsMax": [
+        0.2284640073776245,
+        1.407420039176941,
+        -0.04828369989991188
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 60
+      },
+      {
+       "name": "run",
+       "wpc": 3.85,
+       "type": "loop",
+       "frames": 16
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 39
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 27
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "steer",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 96
+      },
+      {
+       "name": "paddle_right",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_left",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "peon",
+     "slot": "carried",
+     "file": "vikings/rock_resource.glb"
+    },
+    {
+     "name": "wood_resource",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/wood_fragment_viking.xml",
+       "textures": [
+        {
+         "name": "wood_fragments",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 26,
+       "triangles": 26,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.11487600207328796,
+        0.81843101978302,
+        -0.2990590035915375
+       ],
+       "boundsMax": [
+        0.29168400168418884,
+        1.3909200429916382,
+        -0.030893199145793915
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 60
+      },
+      {
+       "name": "run",
+       "wpc": 3.85,
+       "type": "loop",
+       "frames": 16
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 39
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 27
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "steer",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 96
+      },
+      {
+       "name": "paddle_right",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_left",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "peon",
+     "slot": "carried",
+     "file": "vikings/wood_resource.glb"
+    },
+    {
+     "name": "rubber_resource",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/rubber_fragment_viking.xml",
+       "textures": [
+        {
+         "name": "chicken",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 31,
+       "triangles": 28,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.2625940144062042,
+        0.7053380012512207,
+        -0.33542600274086
+       ],
+       "boundsMax": [
+        0.25806400179862976,
+        1.4108400344848633,
+        -0.03786870092153549
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 60
+      },
+      {
+       "name": "run",
+       "wpc": 3.85,
+       "type": "loop",
+       "frames": 16
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 39
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 27
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "steer",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 96
+      },
+      {
+       "name": "paddle_right",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_left",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "peon",
+     "slot": "carried",
+     "file": "vikings/rubber_resource.glb"
+    },
+    {
+     "name": "right_paddle",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/right_paddle_viking.xml",
+       "textures": [
+        {
+         "name": "viking_ship",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 130,
+       "triangles": 44,
+       "maxInfluences": 1,
+       "boundsMin": [
+        0.5887818932533264,
+        0.5843534469604492,
+        -0.0619208961725235
+       ],
+       "boundsMax": [
+        0.8787631988525391,
+        5.656233310699463,
+        0.07697219401597977
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 60
+      },
+      {
+       "name": "run",
+       "wpc": 3.85,
+       "type": "loop",
+       "frames": 16
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 39
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 27
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "steer",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 96
+      },
+      {
+       "name": "paddle_right",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_left",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "peon",
+     "slot": "carried",
+     "file": "vikings/right_paddle.glb"
+    },
+    {
+     "name": "left_paddle",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/left_paddle_viking.xml",
+       "textures": [
+        {
+         "name": "viking_ship",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 128,
+       "triangles": 44,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.749519407749176,
+        0.5843534469604492,
+        -0.0619208961725235
+       ],
+       "boundsMax": [
+        -0.45953813195228577,
+        5.656233310699463,
+        0.07697219401597977
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 60
+      },
+      {
+       "name": "run",
+       "wpc": 3.85,
+       "type": "loop",
+       "frames": 16
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 39
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 27
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "steer",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 96
+      },
+      {
+       "name": "paddle_right",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_left",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "peon",
+     "slot": "carried",
+     "file": "vikings/left_paddle.glb"
+    },
+    {
+     "name": "axe",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/warrior/warrior_axe.xml",
+       "textures": [
+        {
+         "name": "viking_warrior_rock",
+         "team": null
+        },
+        {
+         "name": "viking_warrior_iron",
+         "team": null
+        },
+        {
+         "name": "viking_warrior_rubber",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 39,
+       "triangles": 32,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.49051299691200256,
+        -0.9542099833488464,
+        -0.05648380145430565
+       ],
+       "boundsMax": [
+        0.03635919839143753,
+        0.220550999045372,
+        0.07530300319194794
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "vikings/axe.glb"
+    },
+    {
+     "name": "quarters",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/quarters/viking_main_built.xml",
+       "textures": [
+        {
+         "name": "viking_buildings_hi",
+         "team": "viking_buildings_hi_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 3321,
+       "triangles": 2004,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -6.961130142211914,
+        -0.014614599756896496,
+        -6.103819847106934
+       ],
+       "boundsMax": [
+        6.961130142211914,
+        8.967769622802734,
+        6.007410049438477
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "vikings/quarters/viking_main_built_lo.xml",
+       "textures": [
+        {
+         "name": "viking_buildings_lo",
+         "team": "viking_buildings_lo_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 264,
+       "triangles": 188,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -7.0421600341796875,
+        -0.0003337860107421875,
+        -5.910210132598877
+       ],
+       "boundsMax": [
+        6.961120128631592,
+        8.96776008605957,
+        6.032259941101074
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "vikings/quarters.glb"
+    },
+    {
+     "name": "quarters_halfbuilt",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/quarters/viking_main_build.xml",
+       "textures": [
+        {
+         "name": "viking_buildings_hi",
+         "team": "viking_buildings_hi_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 3645,
+       "triangles": 1908,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -6.961120128631592,
+        -0.021253099665045738,
+        -6.103819847106934
+       ],
+       "boundsMax": [
+        7.839369773864746,
+        7.425990104675293,
+        6.409460067749023
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "vikings/quarters/viking_main_build_lo.xml",
+       "textures": [
+        {
+         "name": "viking_buildings_lo2",
+         "team": "viking_buildings_lo2_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 341,
+       "triangles": 190,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -7.630949974060059,
+        -0.6629049777984619,
+        -6.821000099182129
+       ],
+       "boundsMax": [
+        8.610639572143555,
+        9.527350425720215,
+        7.0840301513671875
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "vikings/quarters_halfbuilt.glb"
+    },
+    {
+     "name": "quarters_start",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/quarters/viking_main_start.xml",
+       "textures": [
+        {
+         "name": "viking_buildings_hi",
+         "team": "viking_buildings_hi_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 1060,
+       "triangles": 600,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -6.800519943237305,
+        -0.07317949831485748,
+        -5.939219951629639
+       ],
+       "boundsMax": [
+        7.839369773864746,
+        1.7589600086212158,
+        6.409460067749023
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "vikings/quarters/viking_main_start_lo.xml",
+       "textures": [
+        {
+         "name": "viking_buildings_hi",
+         "team": "viking_buildings_hi_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 326,
+       "triangles": 176,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -6.80019998550415,
+        -0.06601779907941818,
+        -5.928269863128662
+       ],
+       "boundsMax": [
+        7.839369773864746,
+        1.7589600086212158,
+        6.409460067749023
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "vikings/quarters_start.glb"
+    },
+    {
+     "name": "armory",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/armory/viking_armoury_built.xml",
+       "textures": [
+        {
+         "name": "viking_buildings_hi",
+         "team": "viking_buildings_hi_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 3312,
+       "triangles": 2000,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -4.8890299797058105,
+        -0.9595270156860352,
+        -5.386099815368652
+       ],
+       "boundsMax": [
+        4.889019966125488,
+        14.158300399780273,
+        4.965169906616211
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "vikings/armory/viking_armoury_built_lo.xml",
+       "textures": [
+        {
+         "name": "viking_buildings_lo2",
+         "team": "viking_buildings_lo2_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 348,
+       "triangles": 201,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -4.794559955596924,
+        -0.02007340081036091,
+        -5.383860111236572
+       ],
+       "boundsMax": [
+        4.866730213165283,
+        14.158300399780273,
+        4.9650797843933105
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "vikings/armory.glb"
+    },
+    {
+     "name": "armory_halfbuilt",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/armory/viking_armoury_build.xml",
+       "textures": [
+        {
+         "name": "viking_buildings_hi",
+         "team": "viking_buildings_hi_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 3212,
+       "triangles": 1763,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -5.392449855804443,
+        -0.09024669975042343,
+        -4.927720069885254
+       ],
+       "boundsMax": [
+        4.9168500900268555,
+        11.993000030517578,
+        4.965169906616211
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "vikings/armory/viking_armoury_build_lo.xml",
+       "textures": [
+        {
+         "name": "viking_buildings_lo",
+         "team": "viking_buildings_lo_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 403,
+       "triangles": 203,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -7.0535101890563965,
+        -0.5338330268859863,
+        -6.833769798278809
+       ],
+       "boundsMax": [
+        4.945320129394531,
+        11.987199783325195,
+        4.965169906616211
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "vikings/armory_halfbuilt.glb"
+    },
+    {
+     "name": "armory_start",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/armory/viking_armoury_start.xml",
+       "textures": [
+        {
+         "name": "viking_buildings_hi",
+         "team": "viking_buildings_hi_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 804,
+       "triangles": 438,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -5.392449855804443,
+        -0.05877019837498665,
+        -5.058219909667969
+       ],
+       "boundsMax": [
+        4.9168500900268555,
+        0.9513959884643555,
+        5.225689888000488
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "vikings/armory/viking_armoury_start_lo.xml",
+       "textures": [
+        {
+         "name": "viking_buildings_hi",
+         "team": "viking_buildings_hi_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 362,
+       "triangles": 184,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -5.392449855804443,
+        -0.05877019837498665,
+        -5.058219909667969
+       ],
+       "boundsMax": [
+        4.9168500900268555,
+        0.9513959884643555,
+        5.225689888000488
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "vikings/armory_start.glb"
+    },
+    {
+     "name": "tower",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/tower/viking_tower_built.xml",
+       "textures": [
+        {
+         "name": "viking_building_lookout",
+         "team": "viking_building_lookout_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 1692,
+       "triangles": 994,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -2.309429883956909,
+        -0.006210329942405224,
+        -2.2809500694274902
+       ],
+       "boundsMax": [
+        2.450730085372925,
+        11.244500160217285,
+        2.8469700813293457
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "vikings/tower/viking_tower_built_low.xml",
+       "textures": [
+        {
+         "name": "viking_building_lookout",
+         "team": "viking_building_lookout_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 154,
+       "triangles": 98,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -2.2493999004364014,
+        -0.012451199814677238,
+        -2.2377099990844727
+       ],
+       "boundsMax": [
+        2.4450700283050537,
+        11.169500350952148,
+        2.837549924850464
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "vikings/tower.glb"
+    },
+    {
+     "name": "tower_halfbuilt",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/tower/viking_tower_halfbuilt.xml",
+       "textures": [
+        {
+         "name": "viking_building_lookout",
+         "team": "viking_building_lookout_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 1251,
+       "triangles": 709,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -3.131730079650879,
+        -0.00928581040352583,
+        -2.2809500694274902
+       ],
+       "boundsMax": [
+        2.450730085372925,
+        9.088080406188965,
+        2.2443199157714844
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "vikings/tower/viking_tower_halfbuilt_low.xml",
+       "textures": [
+        {
+         "name": "viking_building_lookout",
+         "team": "viking_building_lookout_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 183,
+       "triangles": 101,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -3.269860029220581,
+        -0.32732701301574707,
+        -2.2405900955200195
+       ],
+       "boundsMax": [
+        2.4450700283050537,
+        9.149920463562012,
+        2.8375399112701416
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "vikings/tower_halfbuilt.glb"
+    },
+    {
+     "name": "tower_start",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/tower/viking_tower_start.xml",
+       "textures": [
+        {
+         "name": "viking_building_lookout",
+         "team": "viking_building_lookout_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 391,
+       "triangles": 226,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -3.131730079650879,
+        -0.013184200040996075,
+        -2.222759962081909
+       ],
+       "boundsMax": [
+        2.2418599128723145,
+        0.8151019811630249,
+        2.450510025024414
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "vikings/tower/viking_tower_start_low.xml",
+       "textures": [
+        {
+         "name": "viking_building_lookout",
+         "team": "viking_building_lookout_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 202,
+       "triangles": 100,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -3.131730079650879,
+        -0.00928581040352583,
+        -2.222759962081909
+       ],
+       "boundsMax": [
+        2.2418599128723145,
+        0.8151019811630249,
+        2.4284698963165283
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "vikings/tower_start.glb"
+    },
+    {
+     "name": "rally_point",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/misc/vikings_rally_point.xml",
+       "textures": [
+        {
+         "name": "viking_buildings_lo",
+         "team": "viking_buildings_lo_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 206,
+       "triangles": 264,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.36977800726890564,
+        -3.976629886892624e-05,
+        -1.179710030555725
+       ],
+       "boundsMax": [
+        0.5276370048522949,
+        5.785550117492676,
+        0.4729959964752197
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "vikings/rally_point.glb"
+    },
+    {
+     "name": "ship",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/ship/ship_built.xml",
+       "textures": [
+        {
+         "name": "viking_ship",
+         "team": "viking_ship_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 4223,
+       "triangles": 3068,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -12.95847225189209,
+        -1.3815670013427734,
+        -3.6693615913391113
+       ],
+       "boundsMax": [
+        13.762869834899902,
+        11.643759727478027,
+        3.5393242835998535
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "vikings/ship/ship_built.xml",
+       "textures": [
+        {
+         "name": "viking_ship",
+         "team": "viking_ship_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 4223,
+       "triangles": 3068,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -12.95847225189209,
+        -1.3815670013427734,
+        -3.6693615913391113
+       ],
+       "boundsMax": [
+        13.762869834899902,
+        11.643759727478027,
+        3.5393242835998535
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "vikings/ship.glb"
+    },
+    {
+     "name": "ship_halfbuilt",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/ship/ship_build.xml",
+       "textures": [
+        {
+         "name": "viking_ship",
+         "team": "viking_ship_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 2139,
+       "triangles": 1336,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -12.654570579528809,
+        -0.08218705654144287,
+        -3.240692138671875
+       ],
+       "boundsMax": [
+        13.342453002929688,
+        9.232905387878418,
+        3.8266854286193848
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "vikings/ship/ship_build.xml",
+       "textures": [
+        {
+         "name": "viking_ship",
+         "team": "viking_ship_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 2139,
+       "triangles": 1336,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -12.654570579528809,
+        -0.08218705654144287,
+        -3.240692138671875
+       ],
+       "boundsMax": [
+        13.342453002929688,
+        9.232905387878418,
+        3.8266854286193848
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "vikings/ship_halfbuilt.glb"
+    },
+    {
+     "name": "ship_start",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/ship/ship_start.xml",
+       "textures": [
+        {
+         "name": "viking_ship",
+         "team": "viking_ship_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 492,
+       "triangles": 272,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.6069192886352539,
+        -0.03281936049461365,
+        -3.0910820960998535
+       ],
+       "boundsMax": [
+        10.70245361328125,
+        0.5371792316436768,
+        3.1487059593200684
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "vikings/ship/ship_start.xml",
+       "textures": [
+        {
+         "name": "viking_ship",
+         "team": "viking_ship_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 492,
+       "triangles": 272,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.6069192886352539,
+        -0.03281936049461365,
+        -3.0910820960998535
+       ],
+       "boundsMax": [
+        10.70245361328125,
+        0.5371792316436768,
+        3.1487059593200684
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "vikings/ship_start.glb"
+    },
+    {
+     "name": "peon_pumpkin_pants",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/peon/pumpkin_pants.xml",
+       "textures": [
+        {
+         "name": "pumpkins",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 251,
+       "triangles": 286,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.26378101110458374,
+        0.30382299423217773,
+        -0.24020500481128693
+       ],
+       "boundsMax": [
+        0.2634209990501404,
+        0.6766679883003235,
+        0.289326012134552
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 60
+      },
+      {
+       "name": "run",
+       "wpc": 3.85,
+       "type": "loop",
+       "frames": 16
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 39
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 27
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "steer",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 96
+      },
+      {
+       "name": "paddle_right",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_left",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "peon",
+     "slot": "belt",
+     "default": "true",
+     "event": "halloween",
+     "file": "vikings/peon_pumpkin_pants.glb"
+    },
+    {
+     "name": "peon_pumpkin_hat",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/peon/pumpkin_hat.xml",
+       "textures": [
+        {
+         "name": "pumpkins",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 268,
+       "triangles": 288,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.24655799567699432,
+        1.6210800409317017,
+        -0.18625099956989288
+       ],
+       "boundsMax": [
+        0.24655799567699432,
+        1.9330600500106812,
+        0.3041450083255768
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 60
+      },
+      {
+       "name": "run",
+       "wpc": 3.85,
+       "type": "loop",
+       "frames": 16
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 39
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 27
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "steer",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 96
+      },
+      {
+       "name": "paddle_right",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_left",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "peon",
+     "slot": "hat",
+     "default": "true",
+     "event": "halloween",
+     "file": "vikings/peon_pumpkin_hat.glb"
+    },
+    {
+     "name": "peon_pumpkin",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/peon/peon_pumpkin.xml",
+       "textures": [
+        {
+         "name": "viking_peon_pumpkin",
+         "team": "viking_peon_pumpkin_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 385,
+       "triangles": 473,
+       "maxInfluences": 4,
+       "boundsMin": [
+        -0.7472990155220032,
+        -3.841710061180947e-09,
+        -0.36834201216697693
+       ],
+       "boundsMax": [
+        0.8610470294952393,
+        1.7739299535751343,
+        0.2717680037021637
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "vikings/peon/peon_low_poly_mesh.xml",
+       "textures": [
+        {
+         "name": "viking_peon",
+         "team": "viking_peon_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 103,
+       "triangles": 78,
+       "maxInfluences": 2,
+       "boundsMin": [
+        -0.7560189962387085,
+        1.0460299790793215e-06,
+        -0.423444002866745
+       ],
+       "boundsMax": [
+        0.8452860116958618,
+        2.061579942703247,
+        0.30991899967193604
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 60
+      },
+      {
+       "name": "run",
+       "wpc": 3.85,
+       "type": "loop",
+       "frames": 16
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 39
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 27
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "steer",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 96
+      },
+      {
+       "name": "paddle_right",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_left",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "peon",
+     "event": "halloween",
+     "skin": "pumpkin",
+     "replaces": "peon",
+     "file": "vikings/peon_pumpkin.glb"
+    },
+    {
+     "name": "warrior_pumpkin",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/warrior/warrior_pumpkin.xml",
+       "textures": [
+        {
+         "name": "viking_warrior_rock",
+         "team": "viking_warrior_rock_team"
+        },
+        {
+         "name": "viking_warrior_iron",
+         "team": "viking_warrior_iron_team"
+        },
+        {
+         "name": "viking_warrior_rubber",
+         "team": "viking_warrior_rubber_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 372,
+       "triangles": 440,
+       "maxInfluences": 4,
+       "boundsMin": [
+        -1.173140048980713,
+        0.0,
+        -0.2681899964809418
+       ],
+       "boundsMax": [
+        1.3792099952697754,
+        2.126849889755249,
+        0.6429359912872314
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "vikings/warrior/warrior_low_poly_mesh.xml",
+       "textures": [
+        {
+         "name": "viking_warrior_rock",
+         "team": "viking_warrior_rock_team"
+        },
+        {
+         "name": "viking_warrior_iron",
+         "team": "viking_warrior_iron_team"
+        },
+        {
+         "name": "viking_warrior_rubber",
+         "team": "viking_warrior_rubber_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 97,
+       "triangles": 78,
+       "maxInfluences": 2,
+       "boundsMin": [
+        -1.1649999618530273,
+        9.974460226658266e-07,
+        -0.21197299659252167
+       ],
+       "boundsMax": [
+        1.4095100164413452,
+        2.315500020980835,
+        0.680188000202179
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 60
+      },
+      {
+       "name": "run",
+       "wpc": 5.0,
+       "type": "loop",
+       "frames": 62
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 58
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 125
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "warrior",
+     "event": "halloween",
+     "skin": "pumpkin",
+     "replaces": "warrior",
+     "file": "vikings/warrior_pumpkin.glb"
+    },
+    {
+     "name": "warrior_pumpkin_hat",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/warrior/pumpkin_hat.xml",
+       "textures": [
+        {
+         "name": "pumpkins",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 312,
+       "triangles": 326,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.37152299284935,
+        1.7401399612426758,
+        -0.2790760099887848
+       ],
+       "boundsMax": [
+        0.3748199939727783,
+        2.4308600425720215,
+        0.4622820019721985
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 60
+      },
+      {
+       "name": "run",
+       "wpc": 5.0,
+       "type": "loop",
+       "frames": 62
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 58
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 125
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "warrior",
+     "slot": "hat",
+     "default": "true",
+     "event": "halloween",
+     "file": "vikings/warrior_pumpkin_hat.glb"
+    },
+    {
+     "name": "armory_pumpkins",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/armory/pumpkins.xml",
+       "textures": [
+        {
+         "name": "pumpkins",
+         "team": null,
+         "emissive": "pumpkins_emissive",
+         "light_color": "#ff7029",
+         "light_strength": "1",
+         "light_reach": "8"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 2528,
+       "triangles": 3088,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -3.093369960784912,
+        2.862730026245117,
+        -5.6438798904418945
+       ],
+       "boundsMax": [
+        3.3403899669647217,
+        10.773099899291992,
+        2.0419600009918213
+       ]
+      }
+     ],
+     "animations": [],
+     "base": "armory",
+     "slot": "prop",
+     "event": "halloween",
+     "file": "vikings/armory_pumpkins.glb"
+    },
+    {
+     "name": "quarters_pumpkins",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/quarters/pumpkins.xml",
+       "textures": [
+        {
+         "name": "pumpkins",
+         "team": null,
+         "emissive": "pumpkins_emissive",
+         "light_color": "#ff5810",
+         "light_strength": "1",
+         "light_reach": "8"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 3465,
+       "triangles": 4200,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -5.103710174560547,
+        2.699090003967285,
+        -4.994939804077148
+       ],
+       "boundsMax": [
+        4.649899959564209,
+        8.6810302734375,
+        6.263229846954346
+       ]
+      }
+     ],
+     "animations": [],
+     "base": "quarters",
+     "slot": "prop",
+     "event": "halloween",
+     "file": "vikings/quarters_pumpkins.glb"
+    },
+    {
+     "name": "tower_pumpkins",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/tower/pumpkins.xml",
+       "textures": [
+        {
+         "name": "pumpkins",
+         "team": null,
+         "emissive": "pumpkins_emissive",
+         "light_color": "#ff7029",
+         "light_strength": "0.5",
+         "light_reach": "4"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 2690,
+       "triangles": 3074,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.6592400074005127,
+        9.56624984741211,
+        -1.6203500032424927
+       ],
+       "boundsMax": [
+        1.6394599676132202,
+        11.765800476074219,
+        1.628749966621399
+       ]
+      }
+     ],
+     "animations": [],
+     "base": "tower",
+     "slot": "prop",
+     "event": "halloween",
+     "file": "vikings/tower_pumpkins.glb"
+    },
+    {
+     "name": "rally_point_pumpkin",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "vikings/misc/pumpkin.xml",
+       "textures": [
+        {
+         "name": "pumpkins",
+         "team": null,
+         "emissive": "pumpkins_emissive",
+         "light_color": "#ff8a3b",
+         "light_strength": "1.5",
+         "light_reach": "16"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 368,
+       "triangles": 380,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.39053601026535034,
+        4.387929916381836,
+        -1.0163099765777588
+       ],
+       "boundsMax": [
+        0.47092700004577637,
+        5.025839805603027,
+        -0.13897199928760529
+       ]
+      }
+     ],
+     "animations": [],
+     "base": "rally_point",
+     "slot": "prop",
+     "event": "halloween",
+     "file": "vikings/rally_point_pumpkin.glb"
+    }
+   ]
+  },
+  {
+   "name": "natives",
+   "sprites": [
+    {
+     "name": "chieftain",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/chieftain/native_chieftain_mesh.xml",
+       "textures": [
+        {
+         "name": "native_chieftain",
+         "team": "native_chieftain_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 612,
+       "triangles": 675,
+       "maxInfluences": 3,
+       "boundsMin": [
+        -0.7635949850082397,
+        -0.000274524005362764,
+        -2.0917599201202393
+       ],
+       "boundsMax": [
+        0.7196189761161804,
+        3.695349931716919,
+        2.0917599201202393
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/chieftain/native_chieftain_low_poly_mesh.xml",
+       "textures": [
+        {
+         "name": "native_chieftain",
+         "team": "native_chieftain_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 122,
+       "triangles": 83,
+       "maxInfluences": 3,
+       "boundsMin": [
+        -1.27292001247406,
+        -0.00027829399914480746,
+        -2.0796499252319336
+       ],
+       "boundsMax": [
+        0.8864970207214355,
+        3.709059953689575,
+        1.8735899925231934
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 40
+      },
+      {
+       "name": "run",
+       "wpc": 4.0,
+       "type": "loop",
+       "frames": 50
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 130
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 150
+      },
+      {
+       "name": "magic",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 225
+      }
+     ],
+     "file": "natives/chieftain.glb"
+    },
+    {
+     "name": "chieftain_magic_pot",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/chieftain/chieftain_magic_pot.xml",
+       "textures": [
+        {
+         "name": "native_chieftain_magic_pot",
+         "team": "native_chieftain_magic_pot_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 95,
+       "triangles": 90,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.8996890187263489,
+        0.9706109762191772,
+        0.026912899687886238
+       ],
+       "boundsMax": [
+        0.47233501076698303,
+        1.8672300577163696,
+        1.3957200050354004
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/chieftain/chieftain_magic_pot_lo.xml",
+       "textures": [
+        {
+         "name": "native_chieftain_magic_pot",
+         "team": "native_chieftain_magic_pot_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 35,
+       "triangles": 16,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.3733999729156494,
+        0.3164129853248596,
+        -0.479312002658844
+       ],
+       "boundsMax": [
+        0.7919049859046936,
+        2.3833200931549072,
+        1.7866300344467163
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 40
+      },
+      {
+       "name": "run",
+       "wpc": 4.0,
+       "type": "loop",
+       "frames": 50
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 130
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 150
+      },
+      {
+       "name": "magic",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 225
+      }
+     ],
+     "base": "chieftain",
+     "slot": "magic",
+     "default": "true",
+     "file": "natives/chieftain_magic_pot.glb"
+    },
+    {
+     "name": "chieftain_club",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/chieftain/chieftain_club.xml",
+       "textures": [
+        {
+         "name": "native_chieftain_club",
+         "team": "native_chieftain_club_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 34,
+       "triangles": 38,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.2545499801635742,
+        1.8966599702835083,
+        1.2033799886703491
+       ],
+       "boundsMax": [
+        0.7957919836044312,
+        2.3033599853515625,
+        1.8677699565887451
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/chieftain/chieftain_club_lo.xml",
+       "textures": [
+        {
+         "name": "native_chieftain_club",
+         "team": "native_chieftain_club_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 6,
+       "triangles": 2,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.3432199954986572,
+        1.9234100580215454,
+        0.9017009735107422
+       ],
+       "boundsMax": [
+        2.2992899417877197,
+        2.2116899490356445,
+        1.9146699905395508
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 40
+      },
+      {
+       "name": "run",
+       "wpc": 4.0,
+       "type": "loop",
+       "frames": 50
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 130
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 150
+      },
+      {
+       "name": "magic",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 225
+      }
+     ],
+     "base": "chieftain",
+     "slot": "weapon",
+     "default": "true",
+     "file": "natives/chieftain_club.glb"
+    },
+    {
+     "name": "peon",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/peon/native_peon_mesh.xml",
+       "textures": [
+        {
+         "name": "native_peon",
+         "team": "native_peon_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 388,
+       "triangles": 475,
+       "maxInfluences": 3,
+       "boundsMin": [
+        -0.7742850184440613,
+        -5.285080073843336e-16,
+        -0.363770991563797
+       ],
+       "boundsMax": [
+        0.8851940035820007,
+        2.1150999069213867,
+        0.28661200404167175
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/peon/native_peon_low_poly_mesh.xml",
+       "textures": [
+        {
+         "name": "native_peon",
+         "team": "native_peon_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 94,
+       "triangles": 77,
+       "maxInfluences": 2,
+       "boundsMin": [
+        -0.7560189962387085,
+        1.0402900443295948e-06,
+        -0.47742199897766113
+       ],
+       "boundsMax": [
+        0.8851940035820007,
+        2.111380100250244,
+        0.2705860137939453
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 50
+      },
+      {
+       "name": "run",
+       "wpc": 3.625,
+       "type": "loop",
+       "frames": 30
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 84
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 100
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "steer",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_right",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_left",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "file": "natives/peon.glb"
+    },
+    {
+     "name": "peon_hammer",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/peon/peon_hammer.xml",
+       "textures": [
+        {
+         "name": "native_peon_hammer",
+         "team": "native_peon_hammer_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 26,
+       "triangles": 24,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.8801500201225281,
+        0.643543004989624,
+        -0.053983401507139206
+       ],
+       "boundsMax": [
+        -0.5253589749336243,
+        1.413849949836731,
+        0.051545098423957825
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/peon/peon_hammer_lo.xml",
+       "textures": [
+        {
+         "name": "native_peon_hammer",
+         "team": "native_peon_hammer_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 6,
+       "triangles": 2,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.9333429932594299,
+        0.4769519865512848,
+        -0.014484900049865246
+       ],
+       "boundsMax": [
+        -0.49340298771858215,
+        1.418660044670105,
+        0.0009134939755313098
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 50
+      },
+      {
+       "name": "run",
+       "wpc": 3.625,
+       "type": "loop",
+       "frames": 30
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 84
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 100
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "steer",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_right",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_left",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "peon",
+     "slot": "weapon",
+     "default": "true",
+     "file": "natives/peon_hammer.glb"
+    },
+    {
+     "name": "warrior",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/warrior/native_warrior_mesh.xml",
+       "textures": [
+        {
+         "name": "native_warrior_rock",
+         "team": "native_warrior_rock_team"
+        },
+        {
+         "name": "native_warrior_iron",
+         "team": "native_warrior_iron_team"
+        },
+        {
+         "name": "native_warrior_rubber",
+         "team": "native_warrior_rubber_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 389,
+       "triangles": 478,
+       "maxInfluences": 4,
+       "boundsMin": [
+        -1.1623899936676025,
+        0.0,
+        -0.3240709900856018
+       ],
+       "boundsMax": [
+        1.3180999755859375,
+        3.0492899417877197,
+        0.3793630003929138
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/warrior/native_warrior_low_poly_mesh.xml",
+       "textures": [
+        {
+         "name": "native_warrior_rock",
+         "team": "native_warrior_rock_team"
+        },
+        {
+         "name": "native_warrior_iron",
+         "team": "native_warrior_iron_team"
+        },
+        {
+         "name": "native_warrior_rubber",
+         "team": "native_warrior_rubber_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 117,
+       "triangles": 77,
+       "maxInfluences": 2,
+       "boundsMin": [
+        -1.0865399837493896,
+        1.0468099844729295e-06,
+        -1.0115599632263184
+       ],
+       "boundsMax": [
+        1.2672200202941895,
+        3.0453100204467773,
+        0.4405120015144348
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 50
+      },
+      {
+       "name": "run",
+       "wpc": 3.2,
+       "type": "loop",
+       "frames": 40
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 100
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 125
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "file": "natives/warrior.glb"
+    },
+    {
+     "name": "warrior_spear",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/warrior/warrior_spear.xml",
+       "textures": [
+        {
+         "name": "native_warrior_spear_rock",
+         "team": "native_warrior_spear_rock_team"
+        },
+        {
+         "name": "native_warrior_spear_iron",
+         "team": "native_warrior_spear_iron_team"
+        },
+        {
+         "name": "native_warrior_spear_rubber",
+         "team": "native_warrior_spear_rubber_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 16,
+       "triangles": 20,
+       "maxInfluences": 2,
+       "boundsMin": [
+        -1.0747400522232056,
+        1.2874900102615356,
+        -1.026919960975647
+       ],
+       "boundsMax": [
+        -0.901760995388031,
+        1.4329299926757812,
+        1.0216000080108643
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/warrior/warrior_spear_lo.xml",
+       "textures": [
+        {
+         "name": "native_warrior_spear_rock",
+         "team": "native_warrior_spear_rock_team"
+        },
+        {
+         "name": "native_warrior_spear_iron",
+         "team": "native_warrior_spear_iron_team"
+        },
+        {
+         "name": "native_warrior_spear_rubber",
+         "team": "native_warrior_spear_rubber_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 12,
+       "triangles": 4,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.153090000152588,
+        1.1931500434875488,
+        -1.6939599514007568
+       ],
+       "boundsMax": [
+        -0.8016449809074402,
+        1.5446300506591797,
+        1.0006799697875977
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 50
+      },
+      {
+       "name": "run",
+       "wpc": 3.2,
+       "type": "loop",
+       "frames": 40
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 100
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 125
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "warrior",
+     "slot": "weapon",
+     "default": "true",
+     "file": "natives/warrior_spear.glb"
+    },
+    {
+     "name": "rock_resource",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/rock_fragment_native.xml",
+       "textures": [
+        {
+         "name": "Generator:com.oddlabs.tt.procedural.GeneratorRock",
+         "team": null
+        },
+        {
+         "name": "Generator:com.oddlabs.tt.procedural.GeneratorIron",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 12,
+       "triangles": 20,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.25900998711586,
+        1.644219994544983,
+        -0.24157600104808807
+       ],
+       "boundsMax": [
+        0.20586900413036346,
+        2.343179941177368,
+        0.07104609906673431
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 50
+      },
+      {
+       "name": "run",
+       "wpc": 3.625,
+       "type": "loop",
+       "frames": 30
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 84
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 100
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "steer",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_right",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_left",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "peon",
+     "slot": "carried",
+     "file": "natives/rock_resource.glb"
+    },
+    {
+     "name": "wood_resource",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/wood_fragment_native.xml",
+       "textures": [
+        {
+         "name": "wood_fragments",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 26,
+       "triangles": 26,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.1937510073184967,
+        1.6968499422073364,
+        -0.2757200002670288
+       ],
+       "boundsMax": [
+        0.3421950042247772,
+        2.237030029296875,
+        0.06684669852256775
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 50
+      },
+      {
+       "name": "run",
+       "wpc": 3.625,
+       "type": "loop",
+       "frames": 30
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 84
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 100
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "steer",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_right",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_left",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "peon",
+     "slot": "carried",
+     "file": "natives/wood_resource.glb"
+    },
+    {
+     "name": "rubber_resource",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/rubber_fragment_native.xml",
+       "textures": [
+        {
+         "name": "chicken",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 31,
+       "triangles": 28,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.2882409989833832,
+        1.5347100496292114,
+        -0.3159649968147278
+       ],
+       "boundsMax": [
+        0.21088899672031403,
+        2.0762200355529785,
+        0.08671940118074417
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 50
+      },
+      {
+       "name": "run",
+       "wpc": 3.625,
+       "type": "loop",
+       "frames": 30
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 84
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 100
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "steer",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_right",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_left",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "peon",
+     "slot": "carried",
+     "file": "natives/rubber_resource.glb"
+    },
+    {
+     "name": "right_paddle",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/right_paddle_native.xml",
+       "textures": [
+        {
+         "name": "native_ship",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 128,
+       "triangles": 44,
+       "maxInfluences": 1,
+       "boundsMin": [
+        0.32766902446746826,
+        0.23963457345962524,
+        -0.017472026869654655
+       ],
+       "boundsMax": [
+        0.7855351567268372,
+        5.305008888244629,
+        0.16131621599197388
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 50
+      },
+      {
+       "name": "run",
+       "wpc": 3.625,
+       "type": "loop",
+       "frames": 30
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 84
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 100
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "steer",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_right",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_left",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "peon",
+     "slot": "carried",
+     "file": "natives/right_paddle.glb"
+    },
+    {
+     "name": "left_paddle",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/left_paddle_native.xml",
+       "textures": [
+        {
+         "name": "native_ship",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 126,
+       "triangles": 44,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.7748020887374878,
+        0.37386584281921387,
+        -0.40144777297973633
+       ],
+       "boundsMax": [
+        -0.6425171494483948,
+        5.439240455627441,
+        0.055289387702941895
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 50
+      },
+      {
+       "name": "run",
+       "wpc": 3.625,
+       "type": "loop",
+       "frames": 30
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 84
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 100
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "steer",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_right",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_left",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "peon",
+     "slot": "carried",
+     "file": "natives/left_paddle.glb"
+    },
+    {
+     "name": "quarters",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/quarters/native_built_hi.xml",
+       "textures": [
+        {
+         "name": "native_building_hi",
+         "team": "native_building_hi_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 2424,
+       "triangles": 1987,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -5.226200103759766,
+        -0.15186099708080292,
+        -5.469910144805908
+       ],
+       "boundsMax": [
+        5.226200103759766,
+        11.187600135803223,
+        5.469910144805908
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/quarters/native_built_lo.xml",
+       "textures": [
+        {
+         "name": "native_building_lo",
+         "team": "native_building_lo_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 303,
+       "triangles": 203,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -5.255839824676514,
+        -2.865149974822998,
+        -5.321680068969727
+       ],
+       "boundsMax": [
+        5.400239944458008,
+        11.147500038146973,
+        5.4375200271606445
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "natives/quarters.glb"
+    },
+    {
+     "name": "quarters_halfbuilt",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/quarters/native_build_hi.xml",
+       "textures": [
+        {
+         "name": "native_building_hi",
+         "team": "native_building_hi_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 3195,
+       "triangles": 1997,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -4.694809913635254,
+        -0.1518619954586029,
+        -4.975180149078369
+       ],
+       "boundsMax": [
+        4.724549770355225,
+        8.835399627685547,
+        4.251399993896484
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/quarters/native_build_lo-new.xml",
+       "textures": [
+        {
+         "name": "native_building_lo",
+         "team": "native_building_lo_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 340,
+       "triangles": 202,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -4.555170059204102,
+        -0.13415099680423737,
+        -4.5711798667907715
+       ],
+       "boundsMax": [
+        4.6960601806640625,
+        11.896300315856934,
+        4.217480182647705
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "natives/quarters_halfbuilt.glb"
+    },
+    {
+     "name": "quarters_start",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/quarters/native_start_hi.xml",
+       "textures": [
+        {
+         "name": "native_building_hi",
+         "team": "native_building_hi_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 900,
+       "triangles": 490,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -4.785429954528809,
+        -0.231223002076149,
+        -5.807909965515137
+       ],
+       "boundsMax": [
+        5.156839847564697,
+        0.5356760025024414,
+        4.319169998168945
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/quarters/native_start_lo.xml",
+       "textures": [
+        {
+         "name": "native_building_hi",
+         "team": "native_building_hi_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 408,
+       "triangles": 200,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -4.7659101486206055,
+        -0.21374599635601044,
+        -5.807909965515137
+       ],
+       "boundsMax": [
+        5.156839847564697,
+        0.5356720089912415,
+        4.319169998168945
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "natives/quarters_start.glb"
+    },
+    {
+     "name": "armory",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/armory/build_armoury_built_hi.xml",
+       "textures": [
+        {
+         "name": "native_building_hi",
+         "team": "native_building_hi_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 2075,
+       "triangles": 1895,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -3.6233201026916504,
+        -1.4743800163269043,
+        -4.809939861297607
+       ],
+       "boundsMax": [
+        3.6089999675750732,
+        12.303000450134277,
+        4.803020000457764
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/armory/build_armoury_built_lo.xml",
+       "textures": [
+        {
+         "name": "native_armoury_lo",
+         "team": "native_armoury_lo_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 300,
+       "triangles": 195,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -3.5121099948883057,
+        -2.3975300788879395,
+        -5.2909698486328125
+       ],
+       "boundsMax": [
+        3.49780011177063,
+        12.324000358581543,
+        4.886660099029541
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "natives/armory.glb"
+    },
+    {
+     "name": "armory_halfbuilt",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/armory/build_armoury_build_hi.xml",
+       "textures": [
+        {
+         "name": "native_building_hi",
+         "team": "native_building_hi_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 2571,
+       "triangles": 1900,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -3.2544400691986084,
+        -1.4743800163269043,
+        -4.141729831695557
+       ],
+       "boundsMax": [
+        4.200200080871582,
+        11.768500328063965,
+        4.660009860992432
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/armory/build_armoury_build_lo.xml",
+       "textures": [
+        {
+         "name": "native_armoury_lo",
+         "team": "native_armoury_lo_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 288,
+       "triangles": 201,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -3.0218799114227295,
+        -1.474370002746582,
+        -4.373040199279785
+       ],
+       "boundsMax": [
+        5.255340099334717,
+        11.76669979095459,
+        5.250919818878174
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "natives/armory_halfbuilt.glb"
+    },
+    {
+     "name": "armory_start",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/armory/build_armoury_start_hi.xml",
+       "textures": [
+        {
+         "name": "native_building_hi",
+         "team": "native_building_hi_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 695,
+       "triangles": 423,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -3.9615700244903564,
+        -0.23120400309562683,
+        -4.567770004272461
+       ],
+       "boundsMax": [
+        4.200200080871582,
+        0.4964999854564667,
+        4.542369842529297
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/armory/build_armoury_start_lo.xml",
+       "textures": [
+        {
+         "name": "native_building_hi",
+         "team": "native_building_hi_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 336,
+       "triangles": 196,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -3.96124005317688,
+        -0.2137340009212494,
+        -4.567780017852783
+       ],
+       "boundsMax": [
+        4.200200080871582,
+        0.4964999854564667,
+        4.542369842529297
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "natives/armory_start.glb"
+    },
+    {
+     "name": "tower",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/tower/native_tower_built_hi.xml",
+       "textures": [
+        {
+         "name": "native_tower",
+         "team": "native_tower_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 983,
+       "triangles": 972,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -2.2063798904418945,
+        -0.19442999362945557,
+        -2.3244800567626953
+       ],
+       "boundsMax": [
+        2.019170045852661,
+        14.455599784851074,
+        2.469949960708618
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/tower/native_tower_built_lo.xml",
+       "textures": [
+        {
+         "name": "native_tower",
+         "team": "native_tower_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 171,
+       "triangles": 101,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -2.212290048599243,
+        -2.8891499042510986,
+        -2.3306798934936523
+       ],
+       "boundsMax": [
+        2.025279998779297,
+        14.455599784851074,
+        2.4753599166870117
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "natives/tower.glb"
+    },
+    {
+     "name": "tower_halfbuilt",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/tower/native_tower_build_hi.xml",
+       "textures": [
+        {
+         "name": "native_tower",
+         "team": "native_tower_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 1033,
+       "triangles": 864,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -2.2063798904418945,
+        -0.19443100690841675,
+        -2.324470043182373
+       ],
+       "boundsMax": [
+        2.019160032272339,
+        14.455599784851074,
+        2.4699599742889404
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/tower/native_tower_build_lo.xml",
+       "textures": [
+        {
+         "name": "native_tower",
+         "team": "native_tower_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 169,
+       "triangles": 99,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -2.212290048599243,
+        -0.18159399926662445,
+        -2.3306798934936523
+       ],
+       "boundsMax": [
+        2.019170045852661,
+        14.455599784851074,
+        2.4753599166870117
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "natives/tower_halfbuilt.glb"
+    },
+    {
+     "name": "tower_start",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/tower/native_tower_start_hi.xml",
+       "textures": [
+        {
+         "name": "native_tower",
+         "team": "native_tower_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 523,
+       "triangles": 318,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.864169955253601,
+        -0.12195699661970139,
+        -2.0827300548553467
+       ],
+       "boundsMax": [
+        1.4054499864578247,
+        4.748429775238037,
+        1.9307700395584106
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/tower/native_tower_start_lo.xml",
+       "textures": [
+        {
+         "name": "native_tower",
+         "team": "native_tower_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 208,
+       "triangles": 99,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.864169955253601,
+        -0.11326500028371811,
+        -2.0827300548553467
+       ],
+       "boundsMax": [
+        1.4054499864578247,
+        4.748499870300293,
+        1.8581700325012207
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "natives/tower_start.glb"
+    },
+    {
+     "name": "rally_point",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/misc/native_rallypoint.xml",
+       "textures": [
+        {
+         "name": "native_building_hi",
+         "team": "native_building_hi_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 243,
+       "triangles": 244,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.9896299839019775,
+        -0.00885987002402544,
+        -0.6145309805870056
+       ],
+       "boundsMax": [
+        0.7437419891357422,
+        5.723470211029053,
+        0.47684499621391296
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "natives/rally_point.glb"
+    },
+    {
+     "name": "spear",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/warrior/native_warrior_spear.xml",
+       "textures": [
+        {
+         "name": "native_warrior_rock",
+         "team": null
+        },
+        {
+         "name": "native_warrior_iron",
+         "team": null
+        },
+        {
+         "name": "native_warrior_rubber",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 16,
+       "triangles": 20,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -2.048919916152954,
+        -0.07329580187797546,
+        -0.09060250222682953
+       ],
+       "boundsMax": [
+        0.0,
+        0.07798890024423599,
+        0.09166590124368668
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "natives/spear.glb"
+    },
+    {
+     "name": "ship",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/ship/ship_built.xml",
+       "textures": [
+        {
+         "name": "native_ship",
+         "team": "native_ship_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 7257,
+       "triangles": 5980,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -13.889351844787598,
+        -1.8888216018676758,
+        -3.7538397312164307
+       ],
+       "boundsMax": [
+        17.668262481689453,
+        8.973116874694824,
+        3.753840684890747
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/ship/ship_built.xml",
+       "textures": [
+        {
+         "name": "native_ship",
+         "team": "native_ship_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 7257,
+       "triangles": 5980,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -13.889351844787598,
+        -1.8888216018676758,
+        -3.7538397312164307
+       ],
+       "boundsMax": [
+        17.668262481689453,
+        8.973116874694824,
+        3.753840684890747
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "natives/ship.glb"
+    },
+    {
+     "name": "ship_halfbuilt",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/ship/ship_build.xml",
+       "textures": [
+        {
+         "name": "native_ship",
+         "team": "native_ship_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 4999,
+       "triangles": 4164,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -12.969025611877441,
+        -0.9367516040802002,
+        -3.7538397312164307
+       ],
+       "boundsMax": [
+        17.572093963623047,
+        5.6622419357299805,
+        3.753840684890747
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/ship/ship_build.xml",
+       "textures": [
+        {
+         "name": "native_ship",
+         "team": "native_ship_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 4999,
+       "triangles": 4164,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -12.969025611877441,
+        -0.9367516040802002,
+        -3.7538397312164307
+       ],
+       "boundsMax": [
+        17.572093963623047,
+        5.6622419357299805,
+        3.753840684890747
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "natives/ship_halfbuilt.glb"
+    },
+    {
+     "name": "ship_start",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/ship/ship_start.xml",
+       "textures": [
+        {
+         "name": "native_ship",
+         "team": "native_ship_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 564,
+       "triangles": 455,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -3.1242008209228516,
+        -0.06928735971450806,
+        -1.3998374938964844
+       ],
+       "boundsMax": [
+        6.8755693435668945,
+        1.247032880783081,
+        5.081488132476807
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/ship/ship_start.xml",
+       "textures": [
+        {
+         "name": "native_ship",
+         "team": "native_ship_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 564,
+       "triangles": 455,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -3.1242008209228516,
+        -0.06928735971450806,
+        -1.3998374938964844
+       ],
+       "boundsMax": [
+        6.8755693435668945,
+        1.247032880783081,
+        5.081488132476807
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "natives/ship_start.glb"
+    },
+    {
+     "name": "quarters_native_building_pumpkins",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/quarters/native_building_pumpkins.xml",
+       "textures": [
+        {
+         "name": "pumpkins",
+         "team": null,
+         "emissive": "pumpkins_emissive",
+         "light_color": "#ff8a3b",
+         "light_strength": "1",
+         "light_reach": "8"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 5520,
+       "triangles": 5700,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -5.120120048522949,
+        1.3992600440979004,
+        -5.54640007019043
+       ],
+       "boundsMax": [
+        5.03849983215332,
+        3.8972198963165283,
+        5.640620231628418
+       ]
+      }
+     ],
+     "animations": [],
+     "base": "quarters",
+     "slot": "prop",
+     "event": "halloween",
+     "file": "natives/quarters_native_building_pumpkins.glb"
+    },
+    {
+     "name": "peon_pumpkin_hat",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/peon/pumpkin_hat.xml",
+       "textures": [
+        {
+         "name": "pumpkins",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 216,
+       "triangles": 230,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.302839994430542,
+        1.1805399656295776,
+        -0.1974409967660904
+       ],
+       "boundsMax": [
+        0.3074690103530884,
+        1.4980900287628174,
+        0.40581101179122925
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 50
+      },
+      {
+       "name": "run",
+       "wpc": 3.625,
+       "type": "loop",
+       "frames": 30
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 84
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 100
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "steer",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_right",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_left",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "peon",
+     "slot": "hat",
+     "default": "true",
+     "event": "halloween",
+     "file": "natives/peon_pumpkin_hat.glb"
+    },
+    {
+     "name": "warrior_pumpkin_hat",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/warrior/pumpkin_hat.xml",
+       "textures": [
+        {
+         "name": "pumpkins",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 400,
+       "triangles": 404,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.3760319948196411,
+        1.4320000410079956,
+        -0.2599300146102905
+       ],
+       "boundsMax": [
+        0.3624590039253235,
+        2.333479881286621,
+        0.4764930009841919
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 50
+      },
+      {
+       "name": "run",
+       "wpc": 3.2,
+       "type": "loop",
+       "frames": 40
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 100
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 125
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "warrior",
+     "slot": "hat",
+     "default": "true",
+     "event": "halloween",
+     "file": "natives/warrior_pumpkin_hat.glb"
+    },
+    {
+     "name": "peon_pumpkin",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/peon/peon_pumpkin.xml",
+       "textures": [
+        {
+         "name": "native_peon",
+         "team": "native_peon_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 370,
+       "triangles": 465,
+       "maxInfluences": 3,
+       "boundsMin": [
+        -0.7742850184440613,
+        -5.285080073843336e-16,
+        -0.363770991563797
+       ],
+       "boundsMax": [
+        0.8851940035820007,
+        2.1150999069213867,
+        0.28661200404167175
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/peon/native_peon_low_poly_mesh.xml",
+       "textures": [
+        {
+         "name": "native_peon",
+         "team": "native_peon_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 94,
+       "triangles": 77,
+       "maxInfluences": 2,
+       "boundsMin": [
+        -0.7560189962387085,
+        1.0402900443295948e-06,
+        -0.47742199897766113
+       ],
+       "boundsMax": [
+        0.8851940035820007,
+        2.111380100250244,
+        0.2705860137939453
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 50
+      },
+      {
+       "name": "run",
+       "wpc": 3.625,
+       "type": "loop",
+       "frames": 30
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 84
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 100
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "steer",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_right",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_left",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "peon",
+     "event": "halloween",
+     "skin": "pumpkin",
+     "replaces": "peon",
+     "file": "natives/peon_pumpkin.glb"
+    },
+    {
+     "name": "peon_pumpkin_skirt",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/peon/pumpkin_skirt.xml",
+       "textures": [
+        {
+         "name": "pumpkins",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 193,
+       "triangles": 208,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.24720099568367004,
+        0.41648799180984497,
+        -0.27683699131011963
+       ],
+       "boundsMax": [
+        0.2541719973087311,
+        0.6025869846343994,
+        0.239096999168396
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 50
+      },
+      {
+       "name": "run",
+       "wpc": 3.625,
+       "type": "loop",
+       "frames": 30
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 84
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 100
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "steer",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_right",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      },
+      {
+       "name": "paddle_left",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "peon",
+     "slot": "belt",
+     "default": "true",
+     "event": "halloween",
+     "file": "natives/peon_pumpkin_skirt.glb"
+    },
+    {
+     "name": "warrior_pumpkin",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/warrior/warrior_pumpkin.xml",
+       "textures": [
+        {
+         "name": "native_warrior_rock",
+         "team": "native_warrior_rock_team"
+        },
+        {
+         "name": "native_warrior_iron",
+         "team": "native_warrior_iron_team"
+        },
+        {
+         "name": "native_warrior_rubber",
+         "team": "native_warrior_rubber_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 384,
+       "triangles": 472,
+       "maxInfluences": 3,
+       "boundsMin": [
+        -1.1623899936676025,
+        0.0,
+        -0.3240709900856018
+       ],
+       "boundsMax": [
+        1.3180999755859375,
+        2.086980104446411,
+        0.3793630003929138
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/warrior/native_warrior_low_poly_mesh.xml",
+       "textures": [
+        {
+         "name": "native_warrior_rock",
+         "team": "native_warrior_rock_team"
+        },
+        {
+         "name": "native_warrior_iron",
+         "team": "native_warrior_iron_team"
+        },
+        {
+         "name": "native_warrior_rubber",
+         "team": "native_warrior_rubber_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 117,
+       "triangles": 77,
+       "maxInfluences": 2,
+       "boundsMin": [
+        -1.0865399837493896,
+        1.0468099844729295e-06,
+        -1.0115599632263184
+       ],
+       "boundsMax": [
+        1.2672200202941895,
+        3.0453100204467773,
+        0.4405120015144348
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 50
+      },
+      {
+       "name": "run",
+       "wpc": 3.2,
+       "type": "loop",
+       "frames": 40
+      },
+      {
+       "name": "attack",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 100
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 125
+      },
+      {
+       "name": "sit",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 48
+      }
+     ],
+     "base": "warrior",
+     "event": "halloween",
+     "skin": "pumpkin",
+     "replaces": "warrior",
+     "file": "natives/warrior_pumpkin.glb"
+    },
+    {
+     "name": "quarters_pumpkin",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/quarters/quarters_pumpkin.xml",
+       "textures": [
+        {
+         "name": "native_building_hi",
+         "team": "native_building_hi_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 2263,
+       "triangles": 1783,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -5.226200103759766,
+        -0.15186099708080292,
+        -5.429520130157471
+       ],
+       "boundsMax": [
+        5.226200103759766,
+        11.187600135803223,
+        5.426509857177734
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/quarters/native_built_lo.xml",
+       "textures": [
+        {
+         "name": "native_building_lo",
+         "team": "native_building_lo_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 303,
+       "triangles": 203,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -5.255839824676514,
+        -2.865149974822998,
+        -5.321680068969727
+       ],
+       "boundsMax": [
+        5.400239944458008,
+        11.147500038146973,
+        5.4375200271606445
+       ]
+      }
+     ],
+     "animations": [],
+     "event": "halloween",
+     "skin": "pumpkin",
+     "replaces": "quarters",
+     "file": "natives/quarters_pumpkin.glb"
+    },
+    {
+     "name": "tower_pumpkins",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/tower/pumpkins.xml",
+       "textures": [
+        {
+         "name": "pumpkins",
+         "team": null,
+         "emissive": "pumpkins_emissive",
+         "light_color": "#ff712a",
+         "light_strength": "1",
+         "light_reach": "8"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 4048,
+       "triangles": 4180,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -2.0921099185943604,
+        1.1892900466918945,
+        -2.2074100971221924
+       ],
+       "boundsMax": [
+        1.850849986076355,
+        14.223299980163574,
+        2.1279098987579346
+       ]
+      }
+     ],
+     "animations": [],
+     "base": "tower",
+     "slot": "prop",
+     "event": "halloween",
+     "file": "natives/tower_pumpkins.glb"
+    },
+    {
+     "name": "armory_pumpkins",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/armory/pumpkins.xml",
+       "textures": [
+        {
+         "name": "pumpkins",
+         "team": null,
+         "emissive": "pumpkins_emissive",
+         "light_color": "#ff712a",
+         "light_strength": "1",
+         "light_reach": "8"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 2202,
+       "triangles": 2280,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -2.5571300983428955,
+        2.02020001411438,
+        -4.56220006942749
+       ],
+       "boundsMax": [
+        2.387209892272949,
+        7.680319786071777,
+        4.885019779205322
+       ]
+      }
+     ],
+     "animations": [],
+     "base": "armory",
+     "slot": "prop",
+     "event": "halloween",
+     "file": "natives/armory_pumpkins.glb"
+    },
+    {
+     "name": "armory_pumpkin",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/armory/armory_pumpkin.xml",
+       "textures": [
+        {
+         "name": "native_building_hi",
+         "team": "native_building_hi_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 2011,
+       "triangles": 1831,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -3.6233201026916504,
+        -1.4743800163269043,
+        -4.809939861297607
+       ],
+       "boundsMax": [
+        3.6089999675750732,
+        12.303000450134277,
+        4.8627400398254395
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/armory/build_armoury_built_lo.xml",
+       "textures": [
+        {
+         "name": "native_armoury_lo",
+         "team": "native_armoury_lo_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 300,
+       "triangles": 195,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -3.5121099948883057,
+        -2.3975300788879395,
+        -5.2909698486328125
+       ],
+       "boundsMax": [
+        3.49780011177063,
+        12.324000358581543,
+        4.886660099029541
+       ]
+      }
+     ],
+     "animations": [],
+     "event": "halloween",
+     "skin": "pumpkin",
+     "replaces": "armory",
+     "file": "natives/armory_pumpkin.glb"
+    },
+    {
+     "name": "tower_pumpkin",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/tower/tower_pumpkin.xml",
+       "textures": [
+        {
+         "name": "native_tower",
+         "team": "native_tower_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 974,
+       "triangles": 956,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -2.2063798904418945,
+        -0.19442999362945557,
+        -2.3244800567626953
+       ],
+       "boundsMax": [
+        2.019170045852661,
+        14.455599784851074,
+        2.469949960708618
+       ]
+      },
+      {
+       "lod": 1,
+       "source": "natives/tower/native_tower_built_lo.xml",
+       "textures": [
+        {
+         "name": "native_tower",
+         "team": "native_tower_team"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 171,
+       "triangles": 101,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -2.212290048599243,
+        -2.8891499042510986,
+        -2.3306798934936523
+       ],
+       "boundsMax": [
+        2.025279998779297,
+        14.455599784851074,
+        2.4753599166870117
+       ]
+      }
+     ],
+     "animations": [],
+     "event": "halloween",
+     "skin": "pumpkin",
+     "replaces": "tower",
+     "file": "natives/tower_pumpkin.glb"
+    },
+    {
+     "name": "rally_point_pumpkin",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "natives/misc/pumpkin.xml",
+       "textures": [
+        {
+         "name": "pumpkins",
+         "team": null,
+         "emissive": "pumpkins_emissive",
+         "light_color": "#ff8a3b",
+         "light_strength": "1.5",
+         "light_reach": "16"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 368,
+       "triangles": 380,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.5336520075798035,
+        3.420229911804199,
+        -0.5023030042648315
+       ],
+       "boundsMax": [
+        0.5152930021286011,
+        4.096089839935303,
+        0.5619840025901794
+       ]
+      }
+     ],
+     "animations": [],
+     "base": "rally_point",
+     "slot": "prop",
+     "event": "halloween",
+     "file": "natives/rally_point_pumpkin.glb"
+    }
+   ]
+  },
+  {
+   "name": "misc",
+   "sprites": [
+    {
+     "name": "jungle_tree_crown",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/tree_flat.xml",
+       "textures": [
+        {
+         "name": "trees",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.12549019607843137,
+        0.25098039215686274,
+        0.0
+       ],
+       "vertices": 312,
+       "triangles": 208,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -5.573200225830078,
+        -1.0605000257492065,
+        -6.795219898223877
+       ],
+       "boundsMax": [
+        4.724470138549805,
+        12.489999771118164,
+        5.899330139160156
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/jungle_tree_crown.glb"
+    },
+    {
+     "name": "jungle_tree_trunk",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/tree_mesh.xml",
+       "textures": [
+        {
+         "name": "trees",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.12549019607843137,
+        0.25098039215686274,
+        0.0
+       ],
+       "vertices": 79,
+       "triangles": 97,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.9388999938964844,
+        -0.11660400032997131,
+        -2.8649699687957764
+       ],
+       "boundsMax": [
+        1.7050100564956665,
+        9.571310043334961,
+        2.8633999824523926
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/jungle_tree_trunk.glb"
+    },
+    {
+     "name": "palm_crown",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/palm_flat.xml",
+       "textures": [
+        {
+         "name": "trees",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.12549019607843137,
+        0.25098039215686274,
+        0.0
+       ],
+       "vertices": 280,
+       "triangles": 320,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -3.7670199871063232,
+        5.368370056152344,
+        -3.955549955368042
+       ],
+       "boundsMax": [
+        4.214859962463379,
+        10.76669979095459,
+        3.2166800498962402
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/palm_crown.glb"
+    },
+    {
+     "name": "palm_trunk",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/palm_mesh.xml",
+       "textures": [
+        {
+         "name": "trees",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.12549019607843137,
+        0.25098039215686274,
+        0.0
+       ],
+       "vertices": 53,
+       "triangles": 57,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.32813000679016113,
+        -0.06680790334939957,
+        -0.3634740114212036
+       ],
+       "boundsMax": [
+        0.3805910050868988,
+        8.662210464477539,
+        0.3634740114212036
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/palm_trunk.glb"
+    },
+    {
+     "name": "oak_tree_crown",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/oak_flat.xml",
+       "textures": [
+        {
+         "name": "viking_trees",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.0,
+        0.0,
+        0.0
+       ],
+       "vertices": 207,
+       "triangles": 138,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -6.718910217285156,
+        0.006639100145548582,
+        -6.620639801025391
+       ],
+       "boundsMax": [
+        8.687800407409668,
+        12.32289981842041,
+        8.097860336303711
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/oak_tree_crown.glb"
+    },
+    {
+     "name": "oak_tree_trunk",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/oak_mesh.xml",
+       "textures": [
+        {
+         "name": "viking_trees",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.0,
+        0.0,
+        0.0
+       ],
+       "vertices": 223,
+       "triangles": 214,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -3.2779901027679443,
+        -0.09504559636116028,
+        -3.8271501064300537
+       ],
+       "boundsMax": [
+        3.471369981765747,
+        8.700010299682617,
+        4.462259769439697
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/oak_tree_trunk.glb"
+    },
+    {
+     "name": "pine_tree_crown",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/pine_flat.xml",
+       "textures": [
+        {
+         "name": "viking_trees",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.0,
+        0.0,
+        0.0
+       ],
+       "vertices": 326,
+       "triangles": 324,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -3.39736008644104,
+        1.695430040359497,
+        -3.6798601150512695
+       ],
+       "boundsMax": [
+        3.459280014038086,
+        13.79640007019043,
+        4.065400123596191
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/pine_tree_crown.glb"
+    },
+    {
+     "name": "pine_tree_trunk",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/pine_mesh.xml",
+       "textures": [
+        {
+         "name": "viking_trees",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.0,
+        0.0,
+        0.0
+       ],
+       "vertices": 46,
+       "triangles": 49,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.23411700129508972,
+        -0.08050859719514847,
+        -0.27595698833465576
+       ],
+       "boundsMax": [
+        0.3039880096912384,
+        13.655799865722656,
+        0.275985985994339
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/pine_tree_trunk.glb"
+    },
+    {
+     "name": "wood_2",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/wood_fragment_2.xml",
+       "textures": [
+        {
+         "name": "wood_fragments",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 16,
+       "triangles": 18,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.4567979872226715,
+        -0.11746300011873245,
+        -0.09805390238761902
+       ],
+       "boundsMax": [
+        0.4567979872226715,
+        0.11746399849653244,
+        0.0980542004108429
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/wood_2.glb"
+    },
+    {
+     "name": "wood_3",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/wood_fragment_3.xml",
+       "textures": [
+        {
+         "name": "wood_fragments",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 44,
+       "triangles": 38,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.6377300024032593,
+        -0.13714399933815002,
+        -0.13527899980545044
+       ],
+       "boundsMax": [
+        0.6377300024032593,
+        0.13714399933815002,
+        0.13527899980545044
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/wood_3.glb"
+    },
+    {
+     "name": "wood_4",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/wood_fragment_4.xml",
+       "textures": [
+        {
+         "name": "wood_fragments",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 39,
+       "triangles": 32,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.7002109885215759,
+        -0.08562470227479935,
+        -0.19080500304698944
+       ],
+       "boundsMax": [
+        0.7002109885215759,
+        0.08562470227479935,
+        0.19080500304698944
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/wood_4.glb"
+    },
+    {
+     "name": "wood_5",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/wood_fragment_5.xml",
+       "textures": [
+        {
+         "name": "wood_fragments",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 53,
+       "triangles": 40,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.0553900003433228,
+        -0.22195500135421753,
+        -0.2594990134239197
+       ],
+       "boundsMax": [
+        1.0553900003433228,
+        0.22195500135421753,
+        0.2594990134239197
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/wood_5.glb"
+    },
+    {
+     "name": "icon",
+     "scale": 4.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/icon.xml",
+       "textures": [
+        {
+         "name": "treasure",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 132,
+       "triangles": 96,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -5.038760185241699,
+        0.03736567869782448,
+        -4.056240081787109
+       ],
+       "boundsMax": [
+        2.102787971496582,
+        9.737480163574219,
+        4.056240081787109
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/icon.glb"
+    },
+    {
+     "name": "treasure_1",
+     "scale": 3.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/treasure_1.xml",
+       "textures": [
+        {
+         "name": "treasure",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 93,
+       "triangles": 80,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.22443360090255737,
+        0.00974372960627079,
+        -0.7500630021095276
+       ],
+       "boundsMax": [
+        0.38752201199531555,
+        3.863729953765869,
+        0.7500630021095276
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/treasure_1.glb"
+    },
+    {
+     "name": "treasure_2",
+     "scale": 3.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/treasure_2.xml",
+       "textures": [
+        {
+         "name": "treasure",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 105,
+       "triangles": 90,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.3054240047931671,
+        -0.0009109050151892006,
+        -1.0916399955749512
+       ],
+       "boundsMax": [
+        0.3791370093822479,
+        3.5736000537872314,
+        1.09164297580719
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/treasure_2.glb"
+    },
+    {
+     "name": "treasure_3",
+     "scale": 3.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/treasure_3.xml",
+       "textures": [
+        {
+         "name": "treasure",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 108,
+       "triangles": 87,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.6070830225944519,
+        -0.0010078169871121645,
+        -1.5557940006256104
+       ],
+       "boundsMax": [
+        0.45893698930740356,
+        5.289869785308838,
+        1.5557880401611328
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/treasure_3.glb"
+    },
+    {
+     "name": "treasure_4",
+     "scale": 3.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/treasure_4.xml",
+       "textures": [
+        {
+         "name": "treasure",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 123,
+       "triangles": 98,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.6391500234603882,
+        -0.0010078169871121645,
+        -2.3149499893188477
+       ],
+       "boundsMax": [
+        0.40420499444007874,
+        5.035260200500488,
+        2.3149468898773193
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/treasure_4.glb"
+    },
+    {
+     "name": "treasure_5",
+     "scale": 3.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/treasure_5.xml",
+       "textures": [
+        {
+         "name": "treasure",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 109,
+       "triangles": 96,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.4338769912719727,
+        -0.0010078379418700933,
+        -1.3578360080718994
+       ],
+       "boundsMax": [
+        0.7686060070991516,
+        5.273819923400879,
+        1.357841968536377
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/treasure_5.glb"
+    },
+    {
+     "name": "rock_1",
+     "scale": 5.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/rock_fragment_1.xml",
+       "textures": [
+        {
+         "name": "Generator:com.oddlabs.tt.procedural.GeneratorRock",
+         "team": null
+        },
+        {
+         "name": "Generator:com.oddlabs.tt.procedural.GeneratorIron",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 12,
+       "triangles": 20,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.730459988117218,
+        -1.8242900371551514,
+        -0.8807399868965149
+       ],
+       "boundsMax": [
+        0.730459988117218,
+        1.8242900371551514,
+        0.8807399868965149
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/rock_1.glb"
+    },
+    {
+     "name": "rock_2",
+     "scale": 5.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/rock_fragment_02.xml",
+       "textures": [
+        {
+         "name": "Generator:com.oddlabs.tt.procedural.GeneratorRock",
+         "team": null
+        },
+        {
+         "name": "Generator:com.oddlabs.tt.procedural.GeneratorIron",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 12,
+       "triangles": 20,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.9893500208854675,
+        -0.5448300242424011,
+        -0.7798100113868713
+       ],
+       "boundsMax": [
+        0.8216149806976318,
+        1.2351349592208862,
+        0.7280750274658203
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/rock_2.glb"
+    },
+    {
+     "name": "rock_3",
+     "scale": 5.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/rock_fragment_03.xml",
+       "textures": [
+        {
+         "name": "Generator:com.oddlabs.tt.procedural.GeneratorRock",
+         "team": null
+        },
+        {
+         "name": "Generator:com.oddlabs.tt.procedural.GeneratorIron",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 12,
+       "triangles": 20,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.3176499605178833,
+        -1.2289750576019287,
+        -0.8709700107574463
+       ],
+       "boundsMax": [
+        1.0880999565124512,
+        1.5968350172042847,
+        0.8159899711608887
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/rock_3.glb"
+    },
+    {
+     "name": "rock_4",
+     "scale": 5.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/rock_fragment_04.xml",
+       "textures": [
+        {
+         "name": "Generator:com.oddlabs.tt.procedural.GeneratorRock",
+         "team": null
+        },
+        {
+         "name": "Generator:com.oddlabs.tt.procedural.GeneratorIron",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 12,
+       "triangles": 20,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.5267300009727478,
+        -0.9206249713897705,
+        -0.6427599787712097
+       ],
+       "boundsMax": [
+        1.3452399969100952,
+        1.5236599445343018,
+        0.7979999780654907
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/rock_4.glb"
+    },
+    {
+     "name": "rock_5",
+     "scale": 5.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/rock_fragment_05.xml",
+       "textures": [
+        {
+         "name": "Generator:com.oddlabs.tt.procedural.GeneratorRock",
+         "team": null
+        },
+        {
+         "name": "Generator:com.oddlabs.tt.procedural.GeneratorIron",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 12,
+       "triangles": 20,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.5828750133514404,
+        -1.3027900457382202,
+        -1.005370020866394
+       ],
+       "boundsMax": [
+        0.916920006275177,
+        1.7745749950408936,
+        1.338824987411499
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/rock_5.glb"
+    },
+    {
+     "name": "plant_1",
+     "scale": 1.25,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/plant_1.xml",
+       "textures": [
+        {
+         "name": "plants",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 50,
+       "triangles": 40,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.2707124948501587,
+        -2.911674982897239e-06,
+        -1.2201437950134277
+       ],
+       "boundsMax": [
+        1.0302687883377075,
+        2.1718499660491943,
+        1.3840625286102295
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/plant_1.glb"
+    },
+    {
+     "name": "plant_2",
+     "scale": 1.25,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/plant_2.xml",
+       "textures": [
+        {
+         "name": "plants",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 44,
+       "triangles": 40,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.1793137788772583,
+        -0.03577262535691261,
+        -1.1026874780654907
+       ],
+       "boundsMax": [
+        1.0559862852096558,
+        1.1270211935043335,
+        0.9105187654495239
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/plant_2.glb"
+    },
+    {
+     "name": "plant_3",
+     "scale": 1.25,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/plant_3.xml",
+       "textures": [
+        {
+         "name": "plants",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 43,
+       "triangles": 38,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.2661499977111816,
+        -1.1286261951681809e-06,
+        -1.0637637376785278
+       ],
+       "boundsMax": [
+        1.1853512525558472,
+        1.7352124452590942,
+        1.0453962087631226
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/plant_3.glb"
+    },
+    {
+     "name": "plant_4",
+     "scale": 1.25,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/plant_4.xml",
+       "textures": [
+        {
+         "name": "plants",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 84,
+       "triangles": 40,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.14437997341156,
+        -0.050634000450372696,
+        -1.0099049806594849
+       ],
+       "boundsMax": [
+        0.9465025067329407,
+        1.1465799808502197,
+        0.9032124876976013
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/plant_4.glb"
+    },
+    {
+     "name": "viking_plant_1",
+     "scale": 1.25,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/viking_plant_1.xml",
+       "textures": [
+        {
+         "name": "viking_plants",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 50,
+       "triangles": 40,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.2707124948501587,
+        -0.06583937257528305,
+        -1.2201437950134277
+       ],
+       "boundsMax": [
+        1.0302687883377075,
+        2.1060125827789307,
+        1.3840625286102295
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/viking_plant_1.glb"
+    },
+    {
+     "name": "viking_plant_2",
+     "scale": 1.25,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/viking_plant_2.xml",
+       "textures": [
+        {
+         "name": "viking_plants",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 82,
+       "triangles": 40,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.1033824682235718,
+        -0.059451874345541,
+        -1.1734449863433838
+       ],
+       "boundsMax": [
+        1.066446304321289,
+        1.3462624549865723,
+        1.4061000347137451
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/viking_plant_2.glb"
+    },
+    {
+     "name": "viking_plant_3",
+     "scale": 1.25,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/viking_plant_3.xml",
+       "textures": [
+        {
+         "name": "viking_plants",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 75,
+       "triangles": 39,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.9530887603759766,
+        -0.19689999520778656,
+        -1.2954250574111938
+       ],
+       "boundsMax": [
+        1.252787470817566,
+        2.0709125995635986,
+        1.304474949836731
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/viking_plant_3.glb"
+    },
+    {
+     "name": "viking_plant_4",
+     "scale": 1.25,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/viking_plant_4.xml",
+       "textures": [
+        {
+         "name": "viking_plants",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 92,
+       "triangles": 40,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.9266424775123596,
+        -0.07995212823152542,
+        -1.02682626247406
+       ],
+       "boundsMax": [
+        0.8898574709892273,
+        1.8447500467300415,
+        0.777382493019104
+       ]
+      }
+     ],
+     "animations": [],
+     "file": "misc/viking_plant_4.glb"
+    },
+    {
+     "name": "chicken",
+     "scale": 1.0,
+     "skinned": true,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/chicken/chicken_mesh.xml",
+       "textures": [
+        {
+         "name": "chicken",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 99,
+       "triangles": 82,
+       "maxInfluences": 2,
+       "boundsMin": [
+        -0.53329998254776,
+        -2.3841900542720396e-07,
+        -0.5106070041656494
+       ],
+       "boundsMax": [
+        0.6170719861984253,
+        1.7270900011062622,
+        0.5106070041656494
+       ]
+      }
+     ],
+     "animations": [
+      {
+       "name": "idle",
+       "wpc": 1.0,
+       "type": "loop",
+       "frames": 50
+      },
+      {
+       "name": "peck",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 120
+      },
+      {
+       "name": "die",
+       "wpc": 1.0,
+       "type": "plain",
+       "frames": 150
+      },
+      {
+       "name": "run",
+       "wpc": 4.0,
+       "type": "loop",
+       "frames": 25
+      },
+      {
+       "name": "fly",
+       "wpc": 8.0,
+       "type": "loop",
+       "frames": 100
+      }
+     ],
+     "file": "misc/chicken.glb"
+    },
+    {
+     "name": "pumpkin_plant_3x3",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/pumpkin_plant_3x3/pumpkin_plant_3x3.xml",
+       "textures": [
+        {
+         "name": "pumpkins",
+         "team": null,
+         "emissive": "pumpkins_emissive"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 2155,
+       "triangles": 2658,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.8887399435043335,
+        -0.028139900416135788,
+        -1.6330100297927856
+       ],
+       "boundsMax": [
+        1.3294700384140015,
+        1.4793200492858887,
+        1.7479699850082397
+       ]
+      }
+     ],
+     "animations": [],
+     "event": "halloween",
+     "decoration": "grass,dirt,snow",
+     "count": "20",
+     "file": "misc/pumpkin_plant_3x3.glb"
+    },
+    {
+     "name": "pumpkin_plant_2x2",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/pumpkin_plant_2x2/pumpkin_plant_2x2.xml",
+       "textures": [
+        {
+         "name": "pumpkins",
+         "team": null,
+         "emissive": "pumpkins_emissive",
+         "light_color": "#ffa98a",
+         "light_strength": "1",
+         "light_reach": "8"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 1252,
+       "triangles": 1491,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -1.1508100032806396,
+        -0.026496199890971184,
+        -0.9233499765396118
+       ],
+       "boundsMax": [
+        0.9817789793014526,
+        1.338189959526062,
+        1.6982899904251099
+       ]
+      }
+     ],
+     "animations": [],
+     "event": "halloween",
+     "decoration": "grass,dirt,snow",
+     "count": "20",
+     "file": "misc/pumpkin_plant_2x2.glb"
+    },
+    {
+     "name": "oak_tree_crown_pumpkin",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/oak_flat.xml",
+       "textures": [
+        {
+         "name": "viking_autumn_trees",
+         "team": null
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 207,
+       "triangles": 138,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -6.718910217285156,
+        0.006639100145548582,
+        -6.620639801025391
+       ],
+       "boundsMax": [
+        8.687800407409668,
+        12.32289981842041,
+        8.097860336303711
+       ]
+      }
+     ],
+     "animations": [],
+     "event": "autumn",
+     "skin": "pumpkin",
+     "replaces": "oak_tree_crown",
+     "file": "misc/oak_tree_crown_pumpkin.glb"
+    },
+    {
+     "name": "mushroom",
+     "scale": 1.0,
+     "skinned": false,
+     "models": [
+      {
+       "lod": 0,
+       "source": "misc/mushroom/mushroom.xml",
+       "textures": [
+        {
+         "name": "pumpkins",
+         "team": null,
+         "emissive": "pumpkins_emissive"
+        }
+       ],
+       "clearColor": [
+        0.35294117647058826,
+        0.23529411764705882,
+        0.11764705882352941
+       ],
+       "vertices": 864,
+       "triangles": 1264,
+       "maxInfluences": 1,
+       "boundsMin": [
+        -0.5203490257263184,
+        -0.09510090202093124,
+        -0.616936981678009
+       ],
+       "boundsMax": [
+        0.5197669863700867,
+        1.2038999795913696,
+        0.5180050134658813
+       ]
+      }
+     ],
+     "animations": [],
+     "event": "halloween",
+     "decoration": "grass,dirt,snow",
+     "count": "20",
+     "file": "misc/mushroom.glb"
+    }
+   ]
+  }
+ ]
+}

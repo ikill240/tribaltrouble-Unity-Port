@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4830e8a0f3a8fc4ea36a099637bca5c, type: 3}
+  m_Name: steam_natives_ship_halfbuilt
+  m_EditorClassIdentifier: 
+  group: natives
+  spriteName: ship_halfbuilt
+  model: {fileID: 2978956210125575189, guid: d9bec3f2af3ee2c4c85777bd06a7ce1d, type: 3}
+  skinned: 0
+  lods:
+  - nodeName: lod0
+    textures:
+    - name: native_ship
+      baseMap: {fileID: 2800000, guid: db6d7541536b0824ebf62aac07e2af2c, type: 3}
+      teamMask: {fileID: 2800000, guid: e11dbabe21fd80546a0172897b90e440, type: 3}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  - nodeName: lod1
+    textures:
+    - name: native_ship
+      baseMap: {fileID: 2800000, guid: db6d7541536b0824ebf62aac07e2af2c, type: 3}
+      teamMask: {fileID: 2800000, guid: e11dbabe21fd80546a0172897b90e440, type: 3}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  animations: []

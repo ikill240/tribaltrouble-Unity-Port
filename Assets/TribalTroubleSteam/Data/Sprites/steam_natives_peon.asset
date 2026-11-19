@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4830e8a0f3a8fc4ea36a099637bca5c, type: 3}
+  m_Name: steam_natives_peon
+  m_EditorClassIdentifier: 
+  group: natives
+  spriteName: peon
+  model: {fileID: -7981514964708312862, guid: efd7ab9e66afeb444b4a6b710b101ab4, type: 3}
+  skinned: 1
+  lods:
+  - nodeName: lod0
+    textures:
+    - name: native_peon
+      baseMap: {fileID: 2800000, guid: d2c58b5779553af42a0da3e23550d2ab, type: 3}
+      teamMask: {fileID: 2800000, guid: 8c0b31ccac2a8d349a879cc57faa5153, type: 3}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  - nodeName: lod1
+    textures:
+    - name: native_peon
+      baseMap: {fileID: 2800000, guid: d2c58b5779553af42a0da3e23550d2ab, type: 3}
+      teamMask: {fileID: 2800000, guid: 8c0b31ccac2a8d349a879cc57faa5153, type: 3}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  animations:
+  - name: idle
+    clip: {fileID: -2474113961476506421, guid: efd7ab9e66afeb444b4a6b710b101ab4, type: 3}
+    wpc: 1
+    loop: 1
+    frames: 50
+  - name: run
+    clip: {fileID: 8291298685565124274, guid: efd7ab9e66afeb444b4a6b710b101ab4, type: 3}
+    wpc: 3.625
+    loop: 1
+    frames: 30
+  - name: attack
+    clip: {fileID: -7633015044865952520, guid: efd7ab9e66afeb444b4a6b710b101ab4, type: 3}
+    wpc: 1
+    loop: 0
+    frames: 84
+  - name: die
+    clip: {fileID: -5788828422494046478, guid: efd7ab9e66afeb444b4a6b710b101ab4, type: 3}
+    wpc: 1
+    loop: 0
+    frames: 100
+  - name: sit
+    clip: {fileID: 6316130324300929012, guid: efd7ab9e66afeb444b4a6b710b101ab4, type: 3}
+    wpc: 1
+    loop: 1
+    frames: 48
+  - name: steer
+    clip: {fileID: -559187032155842915, guid: efd7ab9e66afeb444b4a6b710b101ab4, type: 3}
+    wpc: 1
+    loop: 1
+    frames: 48
+  - name: paddle_right
+    clip: {fileID: 6876554524020719670, guid: efd7ab9e66afeb444b4a6b710b101ab4, type: 3}
+    wpc: 1
+    loop: 1
+    frames: 48
+  - name: paddle_left
+    clip: {fileID: -7176073586329915912, guid: efd7ab9e66afeb444b4a6b710b101ab4, type: 3}
+    wpc: 1
+    loop: 1
+    frames: 48

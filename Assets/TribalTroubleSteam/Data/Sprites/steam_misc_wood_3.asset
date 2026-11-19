@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4830e8a0f3a8fc4ea36a099637bca5c, type: 3}
+  m_Name: steam_misc_wood_3
+  m_EditorClassIdentifier: 
+  group: misc
+  spriteName: wood_3
+  model: {fileID: 2271520320953038858, guid: b2664c1fdfd792748a56813f0d25f50c, type: 3}
+  skinned: 0
+  lods:
+  - nodeName: lod0
+    textures:
+    - name: wood_fragments
+      baseMap: {fileID: 2800000, guid: 35fbdbed07dc6044a804730648f30185, type: 3}
+      teamMask: {fileID: 0}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  animations: []

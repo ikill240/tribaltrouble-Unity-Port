@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE icons [
+        <!ELEMENT icons (back_icon,
+                natives_champion_icon,
+                natives_guard_icon,
+                natives_magic3_icon,
+                natives_magic4_icon,
+                natives_magic5_icon,
+                natives_palisade_icon,
+                natives_patrol_icon,
+                natives_research_armor_icon,
+                natives_research_blessing_icon,
+                natives_research_growth_icon,
+                natives_research_icon,
+                natives_research_lore_icon,
+                natives_research_range_icon,
+                natives_research_speed_icon,
+                natives_research_tools_icon,
+                natives_research_tower_armor_icon,
+                natives_research_tower_range_icon,
+                natives_research_walls_icon,
+                natives_scout_icon,
+                natives_shaman_icon,
+                natives_shrine_icon,
+                natives_slinger_icon,
+                natives_stand_icon,
+                vikings_champion_icon,
+                vikings_guard_icon,
+                vikings_magic3_icon,
+                vikings_magic4_icon,
+                vikings_magic5_icon,
+                vikings_palisade_icon,
+                vikings_patrol_icon,
+                vikings_research_armor_icon,
+                vikings_research_blessing_icon,
+                vikings_research_growth_icon,
+                vikings_research_icon,
+                vikings_research_lore_icon,
+                vikings_research_range_icon,
+                vikings_research_speed_icon,
+                vikings_research_tools_icon,
+                vikings_research_tower_armor_icon,
+                vikings_research_tower_range_icon,
+                vikings_research_walls_icon,
+                vikings_scout_icon,
+                vikings_shaman_icon,
+                vikings_shrine_icon,
+                vikings_slinger_icon,
+                vikings_stand_icon,
+                natives_melee_light_icon,
+                natives_melee_heavy_icon,
+                vikings_melee_light_icon,
+                vikings_melee_heavy_icon,
+                natives_convert_icon,
+                natives_hall_icon,
+                natives_harvest_coal_icon,
+                natives_harvest_crystal_icon,
+                natives_harvest_gold_icon,
+                natives_harvest_herbs_icon,
+                natives_magic6_icon,
+                natives_research_baskets_icon,
+                natives_research_drill_icon,
+                natives_research_focus_icon,
+                natives_research_prospecting_icon,
+                natives_research_race1_icon,
+                natives_research_race2_icon,
+                natives_research_smithing_icon,
+                natives_research_stakes_icon,
+                natives_research_sturdy_icon,
+                natives_research_vigor_icon,
+                natives_research_volley_icon,
+                natives_unique1_icon,
+                natives_unique2_icon,
+                natives_upgrade_chicken_icon,
+                natives_upgrade_iron_icon,
+                natives_upgrade_stone_icon,
+                vikings_convert_icon,
+                vikings_hall_icon,
+                vikings_magic6_icon,
+                vikings_research_drill_icon,
+                vikings_research_race1_icon,
+                vikings_research_race2_icon,
+                vikings_research_sturdy_icon,
+                vikings_research_vigor_icon,
+                vikings_research_volley_icon,
+                vikings_unique1_icon,
+                vikings_unique2_icon,
+                coal_status_icon,
+                crystal_status_icon,
+                gold_status_icon,
+                herbs_status_icon,
+                natives_crystal_weapon_status_icon,
+                natives_diamond_weapon_status_icon,
+                vikings_crystal_weapon_status_icon,
+                vikings_diamond_weapon_status_icon,
+                natives_bridge_icon,
+                natives_craft_crystal_icon,
+                natives_craft_darts_icon,
+                natives_craft_diamond_icon,
+                natives_crystal_icon,
+                natives_diamond_icon,
+                natives_dock_icon,
+                natives_elite1_icon,
+                natives_elite2_icon,
+                natives_elite3_icon,
+                natives_forge_icon,
+                natives_harvest_diamond_icon,
+                natives_major_god_icon,
+                natives_market_icon,
+                natives_minor_god_icon,
+                natives_research_arcane_icon,
+                natives_research_bridges_icon,
+                natives_research_buildings_icon,
+                natives_research_cargo_icon,
+                natives_research_chicken_bounce_icon,
+                natives_research_courage_icon,
+                natives_research_crystal_craft_icon,
+                natives_research_crystal_facet_icon,
+                natives_research_diamond_craft_icon,
+                natives_research_diamond_edge_icon,
+                natives_research_elite_ranks_icon,
+                natives_research_elite_training_icon,
+                natives_research_fleet_icon,
+                natives_research_great_tribe_icon,
+                natives_research_iron_temper_icon,
+                natives_research_rock_edge_icon,
+                natives_research_rune_might_icon,
+                natives_research_rune_reach_icon,
+                natives_research_rune_ward_icon,
+                natives_research_ship_hull_icon,
+                natives_research_ship_oars_icon,
+                natives_spinner_icon,
+                natives_totem_icon,
+                natives_unique3_icon,
+                natives_upgrade_rune_icon,
+                vikings_bridge_icon,
+                vikings_craft_crystal_icon,
+                vikings_craft_darts_icon,
+                vikings_craft_diamond_icon,
+                vikings_crystal_icon,
+                vikings_diamond_icon,
+                vikings_dock_icon,
+                vikings_elite1_icon,
+                vikings_elite2_icon,
+                vikings_elite3_icon,
+                vikings_forge_icon,
+                vikings_harvest_diamond_icon,
+                vikings_major_god_icon,
+                vikings_market_icon,
+                vikings_minor_god_icon,
+                vikings_research_arcane_icon,
+                vikings_research_bridges_icon,
+                vikings_research_buildings_icon,
+                vikings_research_cargo_icon,
+                vikings_research_chicken_bounce_icon,
+                vikings_research_courage_icon,
+                vikings_research_diamond_edge_icon,
+                vikings_research_elite_ranks_icon,
+                vikings_research_elite_training_icon,
+                vikings_research_fleet_icon,
+                vikings_research_great_tribe_icon,
+                vikings_research_iron_temper_icon,
+                vikings_research_rock_edge_icon,
+                vikings_research_rune_might_icon,
+                vikings_research_rune_reach_icon,
+                vikings_research_rune_ward_icon,
+                vikings_research_ship_hull_icon,
+                vikings_research_ship_oars_icon,
+                vikings_spinner_icon,
+                vikings_totem_icon,
+                vikings_unique3_icon,
+                vikings_upgrade_rune_icon,
+                crystal_weapon_status_icon,
+                darts_status_icon,
+                diamond_status_icon,
+                diamond_weapon_status_icon,
+                firepots_status_icon)>
+        <!ATTLIST icons texture CDATA #REQUIRED>
+        <!ELEMENT back_icon (normal, active, disabled)>
+        <!ELEMENT natives_champion_icon (normal, active, disabled)>
+        <!ELEMENT natives_guard_icon (normal, active, disabled)>
+        <!ELEMENT natives_magic3_icon (normal, active, disabled)>
+        <!ELEMENT natives_magic4_icon (normal, active, disabled)>
+        <!ELEMENT natives_magic5_icon (normal, active, disabled)>
+        <!ELEMENT natives_palisade_icon (normal, active, disabled)>
+        <!ELEMENT natives_patrol_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_armor_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_blessing_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_growth_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_lore_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_range_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_speed_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_tools_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_tower_armor_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_tower_range_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_walls_icon (normal, active, disabled)>
+        <!ELEMENT natives_scout_icon (normal, active, disabled)>
+        <!ELEMENT natives_shaman_icon (normal, active, disabled)>
+        <!ELEMENT natives_shrine_icon (normal, active, disabled)>
+        <!ELEMENT natives_slinger_icon (normal, active, disabled)>
+        <!ELEMENT natives_stand_icon (normal, active, disabled)>
+        <!ELEMENT vikings_champion_icon (normal, active, disabled)>
+        <!ELEMENT vikings_guard_icon (normal, active, disabled)>
+        <!ELEMENT vikings_magic3_icon (normal, active, disabled)>
+        <!ELEMENT vikings_magic4_icon (normal, active, disabled)>
+        <!ELEMENT vikings_magic5_icon (normal, active, disabled)>
+        <!ELEMENT vikings_palisade_icon (normal, active, disabled)>
+        <!ELEMENT vikings_patrol_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_armor_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_blessing_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_growth_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_lore_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_range_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_speed_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_tools_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_tower_armor_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_tower_range_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_walls_icon (normal, active, disabled)>
+        <!ELEMENT vikings_scout_icon (normal, active, disabled)>
+        <!ELEMENT vikings_shaman_icon (normal, active, disabled)>
+        <!ELEMENT vikings_shrine_icon (normal, active, disabled)>
+        <!ELEMENT vikings_slinger_icon (normal, active, disabled)>
+        <!ELEMENT vikings_stand_icon (normal, active, disabled)>
+        <!ELEMENT natives_melee_light_icon (normal, active, disabled)>
+        <!ELEMENT natives_melee_heavy_icon (normal, active, disabled)>
+        <!ELEMENT vikings_melee_light_icon (normal, active, disabled)>
+        <!ELEMENT vikings_melee_heavy_icon (normal, active, disabled)>
+        <!ELEMENT natives_convert_icon (normal, active, disabled)>
+        <!ELEMENT natives_hall_icon (normal, active, disabled)>
+        <!ELEMENT natives_harvest_coal_icon (normal, active, disabled)>
+        <!ELEMENT natives_harvest_crystal_icon (normal, active, disabled)>
+        <!ELEMENT natives_harvest_gold_icon (normal, active, disabled)>
+        <!ELEMENT natives_harvest_herbs_icon (normal, active, disabled)>
+        <!ELEMENT natives_magic6_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_baskets_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_drill_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_focus_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_prospecting_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_race1_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_race2_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_smithing_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_stakes_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_sturdy_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_vigor_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_volley_icon (normal, active, disabled)>
+        <!ELEMENT natives_unique1_icon (normal, active, disabled)>
+        <!ELEMENT natives_unique2_icon (normal, active, disabled)>
+        <!ELEMENT natives_upgrade_chicken_icon (normal, active, disabled)>
+        <!ELEMENT natives_upgrade_iron_icon (normal, active, disabled)>
+        <!ELEMENT natives_upgrade_stone_icon (normal, active, disabled)>
+        <!ELEMENT vikings_convert_icon (normal, active, disabled)>
+        <!ELEMENT vikings_hall_icon (normal, active, disabled)>
+        <!ELEMENT vikings_magic6_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_drill_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_race1_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_race2_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_sturdy_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_vigor_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_volley_icon (normal, active, disabled)>
+        <!ELEMENT vikings_unique1_icon (normal, active, disabled)>
+        <!ELEMENT vikings_unique2_icon (normal, active, disabled)>
+        <!ELEMENT coal_status_icon (quad)>
+        <!ELEMENT crystal_status_icon (quad)>
+        <!ELEMENT gold_status_icon (quad)>
+        <!ELEMENT herbs_status_icon (quad)>
+        <!ELEMENT natives_crystal_weapon_status_icon (quad)>
+        <!ELEMENT natives_diamond_weapon_status_icon (quad)>
+        <!ELEMENT vikings_crystal_weapon_status_icon (quad)>
+        <!ELEMENT vikings_diamond_weapon_status_icon (quad)>
+        <!ELEMENT natives_bridge_icon (normal, active, disabled)>
+        <!ELEMENT natives_craft_crystal_icon (normal, active, disabled)>
+        <!ELEMENT natives_craft_darts_icon (normal, active, disabled)>
+        <!ELEMENT natives_craft_diamond_icon (normal, active, disabled)>
+        <!ELEMENT natives_crystal_icon (normal, active, disabled)>
+        <!ELEMENT natives_diamond_icon (normal, active, disabled)>
+        <!ELEMENT natives_dock_icon (normal, active, disabled)>
+        <!ELEMENT natives_elite1_icon (normal, active, disabled)>
+        <!ELEMENT natives_elite2_icon (normal, active, disabled)>
+        <!ELEMENT natives_elite3_icon (normal, active, disabled)>
+        <!ELEMENT natives_forge_icon (normal, active, disabled)>
+        <!ELEMENT natives_harvest_diamond_icon (normal, active, disabled)>
+        <!ELEMENT natives_major_god_icon (normal, active, disabled)>
+        <!ELEMENT natives_market_icon (normal, active, disabled)>
+        <!ELEMENT natives_minor_god_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_arcane_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_bridges_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_buildings_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_cargo_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_chicken_bounce_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_courage_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_crystal_craft_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_crystal_facet_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_diamond_craft_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_diamond_edge_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_elite_ranks_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_elite_training_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_fleet_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_great_tribe_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_iron_temper_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_rock_edge_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_rune_might_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_rune_reach_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_rune_ward_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_ship_hull_icon (normal, active, disabled)>
+        <!ELEMENT natives_research_ship_oars_icon (normal, active, disabled)>
+        <!ELEMENT natives_spinner_icon (normal, active, disabled)>
+        <!ELEMENT natives_totem_icon (normal, active, disabled)>
+        <!ELEMENT natives_unique3_icon (normal, active, disabled)>
+        <!ELEMENT natives_upgrade_rune_icon (normal, active, disabled)>
+        <!ELEMENT vikings_bridge_icon (normal, active, disabled)>
+        <!ELEMENT vikings_craft_crystal_icon (normal, active, disabled)>
+        <!ELEMENT vikings_craft_darts_icon (normal, active, disabled)>
+        <!ELEMENT vikings_craft_diamond_icon (normal, active, disabled)>
+        <!ELEMENT vikings_crystal_icon (normal, active, disabled)>
+        <!ELEMENT vikings_diamond_icon (normal, active, disabled)>
+        <!ELEMENT vikings_dock_icon (normal, active, disabled)>
+        <!ELEMENT vikings_elite1_icon (normal, active, disabled)>
+        <!ELEMENT vikings_elite2_icon (normal, active, disabled)>
+        <!ELEMENT vikings_elite3_icon (normal, active, disabled)>
+        <!ELEMENT vikings_forge_icon (normal, active, disabled)>
+        <!ELEMENT vikings_harvest_diamond_icon (normal, active, disabled)>
+        <!ELEMENT vikings_major_god_icon (normal, active, disabled)>
+        <!ELEMENT vikings_market_icon (normal, active, disabled)>
+        <!ELEMENT vikings_minor_god_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_arcane_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_bridges_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_buildings_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_cargo_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_chicken_bounce_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_courage_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_diamond_edge_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_elite_ranks_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_elite_training_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_fleet_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_great_tribe_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_iron_temper_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_rock_edge_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_rune_might_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_rune_reach_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_rune_ward_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_ship_hull_icon (normal, active, disabled)>
+        <!ELEMENT vikings_research_ship_oars_icon (normal, active, disabled)>
+        <!ELEMENT vikings_spinner_icon (normal, active, disabled)>
+        <!ELEMENT vikings_totem_icon (normal, active, disabled)>
+        <!ELEMENT vikings_unique3_icon (normal, active, disabled)>
+        <!ELEMENT vikings_upgrade_rune_icon (normal, active, disabled)>
+        <!ELEMENT crystal_weapon_status_icon (quad)>
+        <!ELEMENT darts_status_icon (quad)>
+        <!ELEMENT diamond_status_icon (quad)>
+        <!ELEMENT diamond_weapon_status_icon (quad)>
+        <!ELEMENT firepots_status_icon (quad)>
+        <!ELEMENT normal (quad)>
+        <!ELEMENT active (quad)>
+        <!ELEMENT disabled (quad)>
+        <!ELEMENT quad EMPTY>
+        <!ATTLIST quad left CDATA #REQUIRED top CDATA #REQUIRED right CDATA #REQUIRED bottom CDATA #REQUIRED>
+]>
+
+<!-- Extended rules' button icons (added (extended), arsenal icons added (arsenal)) -->
+<icons texture="/textures/gui/icons_extended">
+    <back_icon><normal><quad left="0" top="0" right="64" bottom="64"/></normal><active><quad left="0" top="64" right="64" bottom="128"/></active><disabled><quad left="0" top="128" right="64" bottom="192"/></disabled></back_icon>
+    <natives_champion_icon><normal><quad left="64" top="0" right="128" bottom="64"/></normal><active><quad left="64" top="64" right="128" bottom="128"/></active><disabled><quad left="64" top="128" right="128" bottom="192"/></disabled></natives_champion_icon>
+    <natives_guard_icon><normal><quad left="128" top="0" right="192" bottom="64"/></normal><active><quad left="128" top="64" right="192" bottom="128"/></active><disabled><quad left="128" top="128" right="192" bottom="192"/></disabled></natives_guard_icon>
+    <natives_magic3_icon><normal><quad left="192" top="0" right="256" bottom="64"/></normal><active><quad left="192" top="64" right="256" bottom="128"/></active><disabled><quad left="192" top="128" right="256" bottom="192"/></disabled></natives_magic3_icon>
+    <natives_magic4_icon><normal><quad left="256" top="0" right="320" bottom="64"/></normal><active><quad left="256" top="64" right="320" bottom="128"/></active><disabled><quad left="256" top="128" right="320" bottom="192"/></disabled></natives_magic4_icon>
+    <natives_magic5_icon><normal><quad left="320" top="0" right="384" bottom="64"/></normal><active><quad left="320" top="64" right="384" bottom="128"/></active><disabled><quad left="320" top="128" right="384" bottom="192"/></disabled></natives_magic5_icon>
+    <natives_palisade_icon><normal><quad left="384" top="0" right="448" bottom="64"/></normal><active><quad left="384" top="64" right="448" bottom="128"/></active><disabled><quad left="384" top="128" right="448" bottom="192"/></disabled></natives_palisade_icon>
+    <natives_patrol_icon><normal><quad left="448" top="0" right="512" bottom="64"/></normal><active><quad left="448" top="64" right="512" bottom="128"/></active><disabled><quad left="448" top="128" right="512" bottom="192"/></disabled></natives_patrol_icon>
+    <natives_research_armor_icon><normal><quad left="512" top="0" right="576" bottom="64"/></normal><active><quad left="512" top="64" right="576" bottom="128"/></active><disabled><quad left="512" top="128" right="576" bottom="192"/></disabled></natives_research_armor_icon>
+    <natives_research_blessing_icon><normal><quad left="576" top="0" right="640" bottom="64"/></normal><active><quad left="576" top="64" right="640" bottom="128"/></active><disabled><quad left="576" top="128" right="640" bottom="192"/></disabled></natives_research_blessing_icon>
+    <natives_research_growth_icon><normal><quad left="640" top="0" right="704" bottom="64"/></normal><active><quad left="640" top="64" right="704" bottom="128"/></active><disabled><quad left="640" top="128" right="704" bottom="192"/></disabled></natives_research_growth_icon>
+    <natives_research_icon><normal><quad left="704" top="0" right="768" bottom="64"/></normal><active><quad left="704" top="64" right="768" bottom="128"/></active><disabled><quad left="704" top="128" right="768" bottom="192"/></disabled></natives_research_icon>
+    <natives_research_lore_icon><normal><quad left="768" top="0" right="832" bottom="64"/></normal><active><quad left="768" top="64" right="832" bottom="128"/></active><disabled><quad left="768" top="128" right="832" bottom="192"/></disabled></natives_research_lore_icon>
+    <natives_research_range_icon><normal><quad left="832" top="0" right="896" bottom="64"/></normal><active><quad left="832" top="64" right="896" bottom="128"/></active><disabled><quad left="832" top="128" right="896" bottom="192"/></disabled></natives_research_range_icon>
+    <natives_research_speed_icon><normal><quad left="896" top="0" right="960" bottom="64"/></normal><active><quad left="896" top="64" right="960" bottom="128"/></active><disabled><quad left="896" top="128" right="960" bottom="192"/></disabled></natives_research_speed_icon>
+    <natives_research_tools_icon><normal><quad left="960" top="0" right="1024" bottom="64"/></normal><active><quad left="960" top="64" right="1024" bottom="128"/></active><disabled><quad left="960" top="128" right="1024" bottom="192"/></disabled></natives_research_tools_icon>
+    <natives_research_tower_armor_icon><normal><quad left="0" top="192" right="64" bottom="256"/></normal><active><quad left="0" top="256" right="64" bottom="320"/></active><disabled><quad left="0" top="320" right="64" bottom="384"/></disabled></natives_research_tower_armor_icon>
+    <natives_research_tower_range_icon><normal><quad left="64" top="192" right="128" bottom="256"/></normal><active><quad left="64" top="256" right="128" bottom="320"/></active><disabled><quad left="64" top="320" right="128" bottom="384"/></disabled></natives_research_tower_range_icon>
+    <natives_research_walls_icon><normal><quad left="128" top="192" right="192" bottom="256"/></normal><active><quad left="128" top="256" right="192" bottom="320"/></active><disabled><quad left="128" top="320" right="192" bottom="384"/></disabled></natives_research_walls_icon>
+    <natives_scout_icon><normal><quad left="192" top="192" right="256" bottom="256"/></normal><active><quad left="192" top="256" right="256" bottom="320"/></active><disabled><quad left="192" top="320" right="256" bottom="384"/></disabled></natives_scout_icon>
+    <natives_shaman_icon><normal><quad left="256" top="192" right="320" bottom="256"/></normal><active><quad left="256" top="256" right="320" bottom="320"/></active><disabled><quad left="256" top="320" right="320" bottom="384"/></disabled></natives_shaman_icon>
+    <natives_shrine_icon><normal><quad left="320" top="192" right="384" bottom="256"/></normal><active><quad left="320" top="256" right="384" bottom="320"/></active><disabled><quad left="320" top="320" right="384" bottom="384"/></disabled></natives_shrine_icon>
+    <natives_slinger_icon><normal><quad left="384" top="192" right="448" bottom="256"/></normal><active><quad left="384" top="256" right="448" bottom="320"/></active><disabled><quad left="384" top="320" right="448" bottom="384"/></disabled></natives_slinger_icon>
+    <natives_stand_icon><normal><quad left="448" top="192" right="512" bottom="256"/></normal><active><quad left="448" top="256" right="512" bottom="320"/></active><disabled><quad left="448" top="320" right="512" bottom="384"/></disabled></natives_stand_icon>
+    <vikings_champion_icon><normal><quad left="512" top="192" right="576" bottom="256"/></normal><active><quad left="512" top="256" right="576" bottom="320"/></active><disabled><quad left="512" top="320" right="576" bottom="384"/></disabled></vikings_champion_icon>
+    <vikings_guard_icon><normal><quad left="576" top="192" right="640" bottom="256"/></normal><active><quad left="576" top="256" right="640" bottom="320"/></active><disabled><quad left="576" top="320" right="640" bottom="384"/></disabled></vikings_guard_icon>
+    <vikings_magic3_icon><normal><quad left="640" top="192" right="704" bottom="256"/></normal><active><quad left="640" top="256" right="704" bottom="320"/></active><disabled><quad left="640" top="320" right="704" bottom="384"/></disabled></vikings_magic3_icon>
+    <vikings_magic4_icon><normal><quad left="704" top="192" right="768" bottom="256"/></normal><active><quad left="704" top="256" right="768" bottom="320"/></active><disabled><quad left="704" top="320" right="768" bottom="384"/></disabled></vikings_magic4_icon>
+    <vikings_magic5_icon><normal><quad left="768" top="192" right="832" bottom="256"/></normal><active><quad left="768" top="256" right="832" bottom="320"/></active><disabled><quad left="768" top="320" right="832" bottom="384"/></disabled></vikings_magic5_icon>
+    <vikings_palisade_icon><normal><quad left="832" top="192" right="896" bottom="256"/></normal><active><quad left="832" top="256" right="896" bottom="320"/></active><disabled><quad left="832" top="320" right="896" bottom="384"/></disabled></vikings_palisade_icon>
+    <vikings_patrol_icon><normal><quad left="896" top="192" right="960" bottom="256"/></normal><active><quad left="896" top="256" right="960" bottom="320"/></active><disabled><quad left="896" top="320" right="960" bottom="384"/></disabled></vikings_patrol_icon>
+    <vikings_research_armor_icon><normal><quad left="960" top="192" right="1024" bottom="256"/></normal><active><quad left="960" top="256" right="1024" bottom="320"/></active><disabled><quad left="960" top="320" right="1024" bottom="384"/></disabled></vikings_research_armor_icon>
+    <vikings_research_blessing_icon><normal><quad left="0" top="384" right="64" bottom="448"/></normal><active><quad left="0" top="448" right="64" bottom="512"/></active><disabled><quad left="0" top="512" right="64" bottom="576"/></disabled></vikings_research_blessing_icon>
+    <vikings_research_growth_icon><normal><quad left="64" top="384" right="128" bottom="448"/></normal><active><quad left="64" top="448" right="128" bottom="512"/></active><disabled><quad left="64" top="512" right="128" bottom="576"/></disabled></vikings_research_growth_icon>
+    <vikings_research_icon><normal><quad left="128" top="384" right="192" bottom="448"/></normal><active><quad left="128" top="448" right="192" bottom="512"/></active><disabled><quad left="128" top="512" right="192" bottom="576"/></disabled></vikings_research_icon>
+    <vikings_research_lore_icon><normal><quad left="192" top="384" right="256" bottom="448"/></normal><active><quad left="192" top="448" right="256" bottom="512"/></active><disabled><quad left="192" top="512" right="256" bottom="576"/></disabled></vikings_research_lore_icon>
+    <vikings_research_range_icon><normal><quad left="256" top="384" right="320" bottom="448"/></normal><active><quad left="256" top="448" right="320" bottom="512"/></active><disabled><quad left="256" top="512" right="320" bottom="576"/></disabled></vikings_research_range_icon>
+    <vikings_research_speed_icon><normal><quad left="320" top="384" right="384" bottom="448"/></normal><active><quad left="320" top="448" right="384" bottom="512"/></active><disabled><quad left="320" top="512" right="384" bottom="576"/></disabled></vikings_research_speed_icon>
+    <vikings_research_tools_icon><normal><quad left="384" top="384" right="448" bottom="448"/></normal><active><quad left="384" top="448" right="448" bottom="512"/></active><disabled><quad left="384" top="512" right="448" bottom="576"/></disabled></vikings_research_tools_icon>
+    <vikings_research_tower_armor_icon><normal><quad left="448" top="384" right="512" bottom="448"/></normal><active><quad left="448" top="448" right="512" bottom="512"/></active><disabled><quad left="448" top="512" right="512" bottom="576"/></disabled></vikings_research_tower_armor_icon>
+    <vikings_research_tower_range_icon><normal><quad left="512" top="384" right="576" bottom="448"/></normal><active><quad left="512" top="448" right="576" bottom="512"/></active><disabled><quad left="512" top="512" right="576" bottom="576"/></disabled></vikings_research_tower_range_icon>
+    <vikings_research_walls_icon><normal><quad left="576" top="384" right="640" bottom="448"/></normal><active><quad left="576" top="448" right="640" bottom="512"/></active><disabled><quad left="576" top="512" right="640" bottom="576"/></disabled></vikings_research_walls_icon>
+    <vikings_scout_icon><normal><quad left="640" top="384" right="704" bottom="448"/></normal><active><quad left="640" top="448" right="704" bottom="512"/></active><disabled><quad left="640" top="512" right="704" bottom="576"/></disabled></vikings_scout_icon>
+    <vikings_shaman_icon><normal><quad left="704" top="384" right="768" bottom="448"/></normal><active><quad left="704" top="448" right="768" bottom="512"/></active><disabled><quad left="704" top="512" right="768" bottom="576"/></disabled></vikings_shaman_icon>
+    <vikings_shrine_icon><normal><quad left="768" top="384" right="832" bottom="448"/></normal><active><quad left="768" top="448" right="832" bottom="512"/></active><disabled><quad left="768" top="512" right="832" bottom="576"/></disabled></vikings_shrine_icon>
+    <vikings_slinger_icon><normal><quad left="832" top="384" right="896" bottom="448"/></normal><active><quad left="832" top="448" right="896" bottom="512"/></active><disabled><quad left="832" top="512" right="896" bottom="576"/></disabled></vikings_slinger_icon>
+    <vikings_stand_icon><normal><quad left="896" top="384" right="960" bottom="448"/></normal><active><quad left="896" top="448" right="960" bottom="512"/></active><disabled><quad left="896" top="512" right="960" bottom="576"/></disabled></vikings_stand_icon>
+    <natives_melee_light_icon><normal><quad left="0" top="576" right="64" bottom="640"/></normal><active><quad left="0" top="640" right="64" bottom="704"/></active><disabled><quad left="0" top="704" right="64" bottom="768"/></disabled></natives_melee_light_icon>
+    <natives_melee_heavy_icon><normal><quad left="64" top="576" right="128" bottom="640"/></normal><active><quad left="64" top="640" right="128" bottom="704"/></active><disabled><quad left="64" top="704" right="128" bottom="768"/></disabled></natives_melee_heavy_icon>
+    <vikings_melee_light_icon><normal><quad left="128" top="576" right="192" bottom="640"/></normal><active><quad left="128" top="640" right="192" bottom="704"/></active><disabled><quad left="128" top="704" right="192" bottom="768"/></disabled></vikings_melee_light_icon>
+    <vikings_melee_heavy_icon><normal><quad left="192" top="576" right="256" bottom="640"/></normal><active><quad left="192" top="640" right="256" bottom="704"/></active><disabled><quad left="192" top="704" right="256" bottom="768"/></disabled></vikings_melee_heavy_icon>
+    <natives_convert_icon><normal><quad left="256" top="576" right="320" bottom="640"/></normal><active><quad left="256" top="640" right="320" bottom="704"/></active><disabled><quad left="256" top="704" right="320" bottom="768"/></disabled></natives_convert_icon>
+    <natives_hall_icon><normal><quad left="320" top="576" right="384" bottom="640"/></normal><active><quad left="320" top="640" right="384" bottom="704"/></active><disabled><quad left="320" top="704" right="384" bottom="768"/></disabled></natives_hall_icon>
+    <natives_harvest_coal_icon><normal><quad left="384" top="576" right="448" bottom="640"/></normal><active><quad left="384" top="640" right="448" bottom="704"/></active><disabled><quad left="384" top="704" right="448" bottom="768"/></disabled></natives_harvest_coal_icon>
+    <natives_harvest_crystal_icon><normal><quad left="448" top="576" right="512" bottom="640"/></normal><active><quad left="448" top="640" right="512" bottom="704"/></active><disabled><quad left="448" top="704" right="512" bottom="768"/></disabled></natives_harvest_crystal_icon>
+    <natives_harvest_gold_icon><normal><quad left="512" top="576" right="576" bottom="640"/></normal><active><quad left="512" top="640" right="576" bottom="704"/></active><disabled><quad left="512" top="704" right="576" bottom="768"/></disabled></natives_harvest_gold_icon>
+    <natives_harvest_herbs_icon><normal><quad left="576" top="576" right="640" bottom="640"/></normal><active><quad left="576" top="640" right="640" bottom="704"/></active><disabled><quad left="576" top="704" right="640" bottom="768"/></disabled></natives_harvest_herbs_icon>
+    <natives_magic6_icon><normal><quad left="640" top="576" right="704" bottom="640"/></normal><active><quad left="640" top="640" right="704" bottom="704"/></active><disabled><quad left="640" top="704" right="704" bottom="768"/></disabled></natives_magic6_icon>
+    <natives_research_baskets_icon><normal><quad left="704" top="576" right="768" bottom="640"/></normal><active><quad left="704" top="640" right="768" bottom="704"/></active><disabled><quad left="704" top="704" right="768" bottom="768"/></disabled></natives_research_baskets_icon>
+    <natives_research_drill_icon><normal><quad left="768" top="576" right="832" bottom="640"/></normal><active><quad left="768" top="640" right="832" bottom="704"/></active><disabled><quad left="768" top="704" right="832" bottom="768"/></disabled></natives_research_drill_icon>
+    <natives_research_focus_icon><normal><quad left="832" top="576" right="896" bottom="640"/></normal><active><quad left="832" top="640" right="896" bottom="704"/></active><disabled><quad left="832" top="704" right="896" bottom="768"/></disabled></natives_research_focus_icon>
+    <natives_research_prospecting_icon><normal><quad left="896" top="576" right="960" bottom="640"/></normal><active><quad left="896" top="640" right="960" bottom="704"/></active><disabled><quad left="896" top="704" right="960" bottom="768"/></disabled></natives_research_prospecting_icon>
+    <natives_research_race1_icon><normal><quad left="960" top="576" right="1024" bottom="640"/></normal><active><quad left="960" top="640" right="1024" bottom="704"/></active><disabled><quad left="960" top="704" right="1024" bottom="768"/></disabled></natives_research_race1_icon>
+    <natives_research_race2_icon><normal><quad left="0" top="768" right="64" bottom="832"/></normal><active><quad left="0" top="832" right="64" bottom="896"/></active><disabled><quad left="0" top="896" right="64" bottom="960"/></disabled></natives_research_race2_icon>
+    <natives_research_smithing_icon><normal><quad left="64" top="768" right="128" bottom="832"/></normal><active><quad left="64" top="832" right="128" bottom="896"/></active><disabled><quad left="64" top="896" right="128" bottom="960"/></disabled></natives_research_smithing_icon>
+    <natives_research_stakes_icon><normal><quad left="128" top="768" right="192" bottom="832"/></normal><active><quad left="128" top="832" right="192" bottom="896"/></active><disabled><quad left="128" top="896" right="192" bottom="960"/></disabled></natives_research_stakes_icon>
+    <natives_research_sturdy_icon><normal><quad left="192" top="768" right="256" bottom="832"/></normal><active><quad left="192" top="832" right="256" bottom="896"/></active><disabled><quad left="192" top="896" right="256" bottom="960"/></disabled></natives_research_sturdy_icon>
+    <natives_research_vigor_icon><normal><quad left="256" top="768" right="320" bottom="832"/></normal><active><quad left="256" top="832" right="320" bottom="896"/></active><disabled><quad left="256" top="896" right="320" bottom="960"/></disabled></natives_research_vigor_icon>
+    <natives_research_volley_icon><normal><quad left="320" top="768" right="384" bottom="832"/></normal><active><quad left="320" top="832" right="384" bottom="896"/></active><disabled><quad left="320" top="896" right="384" bottom="960"/></disabled></natives_research_volley_icon>
+    <natives_unique1_icon><normal><quad left="384" top="768" right="448" bottom="832"/></normal><active><quad left="384" top="832" right="448" bottom="896"/></active><disabled><quad left="384" top="896" right="448" bottom="960"/></disabled></natives_unique1_icon>
+    <natives_unique2_icon><normal><quad left="448" top="768" right="512" bottom="832"/></normal><active><quad left="448" top="832" right="512" bottom="896"/></active><disabled><quad left="448" top="896" right="512" bottom="960"/></disabled></natives_unique2_icon>
+    <natives_upgrade_chicken_icon><normal><quad left="512" top="768" right="576" bottom="832"/></normal><active><quad left="512" top="832" right="576" bottom="896"/></active><disabled><quad left="512" top="896" right="576" bottom="960"/></disabled></natives_upgrade_chicken_icon>
+    <natives_upgrade_iron_icon><normal><quad left="576" top="768" right="640" bottom="832"/></normal><active><quad left="576" top="832" right="640" bottom="896"/></active><disabled><quad left="576" top="896" right="640" bottom="960"/></disabled></natives_upgrade_iron_icon>
+    <natives_upgrade_stone_icon><normal><quad left="640" top="768" right="704" bottom="832"/></normal><active><quad left="640" top="832" right="704" bottom="896"/></active><disabled><quad left="640" top="896" right="704" bottom="960"/></disabled></natives_upgrade_stone_icon>
+    <vikings_convert_icon><normal><quad left="704" top="768" right="768" bottom="832"/></normal><active><quad left="704" top="832" right="768" bottom="896"/></active><disabled><quad left="704" top="896" right="768" bottom="960"/></disabled></vikings_convert_icon>
+    <vikings_hall_icon><normal><quad left="768" top="768" right="832" bottom="832"/></normal><active><quad left="768" top="832" right="832" bottom="896"/></active><disabled><quad left="768" top="896" right="832" bottom="960"/></disabled></vikings_hall_icon>
+    <vikings_magic6_icon><normal><quad left="832" top="768" right="896" bottom="832"/></normal><active><quad left="832" top="832" right="896" bottom="896"/></active><disabled><quad left="832" top="896" right="896" bottom="960"/></disabled></vikings_magic6_icon>
+    <vikings_research_drill_icon><normal><quad left="896" top="768" right="960" bottom="832"/></normal><active><quad left="896" top="832" right="960" bottom="896"/></active><disabled><quad left="896" top="896" right="960" bottom="960"/></disabled></vikings_research_drill_icon>
+    <vikings_research_race1_icon><normal><quad left="960" top="768" right="1024" bottom="832"/></normal><active><quad left="960" top="832" right="1024" bottom="896"/></active><disabled><quad left="960" top="896" right="1024" bottom="960"/></disabled></vikings_research_race1_icon>
+    <vikings_research_race2_icon><normal><quad left="0" top="1024" right="64" bottom="1088"/></normal><active><quad left="0" top="1088" right="64" bottom="1152"/></active><disabled><quad left="0" top="1152" right="64" bottom="1216"/></disabled></vikings_research_race2_icon>
+    <vikings_research_sturdy_icon><normal><quad left="64" top="1024" right="128" bottom="1088"/></normal><active><quad left="64" top="1088" right="128" bottom="1152"/></active><disabled><quad left="64" top="1152" right="128" bottom="1216"/></disabled></vikings_research_sturdy_icon>
+    <vikings_research_vigor_icon><normal><quad left="128" top="1024" right="192" bottom="1088"/></normal><active><quad left="128" top="1088" right="192" bottom="1152"/></active><disabled><quad left="128" top="1152" right="192" bottom="1216"/></disabled></vikings_research_vigor_icon>
+    <vikings_research_volley_icon><normal><quad left="192" top="1024" right="256" bottom="1088"/></normal><active><quad left="192" top="1088" right="256" bottom="1152"/></active><disabled><quad left="192" top="1152" right="256" bottom="1216"/></disabled></vikings_research_volley_icon>
+    <vikings_unique1_icon><normal><quad left="256" top="1024" right="320" bottom="1088"/></normal><active><quad left="256" top="1088" right="320" bottom="1152"/></active><disabled><quad left="256" top="1152" right="320" bottom="1216"/></disabled></vikings_unique1_icon>
+    <vikings_unique2_icon><normal><quad left="320" top="1024" right="384" bottom="1088"/></normal><active><quad left="320" top="1088" right="384" bottom="1152"/></active><disabled><quad left="320" top="1152" right="384" bottom="1216"/></disabled></vikings_unique2_icon>
+    <coal_status_icon><quad left="0" top="960" right="32" bottom="992"/></coal_status_icon>
+    <crystal_status_icon><quad left="32" top="960" right="64" bottom="992"/></crystal_status_icon>
+    <gold_status_icon><quad left="64" top="960" right="96" bottom="992"/></gold_status_icon>
+    <herbs_status_icon><quad left="96" top="960" right="128" bottom="992"/></herbs_status_icon>
+    <natives_crystal_weapon_status_icon><quad left="288" top="960" right="320" bottom="992"/></natives_crystal_weapon_status_icon>
+    <natives_diamond_weapon_status_icon><quad left="320" top="960" right="352" bottom="992"/></natives_diamond_weapon_status_icon>
+    <vikings_crystal_weapon_status_icon><quad left="352" top="960" right="384" bottom="992"/></vikings_crystal_weapon_status_icon>
+    <vikings_diamond_weapon_status_icon><quad left="384" top="960" right="416" bottom="992"/></vikings_diamond_weapon_status_icon>
+    <natives_bridge_icon><normal><quad left="384" top="1024" right="448" bottom="1088"/></normal><active><quad left="384" top="1088" right="448" bottom="1152"/></active><disabled><quad left="384" top="1152" right="448" bottom="1216"/></disabled></natives_bridge_icon>
+    <natives_craft_crystal_icon><normal><quad left="448" top="1024" right="512" bottom="1088"/></normal><active><quad left="448" top="1088" right="512" bottom="1152"/></active><disabled><quad left="448" top="1152" right="512" bottom="1216"/></disabled></natives_craft_crystal_icon>
+    <natives_craft_darts_icon><normal><quad left="512" top="1024" right="576" bottom="1088"/></normal><active><quad left="512" top="1088" right="576" bottom="1152"/></active><disabled><quad left="512" top="1152" right="576" bottom="1216"/></disabled></natives_craft_darts_icon>
+    <natives_craft_diamond_icon><normal><quad left="576" top="1024" right="640" bottom="1088"/></normal><active><quad left="576" top="1088" right="640" bottom="1152"/></active><disabled><quad left="576" top="1152" right="640" bottom="1216"/></disabled></natives_craft_diamond_icon>
+    <natives_crystal_icon><normal><quad left="640" top="1024" right="704" bottom="1088"/></normal><active><quad left="640" top="1088" right="704" bottom="1152"/></active><disabled><quad left="640" top="1152" right="704" bottom="1216"/></disabled></natives_crystal_icon>
+    <natives_diamond_icon><normal><quad left="704" top="1024" right="768" bottom="1088"/></normal><active><quad left="704" top="1088" right="768" bottom="1152"/></active><disabled><quad left="704" top="1152" right="768" bottom="1216"/></disabled></natives_diamond_icon>
+    <natives_dock_icon><normal><quad left="768" top="1024" right="832" bottom="1088"/></normal><active><quad left="768" top="1088" right="832" bottom="1152"/></active><disabled><quad left="768" top="1152" right="832" bottom="1216"/></disabled></natives_dock_icon>
+    <natives_elite1_icon><normal><quad left="832" top="1024" right="896" bottom="1088"/></normal><active><quad left="832" top="1088" right="896" bottom="1152"/></active><disabled><quad left="832" top="1152" right="896" bottom="1216"/></disabled></natives_elite1_icon>
+    <natives_elite2_icon><normal><quad left="896" top="1024" right="960" bottom="1088"/></normal><active><quad left="896" top="1088" right="960" bottom="1152"/></active><disabled><quad left="896" top="1152" right="960" bottom="1216"/></disabled></natives_elite2_icon>
+    <natives_elite3_icon><normal><quad left="960" top="1024" right="1024" bottom="1088"/></normal><active><quad left="960" top="1088" right="1024" bottom="1152"/></active><disabled><quad left="960" top="1152" right="1024" bottom="1216"/></disabled></natives_elite3_icon>
+    <natives_forge_icon><normal><quad left="0" top="1216" right="64" bottom="1280"/></normal><active><quad left="0" top="1280" right="64" bottom="1344"/></active><disabled><quad left="0" top="1344" right="64" bottom="1408"/></disabled></natives_forge_icon>
+    <natives_harvest_diamond_icon><normal><quad left="64" top="1216" right="128" bottom="1280"/></normal><active><quad left="64" top="1280" right="128" bottom="1344"/></active><disabled><quad left="64" top="1344" right="128" bottom="1408"/></disabled></natives_harvest_diamond_icon>
+    <natives_major_god_icon><normal><quad left="128" top="1216" right="192" bottom="1280"/></normal><active><quad left="128" top="1280" right="192" bottom="1344"/></active><disabled><quad left="128" top="1344" right="192" bottom="1408"/></disabled></natives_major_god_icon>
+    <natives_market_icon><normal><quad left="192" top="1216" right="256" bottom="1280"/></normal><active><quad left="192" top="1280" right="256" bottom="1344"/></active><disabled><quad left="192" top="1344" right="256" bottom="1408"/></disabled></natives_market_icon>
+    <natives_minor_god_icon><normal><quad left="256" top="1216" right="320" bottom="1280"/></normal><active><quad left="256" top="1280" right="320" bottom="1344"/></active><disabled><quad left="256" top="1344" right="320" bottom="1408"/></disabled></natives_minor_god_icon>
+    <natives_research_arcane_icon><normal><quad left="320" top="1216" right="384" bottom="1280"/></normal><active><quad left="320" top="1280" right="384" bottom="1344"/></active><disabled><quad left="320" top="1344" right="384" bottom="1408"/></disabled></natives_research_arcane_icon>
+    <natives_research_bridges_icon><normal><quad left="384" top="1216" right="448" bottom="1280"/></normal><active><quad left="384" top="1280" right="448" bottom="1344"/></active><disabled><quad left="384" top="1344" right="448" bottom="1408"/></disabled></natives_research_bridges_icon>
+    <natives_research_buildings_icon><normal><quad left="448" top="1216" right="512" bottom="1280"/></normal><active><quad left="448" top="1280" right="512" bottom="1344"/></active><disabled><quad left="448" top="1344" right="512" bottom="1408"/></disabled></natives_research_buildings_icon>
+    <natives_research_cargo_icon><normal><quad left="512" top="1216" right="576" bottom="1280"/></normal><active><quad left="512" top="1280" right="576" bottom="1344"/></active><disabled><quad left="512" top="1344" right="576" bottom="1408"/></disabled></natives_research_cargo_icon>
+    <natives_research_chicken_bounce_icon><normal><quad left="576" top="1216" right="640" bottom="1280"/></normal><active><quad left="576" top="1280" right="640" bottom="1344"/></active><disabled><quad left="576" top="1344" right="640" bottom="1408"/></disabled></natives_research_chicken_bounce_icon>
+    <natives_research_courage_icon><normal><quad left="640" top="1216" right="704" bottom="1280"/></normal><active><quad left="640" top="1280" right="704" bottom="1344"/></active><disabled><quad left="640" top="1344" right="704" bottom="1408"/></disabled></natives_research_courage_icon>
+    <natives_research_crystal_craft_icon><normal><quad left="704" top="1216" right="768" bottom="1280"/></normal><active><quad left="704" top="1280" right="768" bottom="1344"/></active><disabled><quad left="704" top="1344" right="768" bottom="1408"/></disabled></natives_research_crystal_craft_icon>
+    <natives_research_crystal_facet_icon><normal><quad left="768" top="1216" right="832" bottom="1280"/></normal><active><quad left="768" top="1280" right="832" bottom="1344"/></active><disabled><quad left="768" top="1344" right="832" bottom="1408"/></disabled></natives_research_crystal_facet_icon>
+    <natives_research_diamond_craft_icon><normal><quad left="832" top="1216" right="896" bottom="1280"/></normal><active><quad left="832" top="1280" right="896" bottom="1344"/></active><disabled><quad left="832" top="1344" right="896" bottom="1408"/></disabled></natives_research_diamond_craft_icon>
+    <natives_research_diamond_edge_icon><normal><quad left="896" top="1216" right="960" bottom="1280"/></normal><active><quad left="896" top="1280" right="960" bottom="1344"/></active><disabled><quad left="896" top="1344" right="960" bottom="1408"/></disabled></natives_research_diamond_edge_icon>
+    <natives_research_elite_ranks_icon><normal><quad left="960" top="1216" right="1024" bottom="1280"/></normal><active><quad left="960" top="1280" right="1024" bottom="1344"/></active><disabled><quad left="960" top="1344" right="1024" bottom="1408"/></disabled></natives_research_elite_ranks_icon>
+    <natives_research_elite_training_icon><normal><quad left="0" top="1408" right="64" bottom="1472"/></normal><active><quad left="0" top="1472" right="64" bottom="1536"/></active><disabled><quad left="0" top="1536" right="64" bottom="1600"/></disabled></natives_research_elite_training_icon>
+    <natives_research_fleet_icon><normal><quad left="64" top="1408" right="128" bottom="1472"/></normal><active><quad left="64" top="1472" right="128" bottom="1536"/></active><disabled><quad left="64" top="1536" right="128" bottom="1600"/></disabled></natives_research_fleet_icon>
+    <natives_research_great_tribe_icon><normal><quad left="128" top="1408" right="192" bottom="1472"/></normal><active><quad left="128" top="1472" right="192" bottom="1536"/></active><disabled><quad left="128" top="1536" right="192" bottom="1600"/></disabled></natives_research_great_tribe_icon>
+    <natives_research_iron_temper_icon><normal><quad left="192" top="1408" right="256" bottom="1472"/></normal><active><quad left="192" top="1472" right="256" bottom="1536"/></active><disabled><quad left="192" top="1536" right="256" bottom="1600"/></disabled></natives_research_iron_temper_icon>
+    <natives_research_rock_edge_icon><normal><quad left="256" top="1408" right="320" bottom="1472"/></normal><active><quad left="256" top="1472" right="320" bottom="1536"/></active><disabled><quad left="256" top="1536" right="320" bottom="1600"/></disabled></natives_research_rock_edge_icon>
+    <natives_research_rune_might_icon><normal><quad left="320" top="1408" right="384" bottom="1472"/></normal><active><quad left="320" top="1472" right="384" bottom="1536"/></active><disabled><quad left="320" top="1536" right="384" bottom="1600"/></disabled></natives_research_rune_might_icon>
+    <natives_research_rune_reach_icon><normal><quad left="384" top="1408" right="448" bottom="1472"/></normal><active><quad left="384" top="1472" right="448" bottom="1536"/></active><disabled><quad left="384" top="1536" right="448" bottom="1600"/></disabled></natives_research_rune_reach_icon>
+    <natives_research_rune_ward_icon><normal><quad left="448" top="1408" right="512" bottom="1472"/></normal><active><quad left="448" top="1472" right="512" bottom="1536"/></active><disabled><quad left="448" top="1536" right="512" bottom="1600"/></disabled></natives_research_rune_ward_icon>
+    <natives_research_ship_hull_icon><normal><quad left="512" top="1408" right="576" bottom="1472"/></normal><active><quad left="512" top="1472" right="576" bottom="1536"/></active><disabled><quad left="512" top="1536" right="576" bottom="1600"/></disabled></natives_research_ship_hull_icon>
+    <natives_research_ship_oars_icon><normal><quad left="576" top="1408" right="640" bottom="1472"/></normal><active><quad left="576" top="1472" right="640" bottom="1536"/></active><disabled><quad left="576" top="1536" right="640" bottom="1600"/></disabled></natives_research_ship_oars_icon>
+    <natives_spinner_icon><normal><quad left="640" top="1408" right="704" bottom="1472"/></normal><active><quad left="640" top="1472" right="704" bottom="1536"/></active><disabled><quad left="640" top="1536" right="704" bottom="1600"/></disabled></natives_spinner_icon>
+    <natives_totem_icon><normal><quad left="704" top="1408" right="768" bottom="1472"/></normal><active><quad left="704" top="1472" right="768" bottom="1536"/></active><disabled><quad left="704" top="1536" right="768" bottom="1600"/></disabled></natives_totem_icon>
+    <natives_unique3_icon><normal><quad left="768" top="1408" right="832" bottom="1472"/></normal><active><quad left="768" top="1472" right="832" bottom="1536"/></active><disabled><quad left="768" top="1536" right="832" bottom="1600"/></disabled></natives_unique3_icon>
+    <natives_upgrade_rune_icon><normal><quad left="832" top="1408" right="896" bottom="1472"/></normal><active><quad left="832" top="1472" right="896" bottom="1536"/></active><disabled><quad left="832" top="1536" right="896" bottom="1600"/></disabled></natives_upgrade_rune_icon>
+    <vikings_bridge_icon><normal><quad left="896" top="1408" right="960" bottom="1472"/></normal><active><quad left="896" top="1472" right="960" bottom="1536"/></active><disabled><quad left="896" top="1536" right="960" bottom="1600"/></disabled></vikings_bridge_icon>
+    <vikings_craft_crystal_icon><normal><quad left="960" top="1408" right="1024" bottom="1472"/></normal><active><quad left="960" top="1472" right="1024" bottom="1536"/></active><disabled><quad left="960" top="1536" right="1024" bottom="1600"/></disabled></vikings_craft_crystal_icon>
+    <vikings_craft_darts_icon><normal><quad left="0" top="1600" right="64" bottom="1664"/></normal><active><quad left="0" top="1664" right="64" bottom="1728"/></active><disabled><quad left="0" top="1728" right="64" bottom="1792"/></disabled></vikings_craft_darts_icon>
+    <vikings_craft_diamond_icon><normal><quad left="64" top="1600" right="128" bottom="1664"/></normal><active><quad left="64" top="1664" right="128" bottom="1728"/></active><disabled><quad left="64" top="1728" right="128" bottom="1792"/></disabled></vikings_craft_diamond_icon>
+    <vikings_crystal_icon><normal><quad left="128" top="1600" right="192" bottom="1664"/></normal><active><quad left="128" top="1664" right="192" bottom="1728"/></active><disabled><quad left="128" top="1728" right="192" bottom="1792"/></disabled></vikings_crystal_icon>
+    <vikings_diamond_icon><normal><quad left="192" top="1600" right="256" bottom="1664"/></normal><active><quad left="192" top="1664" right="256" bottom="1728"/></active><disabled><quad left="192" top="1728" right="256" bottom="1792"/></disabled></vikings_diamond_icon>
+    <vikings_dock_icon><normal><quad left="256" top="1600" right="320" bottom="1664"/></normal><active><quad left="256" top="1664" right="320" bottom="1728"/></active><disabled><quad left="256" top="1728" right="320" bottom="1792"/></disabled></vikings_dock_icon>
+    <vikings_elite1_icon><normal><quad left="320" top="1600" right="384" bottom="1664"/></normal><active><quad left="320" top="1664" right="384" bottom="1728"/></active><disabled><quad left="320" top="1728" right="384" bottom="1792"/></disabled></vikings_elite1_icon>
+    <vikings_elite2_icon><normal><quad left="384" top="1600" right="448" bottom="1664"/></normal><active><quad left="384" top="1664" right="448" bottom="1728"/></active><disabled><quad left="384" top="1728" right="448" bottom="1792"/></disabled></vikings_elite2_icon>
+    <vikings_elite3_icon><normal><quad left="448" top="1600" right="512" bottom="1664"/></normal><active><quad left="448" top="1664" right="512" bottom="1728"/></active><disabled><quad left="448" top="1728" right="512" bottom="1792"/></disabled></vikings_elite3_icon>
+    <vikings_forge_icon><normal><quad left="512" top="1600" right="576" bottom="1664"/></normal><active><quad left="512" top="1664" right="576" bottom="1728"/></active><disabled><quad left="512" top="1728" right="576" bottom="1792"/></disabled></vikings_forge_icon>
+    <vikings_harvest_diamond_icon><normal><quad left="576" top="1600" right="640" bottom="1664"/></normal><active><quad left="576" top="1664" right="640" bottom="1728"/></active><disabled><quad left="576" top="1728" right="640" bottom="1792"/></disabled></vikings_harvest_diamond_icon>
+    <vikings_major_god_icon><normal><quad left="640" top="1600" right="704" bottom="1664"/></normal><active><quad left="640" top="1664" right="704" bottom="1728"/></active><disabled><quad left="640" top="1728" right="704" bottom="1792"/></disabled></vikings_major_god_icon>
+    <vikings_market_icon><normal><quad left="704" top="1600" right="768" bottom="1664"/></normal><active><quad left="704" top="1664" right="768" bottom="1728"/></active><disabled><quad left="704" top="1728" right="768" bottom="1792"/></disabled></vikings_market_icon>
+    <vikings_minor_god_icon><normal><quad left="768" top="1600" right="832" bottom="1664"/></normal><active><quad left="768" top="1664" right="832" bottom="1728"/></active><disabled><quad left="768" top="1728" right="832" bottom="1792"/></disabled></vikings_minor_god_icon>
+    <vikings_research_arcane_icon><normal><quad left="832" top="1600" right="896" bottom="1664"/></normal><active><quad left="832" top="1664" right="896" bottom="1728"/></active><disabled><quad left="832" top="1728" right="896" bottom="1792"/></disabled></vikings_research_arcane_icon>
+    <vikings_research_bridges_icon><normal><quad left="896" top="1600" right="960" bottom="1664"/></normal><active><quad left="896" top="1664" right="960" bottom="1728"/></active><disabled><quad left="896" top="1728" right="960" bottom="1792"/></disabled></vikings_research_bridges_icon>
+    <vikings_research_buildings_icon><normal><quad left="960" top="1600" right="1024" bottom="1664"/></normal><active><quad left="960" top="1664" right="1024" bottom="1728"/></active><disabled><quad left="960" top="1728" right="1024" bottom="1792"/></disabled></vikings_research_buildings_icon>
+    <vikings_research_cargo_icon><normal><quad left="0" top="1792" right="64" bottom="1856"/></normal><active><quad left="0" top="1856" right="64" bottom="1920"/></active><disabled><quad left="0" top="1920" right="64" bottom="1984"/></disabled></vikings_research_cargo_icon>
+    <vikings_research_chicken_bounce_icon><normal><quad left="64" top="1792" right="128" bottom="1856"/></normal><active><quad left="64" top="1856" right="128" bottom="1920"/></active><disabled><quad left="64" top="1920" right="128" bottom="1984"/></disabled></vikings_research_chicken_bounce_icon>
+    <vikings_research_courage_icon><normal><quad left="128" top="1792" right="192" bottom="1856"/></normal><active><quad left="128" top="1856" right="192" bottom="1920"/></active><disabled><quad left="128" top="1920" right="192" bottom="1984"/></disabled></vikings_research_courage_icon>
+    <vikings_research_diamond_edge_icon><normal><quad left="192" top="1792" right="256" bottom="1856"/></normal><active><quad left="192" top="1856" right="256" bottom="1920"/></active><disabled><quad left="192" top="1920" right="256" bottom="1984"/></disabled></vikings_research_diamond_edge_icon>
+    <vikings_research_elite_ranks_icon><normal><quad left="256" top="1792" right="320" bottom="1856"/></normal><active><quad left="256" top="1856" right="320" bottom="1920"/></active><disabled><quad left="256" top="1920" right="320" bottom="1984"/></disabled></vikings_research_elite_ranks_icon>
+    <vikings_research_elite_training_icon><normal><quad left="320" top="1792" right="384" bottom="1856"/></normal><active><quad left="320" top="1856" right="384" bottom="1920"/></active><disabled><quad left="320" top="1920" right="384" bottom="1984"/></disabled></vikings_research_elite_training_icon>
+    <vikings_research_fleet_icon><normal><quad left="384" top="1792" right="448" bottom="1856"/></normal><active><quad left="384" top="1856" right="448" bottom="1920"/></active><disabled><quad left="384" top="1920" right="448" bottom="1984"/></disabled></vikings_research_fleet_icon>
+    <vikings_research_great_tribe_icon><normal><quad left="448" top="1792" right="512" bottom="1856"/></normal><active><quad left="448" top="1856" right="512" bottom="1920"/></active><disabled><quad left="448" top="1920" right="512" bottom="1984"/></disabled></vikings_research_great_tribe_icon>
+    <vikings_research_iron_temper_icon><normal><quad left="512" top="1792" right="576" bottom="1856"/></normal><active><quad left="512" top="1856" right="576" bottom="1920"/></active><disabled><quad left="512" top="1920" right="576" bottom="1984"/></disabled></vikings_research_iron_temper_icon>
+    <vikings_research_rock_edge_icon><normal><quad left="576" top="1792" right="640" bottom="1856"/></normal><active><quad left="576" top="1856" right="640" bottom="1920"/></active><disabled><quad left="576" top="1920" right="640" bottom="1984"/></disabled></vikings_research_rock_edge_icon>
+    <vikings_research_rune_might_icon><normal><quad left="640" top="1792" right="704" bottom="1856"/></normal><active><quad left="640" top="1856" right="704" bottom="1920"/></active><disabled><quad left="640" top="1920" right="704" bottom="1984"/></disabled></vikings_research_rune_might_icon>
+    <vikings_research_rune_reach_icon><normal><quad left="704" top="1792" right="768" bottom="1856"/></normal><active><quad left="704" top="1856" right="768" bottom="1920"/></active><disabled><quad left="704" top="1920" right="768" bottom="1984"/></disabled></vikings_research_rune_reach_icon>
+    <vikings_research_rune_ward_icon><normal><quad left="768" top="1792" right="832" bottom="1856"/></normal><active><quad left="768" top="1856" right="832" bottom="1920"/></active><disabled><quad left="768" top="1920" right="832" bottom="1984"/></disabled></vikings_research_rune_ward_icon>
+    <vikings_research_ship_hull_icon><normal><quad left="832" top="1792" right="896" bottom="1856"/></normal><active><quad left="832" top="1856" right="896" bottom="1920"/></active><disabled><quad left="832" top="1920" right="896" bottom="1984"/></disabled></vikings_research_ship_hull_icon>
+    <vikings_research_ship_oars_icon><normal><quad left="896" top="1792" right="960" bottom="1856"/></normal><active><quad left="896" top="1856" right="960" bottom="1920"/></active><disabled><quad left="896" top="1920" right="960" bottom="1984"/></disabled></vikings_research_ship_oars_icon>
+    <vikings_spinner_icon><normal><quad left="960" top="1792" right="1024" bottom="1856"/></normal><active><quad left="960" top="1856" right="1024" bottom="1920"/></active><disabled><quad left="960" top="1920" right="1024" bottom="1984"/></disabled></vikings_spinner_icon>
+    <vikings_totem_icon><normal><quad left="1024" top="1024" right="1088" bottom="1088"/></normal><active><quad left="1024" top="1088" right="1088" bottom="1152"/></active><disabled><quad left="1024" top="1152" right="1088" bottom="1216"/></disabled></vikings_totem_icon>
+    <vikings_unique3_icon><normal><quad left="1088" top="1024" right="1152" bottom="1088"/></normal><active><quad left="1088" top="1088" right="1152" bottom="1152"/></active><disabled><quad left="1088" top="1152" right="1152" bottom="1216"/></disabled></vikings_unique3_icon>
+    <vikings_upgrade_rune_icon><normal><quad left="1152" top="1024" right="1216" bottom="1088"/></normal><active><quad left="1152" top="1088" right="1216" bottom="1152"/></active><disabled><quad left="1152" top="1152" right="1216" bottom="1216"/></disabled></vikings_upgrade_rune_icon>
+    <crystal_weapon_status_icon><quad left="128" top="960" right="160" bottom="992"/></crystal_weapon_status_icon>
+    <darts_status_icon><quad left="160" top="960" right="192" bottom="992"/></darts_status_icon>
+    <diamond_status_icon><quad left="192" top="960" right="224" bottom="992"/></diamond_status_icon>
+    <diamond_weapon_status_icon><quad left="224" top="960" right="256" bottom="992"/></diamond_weapon_status_icon>
+    <firepots_status_icon><quad left="256" top="960" right="288" bottom="992"/></firepots_status_icon>
+</icons>

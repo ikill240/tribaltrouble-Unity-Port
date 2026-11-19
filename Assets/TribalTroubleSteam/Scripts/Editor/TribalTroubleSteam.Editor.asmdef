@@ -1,0 +1,19 @@
+{
+    "name": "TribalTroubleSteam.Editor",
+    "rootNamespace": "TribalTroubleSteam.EditorTools",
+    "references": [
+        "TribalTroubleSteam.Runtime",
+        "TribalTroubleSteam.JavaSim"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

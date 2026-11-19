@@ -1,0 +1,29 @@
+{
+    "name": "TribalTrouble.Relay",
+    "rootNamespace": "TribalTrouble",
+    "references": [
+        "TribalTrouble.Runtime",
+        "Unity.Services.Core",
+        "Unity.Services.Authentication",
+        "Unity.Services.Multiplayer",
+        "Unity.Networking.Transport",
+        "Unity.Collections"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "TT_UGS"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.services.multiplayer",
+            "expression": "1.0.0",
+            "define": "TT_UGS"
+        }
+    ],
+    "noEngineReferences": false
+}

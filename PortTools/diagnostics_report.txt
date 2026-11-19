@@ -1,0 +1,32 @@
+== Float probes (Java bits vs C# bits)
+  a+b-a (float rounding)   DIFF  C# 0x3F800000 Java 0x00000000
+  c*d-0.3f                 DIFF  C# 0xB2000000 Java 0x00000000
+  c*d*c+e                  ok    C# 0x3CF5C295 Java 0x3CF5C295
+  midpoint-style expr      DIFF  C# 0x3FECCCCD Java 0x3FECCCCC
+  pow(.1,2.2)              ok    C# 0x3BCEC08A Java 0x3BCEC08A
+  pow(.7,1/.45)            ok    C# 0x3EE7C33A Java 0x3EE7C33A
+  log(.3)                  ok    C# 0xBF9A1BC8 Java 0xBF9A1BC8
+  sin                      ok    C# 0x3F71A8E4 Java 0x3F71A8E4
+  cos                      ok    C# 0x3EA8F4DD Java 0x3EA8F4DD
+  sqrt                     ok    C# 0x3EA1E89B Java 0x3EA1E89B
+== Stage checksums (case c01 terrain pipeline)
+  midpoint_42_s3     DIFF  crc C# BA47F66A Java 4775D88E  samples C# 3EB0A640 3F1A9605 3E8C5F69 / Java 3EB0A641 3F1A9604 3E8C5F69
+  voronoi4_42        DIFF  crc C# BABDBF90 Java 5ACE7F2E  samples C# 3E997F5A 3DBCE520 3E467479 / Java 3E997F59 3DBCE51F 3E467479
+  mountain           DIFF  crc C# 2894AFF6 Java E85E9AE8  samples C# 3F075CBF 3EBAB769 3EA8A0F1 / Java 3F075CBD 3EBAB767 3EA8A0F1
+  mountain*0.67      DIFF  crc C# 49CF4838 Java BF4796A2  samples C# 3EB562AE 3E7A3336 3E61F662 / Java 3EB562AC 3E7A3333 3E61F662
+  voronoi_dist       DIFF  crc C# 123CB3A1 Java C425229C  samples C# 3D916392 3D336F6B 3F09E217 / Java 3D916391 3D336F5F 3F09E217
+  cliffs             DIFF  crc C# 4B1BD857 Java 4CC2E043  samples C# 3D0FEF60 3CB1A410 3E88811C / Java 3D0FEF60 3CB1A405 3E88811C
+  h+cliffs           DIFF  crc C# 30A9F249 Java 03034C40  samples C# 3EC7609A 3E8833DC 3EF97C4D / Java 3EC76098 3E8833DA 3EF97C4D
+  vor_d1             DIFF  crc C# AC88549E Java D064CD04  samples C# 3D9B22A2 3F4971EF 3E39FC81 / Java 3D9B22A3 3F4971F1 3E39FC80
+  vor_d1_gamma       DIFF  crc C# B2CF404B Java EFBEF0CD  samples C# 3BBC05EA 3F1E841C 3D071EEC / Java 3BBC05EC 3F1E841F 3D071EEA
+  vor_d1_flip_rot    DIFF  crc C# 13CC6ED6 Java 2881802A  samples C# 3BB2AB40 3DD7D756 3D0B43F8 / Java 3BB2AB40 3DD7D756 3D0B43F8
+  h-sub              DIFF  crc C# D043B205 Java 07C5C19B  samples C# 3EC495ED 3E247C0D 3EE813CE / Java 3EC495EB 3E247C09 3EE813CE
+  midpoint2          DIFF  crc C# 23D13900 Java 1307D2AE  samples C# 3F2FC380 3EC123C5 3EEAE2C2 / Java 3F2FC381 3EC123C4 3EEAE2C3
+  perturb            DIFF  crc C# CA6CF322 Java 3E96991B  samples C# 3EE19209 3E92B35F 3F030B33 / Java 3EE1920C 3E92B35C 3F030B33
+  hill_oval          ok    crc C# E6CDD39F Java E6CDD39F  samples C# 00000000 3B383000 3F7FFFF0 / Java 00000000 3B383000 3F7FFFF0
+  h+shape            DIFF  crc C# 044D7D7A Java D332CEE5  samples C# 3EE19209 3E92EAA1 3F297197 / Java 3EE1920C 3E92EA9E 3F297197
+  h-invshape         DIFF  crc C# 2589DA9E Java 9B61BFA0  samples C# 00000000 00000000 3F29718F / Java 00000000 00000000 3F29718F
+  erode              DIFF  crc C# EA5F1653 Java 7FE91D8C  samples C# 3CA5FF4E 3BEB8D5E 3F159E28 / Java 3CA5FF52 3BEB8D4B 3F159E28
+  h*shape2           DIFF  crc C# CA259DE3 Java DB696571  samples C# 00000000 38293CCE 3F159E28 / Java 00000000 38293C88 3F159E28
+  smooth             DIFF  crc C# 10156D72 Java 9CF47BF9  samples C# 00000000 38293CCE 3F156A80 / Java 00000000 38293C88 3F156A7C
+Runtime: Mono 6.13.0 (Visual Studio built mono), 64-bit process: True

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c721b67d8d87a14280969847e89d0c4, type: 3}
+  m_Name: vikings_armory
+  m_EditorClassIdentifier: 
+  group: vikings
+  spriteName: armory
+  model: {fileID: -2564135837428517264, guid: 4fc834f71160e19449ad9541f9ec7dde, type: 3}
+  skinned: 0
+  lods:
+  - nodeName: lod0
+    textures:
+    - name: viking_buildings_hi
+      baseMap: {fileID: 2800000, guid: c3ad8e680e4b9c342b6b072b7fd511bb, type: 3}
+      teamMask: {fileID: 2800000, guid: 2673b85f4f2439546a5825b756855fb0, type: 3}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  - nodeName: lod1
+    textures:
+    - name: viking_buildings_lo2
+      baseMap: {fileID: 2800000, guid: 149142a27e443d04e87d8856e78e5c04, type: 3}
+      teamMask: {fileID: 2800000, guid: 42455307e04a92441af026161e0f87d0, type: 3}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  animations: []

@@ -1,0 +1,154 @@
+// Translated from GameAction.java by J2CS - do not edit by hand; fix the translator or the Java.
+#pragma warning disable
+using J2CS.Ext;
+namespace com.oddlabs.tt.input
+{
+    // Java: 3
+    public sealed class GameAction : java.lang.Enum
+    {
+        public static GameAction[] values() { return (GameAction[])VALUES_.Clone(); }
+        public static GameAction valueOf(string name) { foreach (var v in VALUES_) if (v.name() == name) return v; throw new System.ArgumentException(name); }
+        public static readonly GameAction GLOBAL_QUIT = new GameAction("GLOBAL_QUIT", 0);
+        public static readonly GameAction GLOBAL_TOGGLE_FULLSCREEN = new GameAction("GLOBAL_TOGGLE_FULLSCREEN", 1);
+        public static readonly GameAction GLOBAL_SCREENSHOT = new GameAction("GLOBAL_SCREENSHOT", 2);
+        public static readonly GameAction GLOBAL_CHAT = new GameAction("GLOBAL_CHAT", 3);
+        public static readonly GameAction GLOBAL_CHAT_TEAM = new GameAction("GLOBAL_CHAT_TEAM", 4);
+        public static readonly GameAction GLOBAL_MENU = new GameAction("GLOBAL_MENU", 5);
+        public static readonly GameAction GLOBAL_TOGGLE_STATUS = new GameAction("GLOBAL_TOGGLE_STATUS", 6);
+        public static readonly GameAction GLOBAL_TOGGLE_HUD = new GameAction("GLOBAL_TOGGLE_HUD", 7);
+        public static readonly GameAction GLOBAL_AGGRESSIVE_UNITS = new GameAction("GLOBAL_AGGRESSIVE_UNITS", 8);
+        public static readonly GameAction CAMERA_PAN_LEFT = new GameAction("CAMERA_PAN_LEFT", 9);
+        public static readonly GameAction CAMERA_PAN_RIGHT = new GameAction("CAMERA_PAN_RIGHT", 10);
+        public static readonly GameAction CAMERA_PAN_UP = new GameAction("CAMERA_PAN_UP", 11);
+        public static readonly GameAction CAMERA_PAN_DOWN = new GameAction("CAMERA_PAN_DOWN", 12);
+        public static readonly GameAction CAMERA_PITCH_UP = new GameAction("CAMERA_PITCH_UP", 13);
+        public static readonly GameAction CAMERA_PITCH_DOWN = new GameAction("CAMERA_PITCH_DOWN", 14);
+        public static readonly GameAction CAMERA_ROTATE_LEFT = new GameAction("CAMERA_ROTATE_LEFT", 15);
+        public static readonly GameAction CAMERA_ROTATE_RIGHT = new GameAction("CAMERA_ROTATE_RIGHT", 16);
+        public static readonly GameAction CAMERA_ZOOM_IN = new GameAction("CAMERA_ZOOM_IN", 17);
+        public static readonly GameAction CAMERA_ZOOM_OUT = new GameAction("CAMERA_ZOOM_OUT", 18);
+        public static readonly GameAction CAMERA_MAP_MODE = new GameAction("CAMERA_MAP_MODE", 19);
+        public static readonly GameAction CAMERA_FIRST_PERSON = new GameAction("CAMERA_FIRST_PERSON", 20);
+        public static readonly GameAction CAMERA_ZOOM_MODE = new GameAction("CAMERA_ZOOM_MODE", 21);
+        public static readonly GameAction CAMERA_CINEMATIC = new GameAction("CAMERA_CINEMATIC", 22);
+        public static readonly GameAction CAMERA_ORBIT_LEFT = new GameAction("CAMERA_ORBIT_LEFT", 23);
+        public static readonly GameAction CAMERA_ORBIT_RIGHT = new GameAction("CAMERA_ORBIT_RIGHT", 24);
+        public static readonly GameAction CAMERA_AUTO_PAN_FORWARD = new GameAction("CAMERA_AUTO_PAN_FORWARD", 25);
+        public static readonly GameAction CAMERA_AUTO_PAN_BACKWARD = new GameAction("CAMERA_AUTO_PAN_BACKWARD", 26);
+        public static readonly GameAction UI_ACTIVATE = new GameAction("UI_ACTIVATE", 27);
+        public static readonly GameAction UI_CANCEL = new GameAction("UI_CANCEL", 28);
+        public static readonly GameAction UI_FOCUS_NEXT = new GameAction("UI_FOCUS_NEXT", 29);
+        public static readonly GameAction UI_FOCUS_PREV = new GameAction("UI_FOCUS_PREV", 30);
+        public static readonly GameAction UI_NEXT_PANEL = new GameAction("UI_NEXT_PANEL", 31);
+        public static readonly GameAction UI_PREV_PANEL = new GameAction("UI_PREV_PANEL", 32);
+        public static readonly GameAction UI_NAV_UP = new GameAction("UI_NAV_UP", 33);
+        public static readonly GameAction UI_NAV_DOWN = new GameAction("UI_NAV_DOWN", 34);
+        public static readonly GameAction UI_NAV_LEFT = new GameAction("UI_NAV_LEFT", 35);
+        public static readonly GameAction UI_NAV_RIGHT = new GameAction("UI_NAV_RIGHT", 36);
+        public static readonly GameAction UI_NAV_HOME = new GameAction("UI_NAV_HOME", 37);
+        public static readonly GameAction UI_NAV_END = new GameAction("UI_NAV_END", 38);
+        public static readonly GameAction UI_NAV_PAGE_UP = new GameAction("UI_NAV_PAGE_UP", 39);
+        public static readonly GameAction UI_NAV_PAGE_DOWN = new GameAction("UI_NAV_PAGE_DOWN", 40);
+        public static readonly GameAction UI_BACKSPACE = new GameAction("UI_BACKSPACE", 41);
+        public static readonly GameAction UI_DELETE = new GameAction("UI_DELETE", 42);
+        public static readonly GameAction UNIT_MOVE = new GameAction("UNIT_MOVE", 43);
+        public static readonly GameAction UNIT_ATTACK = new GameAction("UNIT_ATTACK", 44);
+        public static readonly GameAction UNIT_GATHER = new GameAction("UNIT_GATHER", 45);
+        public static readonly GameAction UNIT_BUILD_QUARTERS = new GameAction("UNIT_BUILD_QUARTERS", 46);
+        public static readonly GameAction UNIT_BUILD_ARMORY = new GameAction("UNIT_BUILD_ARMORY", 47);
+        public static readonly GameAction UNIT_BUILD_TOWER = new GameAction("UNIT_BUILD_TOWER", 48);
+        public static readonly GameAction UNIT_BUILD_SHIP = new GameAction("UNIT_BUILD_SHIP", 49);
+        public static readonly GameAction UNIT_EXIT_TOWER = new GameAction("UNIT_EXIT_TOWER", 50);
+        public static readonly GameAction UNIT_BEACON = new GameAction("UNIT_BEACON", 51);
+        public static readonly GameAction UNIT_NEXT_IDLE = new GameAction("UNIT_NEXT_IDLE", 52);
+        public static readonly GameAction UNIT_SET_RALLY = new GameAction("UNIT_SET_RALLY", 53);
+        public static readonly GameAction GAMEPLAY_BACK = new GameAction("GAMEPLAY_BACK", 54);
+        public static readonly GameAction ARMY_SELECT_0 = new GameAction("ARMY_SELECT_0", 55);
+        public static readonly GameAction ARMY_SELECT_1 = new GameAction("ARMY_SELECT_1", 56);
+        public static readonly GameAction ARMY_SELECT_2 = new GameAction("ARMY_SELECT_2", 57);
+        public static readonly GameAction ARMY_SELECT_3 = new GameAction("ARMY_SELECT_3", 58);
+        public static readonly GameAction ARMY_SELECT_4 = new GameAction("ARMY_SELECT_4", 59);
+        public static readonly GameAction ARMY_SELECT_5 = new GameAction("ARMY_SELECT_5", 60);
+        public static readonly GameAction ARMY_SELECT_6 = new GameAction("ARMY_SELECT_6", 61);
+        public static readonly GameAction ARMY_SELECT_7 = new GameAction("ARMY_SELECT_7", 62);
+        public static readonly GameAction ARMY_SELECT_8 = new GameAction("ARMY_SELECT_8", 63);
+        public static readonly GameAction ARMY_SELECT_9 = new GameAction("ARMY_SELECT_9", 64);
+        public static readonly GameAction ARMY_CREATE_0 = new GameAction("ARMY_CREATE_0", 65);
+        public static readonly GameAction ARMY_CREATE_1 = new GameAction("ARMY_CREATE_1", 66);
+        public static readonly GameAction ARMY_CREATE_2 = new GameAction("ARMY_CREATE_2", 67);
+        public static readonly GameAction ARMY_CREATE_3 = new GameAction("ARMY_CREATE_3", 68);
+        public static readonly GameAction ARMY_CREATE_4 = new GameAction("ARMY_CREATE_4", 69);
+        public static readonly GameAction ARMY_CREATE_5 = new GameAction("ARMY_CREATE_5", 70);
+        public static readonly GameAction ARMY_CREATE_6 = new GameAction("ARMY_CREATE_6", 71);
+        public static readonly GameAction ARMY_CREATE_7 = new GameAction("ARMY_CREATE_7", 72);
+        public static readonly GameAction ARMY_CREATE_8 = new GameAction("ARMY_CREATE_8", 73);
+        public static readonly GameAction ARMY_CREATE_9 = new GameAction("ARMY_CREATE_9", 74);
+        public static readonly GameAction PROD_WEAPONS = new GameAction("PROD_WEAPONS", 75);
+        public static readonly GameAction PROD_HARVEST = new GameAction("PROD_HARVEST", 76);
+        public static readonly GameAction PROD_ARMY = new GameAction("PROD_ARMY", 77);
+        public static readonly GameAction PROD_TRANSPORT = new GameAction("PROD_TRANSPORT", 78);
+        public static readonly GameAction RES_TREE = new GameAction("RES_TREE", 79);
+        public static readonly GameAction RES_TREE_DEC = new GameAction("RES_TREE_DEC", 80);
+        public static readonly GameAction RES_TREE_BATCH = new GameAction("RES_TREE_BATCH", 81);
+        public static readonly GameAction RES_TREE_BATCH_DEC = new GameAction("RES_TREE_BATCH_DEC", 82);
+        public static readonly GameAction RES_ROCK = new GameAction("RES_ROCK", 83);
+        public static readonly GameAction RES_ROCK_DEC = new GameAction("RES_ROCK_DEC", 84);
+        public static readonly GameAction RES_ROCK_BATCH = new GameAction("RES_ROCK_BATCH", 85);
+        public static readonly GameAction RES_ROCK_BATCH_DEC = new GameAction("RES_ROCK_BATCH_DEC", 86);
+        public static readonly GameAction RES_IRON = new GameAction("RES_IRON", 87);
+        public static readonly GameAction RES_IRON_DEC = new GameAction("RES_IRON_DEC", 88);
+        public static readonly GameAction RES_IRON_BATCH = new GameAction("RES_IRON_BATCH", 89);
+        public static readonly GameAction RES_IRON_BATCH_DEC = new GameAction("RES_IRON_BATCH_DEC", 90);
+        public static readonly GameAction RES_CHICKEN = new GameAction("RES_CHICKEN", 91);
+        public static readonly GameAction RES_CHICKEN_DEC = new GameAction("RES_CHICKEN_DEC", 92);
+        public static readonly GameAction RES_CHICKEN_BATCH = new GameAction("RES_CHICKEN_BATCH", 93);
+        public static readonly GameAction RES_CHICKEN_BATCH_DEC = new GameAction("RES_CHICKEN_BATCH_DEC", 94);
+        public static readonly GameAction DEPLOY_CHIEFTAIN = new GameAction("DEPLOY_CHIEFTAIN", 95);
+        public static readonly GameAction TRAIN_PEON = new GameAction("TRAIN_PEON", 96);
+        public static readonly GameAction TRAIN_PEON_DEC = new GameAction("TRAIN_PEON_DEC", 97);
+        public static readonly GameAction TRAIN_PEON_BATCH = new GameAction("TRAIN_PEON_BATCH", 98);
+        public static readonly GameAction TRAIN_PEON_BATCH_DEC = new GameAction("TRAIN_PEON_BATCH_DEC", 99);
+        public static readonly GameAction TRAIN_CHIEFTAIN = new GameAction("TRAIN_CHIEFTAIN", 100);
+        public static readonly GameAction MAGIC_1 = new GameAction("MAGIC_1", 101);
+        public static readonly GameAction MAGIC_2 = new GameAction("MAGIC_2", 102);
+        public static readonly GameAction GAME_SPEED_UP = new GameAction("GAME_SPEED_UP", 103);
+        public static readonly GameAction GAME_SPEED_DOWN = new GameAction("GAME_SPEED_DOWN", 104);
+        public static readonly GameAction NOTIFICATION_JUMP = new GameAction("NOTIFICATION_JUMP", 105);
+        public static readonly GameAction CHEAT_1 = new GameAction("CHEAT_1", 106);
+        public static readonly GameAction CHEAT_2 = new GameAction("CHEAT_2", 107);
+        public static readonly GameAction CHEAT_3 = new GameAction("CHEAT_3", 108);
+        public static readonly GameAction CHEAT_4 = new GameAction("CHEAT_4", 109);
+        public static readonly GameAction CHEAT_5 = new GameAction("CHEAT_5", 110);
+        public static readonly GameAction CHEAT_6 = new GameAction("CHEAT_6", 111);
+        public static readonly GameAction CHEAT_7 = new GameAction("CHEAT_7", 112);
+        public static readonly GameAction CHEAT_8 = new GameAction("CHEAT_8", 113);
+        public static readonly GameAction CHEAT_9 = new GameAction("CHEAT_9", 114);
+        public static readonly GameAction CHEAT_10 = new GameAction("CHEAT_10", 115);
+        public static readonly GameAction SPECTATOR_NEXT_PLAYER = new GameAction("SPECTATOR_NEXT_PLAYER", 116);
+        public static readonly GameAction SPECTATOR_PREV_PLAYER = new GameAction("SPECTATOR_PREV_PLAYER", 117);
+        public static readonly GameAction SPECTATOR_FREE_CAMERA = new GameAction("SPECTATOR_FREE_CAMERA", 118);
+        public static readonly GameAction DEBUG_PRINT_INFO = new GameAction("DEBUG_PRINT_INFO", 119);
+        public static readonly GameAction DEBUG_KILL_SELECTED = new GameAction("DEBUG_KILL_SELECTED", 120);
+        public static readonly GameAction DEBUG_TOGGLE_LIGHT = new GameAction("DEBUG_TOGGLE_LIGHT", 121);
+        public static readonly GameAction DEBUG_TOGGLE_PLANTS = new GameAction("DEBUG_TOGGLE_PLANTS", 122);
+        public static readonly GameAction DEBUG_TOGGLE_PARTICLES = new GameAction("DEBUG_TOGGLE_PARTICLES", 123);
+        public static readonly GameAction DEBUG_TOGGLE_AXES = new GameAction("DEBUG_TOGGLE_AXES", 124);
+        public static readonly GameAction DEBUG_TOGGLE_MISC = new GameAction("DEBUG_TOGGLE_MISC", 125);
+        public static readonly GameAction DEBUG_PROCESS_MISC = new GameAction("DEBUG_PROCESS_MISC", 126);
+        public static readonly GameAction DEBUG_RESET_CURSOR = new GameAction("DEBUG_RESET_CURSOR", 127);
+        public static readonly GameAction DEBUG_TOGGLE_DETAIL = new GameAction("DEBUG_TOGGLE_DETAIL", 128);
+        public static readonly GameAction DEBUG_CRASH = new GameAction("DEBUG_CRASH", 129);
+        public static readonly GameAction DEBUG_TOGGLE_FRAME_BUFFER = new GameAction("DEBUG_TOGGLE_FRAME_BUFFER", 130);
+        public static readonly GameAction DEBUG_TOGGLE_BOUNDING = new GameAction("DEBUG_TOGGLE_BOUNDING", 131);
+        public static readonly GameAction DEBUG_TOGGLE_FRUSTUM_FREEZE = new GameAction("DEBUG_TOGGLE_FRUSTUM_FREEZE", 132);
+        public static readonly GameAction DEBUG_FORCE_GC = new GameAction("DEBUG_FORCE_GC", 133);
+        public static readonly GameAction DEBUG_START_RECORDING = new GameAction("DEBUG_START_RECORDING", 134);
+        public static readonly GameAction DEBUG_TOGGLE_WATER = new GameAction("DEBUG_TOGGLE_WATER", 135);
+        public static readonly GameAction DEBUG_TOGGLE_AI = new GameAction("DEBUG_TOGGLE_AI", 136);
+        public static readonly GameAction DEBUG_DUMP_ANIMATIONS = new GameAction("DEBUG_DUMP_ANIMATIONS", 137);
+        public static readonly GameAction[] VALUES_ = new GameAction[] { GLOBAL_QUIT, GLOBAL_TOGGLE_FULLSCREEN, GLOBAL_SCREENSHOT, GLOBAL_CHAT, GLOBAL_CHAT_TEAM, GLOBAL_MENU, GLOBAL_TOGGLE_STATUS, GLOBAL_TOGGLE_HUD, GLOBAL_AGGRESSIVE_UNITS, CAMERA_PAN_LEFT, CAMERA_PAN_RIGHT, CAMERA_PAN_UP, CAMERA_PAN_DOWN, CAMERA_PITCH_UP, CAMERA_PITCH_DOWN, CAMERA_ROTATE_LEFT, CAMERA_ROTATE_RIGHT, CAMERA_ZOOM_IN, CAMERA_ZOOM_OUT, CAMERA_MAP_MODE, CAMERA_FIRST_PERSON, CAMERA_ZOOM_MODE, CAMERA_CINEMATIC, CAMERA_ORBIT_LEFT, CAMERA_ORBIT_RIGHT, CAMERA_AUTO_PAN_FORWARD, CAMERA_AUTO_PAN_BACKWARD, UI_ACTIVATE, UI_CANCEL, UI_FOCUS_NEXT, UI_FOCUS_PREV, UI_NEXT_PANEL, UI_PREV_PANEL, UI_NAV_UP, UI_NAV_DOWN, UI_NAV_LEFT, UI_NAV_RIGHT, UI_NAV_HOME, UI_NAV_END, UI_NAV_PAGE_UP, UI_NAV_PAGE_DOWN, UI_BACKSPACE, UI_DELETE, UNIT_MOVE, UNIT_ATTACK, UNIT_GATHER, UNIT_BUILD_QUARTERS, UNIT_BUILD_ARMORY, UNIT_BUILD_TOWER, UNIT_BUILD_SHIP, UNIT_EXIT_TOWER, UNIT_BEACON, UNIT_NEXT_IDLE, UNIT_SET_RALLY, GAMEPLAY_BACK, ARMY_SELECT_0, ARMY_SELECT_1, ARMY_SELECT_2, ARMY_SELECT_3, ARMY_SELECT_4, ARMY_SELECT_5, ARMY_SELECT_6, ARMY_SELECT_7, ARMY_SELECT_8, ARMY_SELECT_9, ARMY_CREATE_0, ARMY_CREATE_1, ARMY_CREATE_2, ARMY_CREATE_3, ARMY_CREATE_4, ARMY_CREATE_5, ARMY_CREATE_6, ARMY_CREATE_7, ARMY_CREATE_8, ARMY_CREATE_9, PROD_WEAPONS, PROD_HARVEST, PROD_ARMY, PROD_TRANSPORT, RES_TREE, RES_TREE_DEC, RES_TREE_BATCH, RES_TREE_BATCH_DEC, RES_ROCK, RES_ROCK_DEC, RES_ROCK_BATCH, RES_ROCK_BATCH_DEC, RES_IRON, RES_IRON_DEC, RES_IRON_BATCH, RES_IRON_BATCH_DEC, RES_CHICKEN, RES_CHICKEN_DEC, RES_CHICKEN_BATCH, RES_CHICKEN_BATCH_DEC, DEPLOY_CHIEFTAIN, TRAIN_PEON, TRAIN_PEON_DEC, TRAIN_PEON_BATCH, TRAIN_PEON_BATCH_DEC, TRAIN_CHIEFTAIN, MAGIC_1, MAGIC_2, GAME_SPEED_UP, GAME_SPEED_DOWN, NOTIFICATION_JUMP, CHEAT_1, CHEAT_2, CHEAT_3, CHEAT_4, CHEAT_5, CHEAT_6, CHEAT_7, CHEAT_8, CHEAT_9, CHEAT_10, SPECTATOR_NEXT_PLAYER, SPECTATOR_PREV_PLAYER, SPECTATOR_FREE_CAMERA, DEBUG_PRINT_INFO, DEBUG_KILL_SELECTED, DEBUG_TOGGLE_LIGHT, DEBUG_TOGGLE_PLANTS, DEBUG_TOGGLE_PARTICLES, DEBUG_TOGGLE_AXES, DEBUG_TOGGLE_MISC, DEBUG_PROCESS_MISC, DEBUG_RESET_CURSOR, DEBUG_TOGGLE_DETAIL, DEBUG_CRASH, DEBUG_TOGGLE_FRAME_BUFFER, DEBUG_TOGGLE_BOUNDING, DEBUG_TOGGLE_FRUSTUM_FREEZE, DEBUG_FORCE_GC, DEBUG_START_RECORDING, DEBUG_TOGGLE_WATER, DEBUG_TOGGLE_AI, DEBUG_DUMP_ANIMATIONS };
+        public GameAction(string name_, int ordinal_) : base(name_, ordinal_)
+        {
+        }
+    }
+}

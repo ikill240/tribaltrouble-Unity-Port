@@ -1,0 +1,648 @@
+{
+  "attachments" : [ {
+    "group" : "natives",
+    "base" : "armory",
+    "slot" : "prop",
+    "defaultOn" : false,
+    "name" : "armory_pumpkins",
+    "textures" : 1,
+    "event" : "halloween"
+  }, {
+    "group" : "natives",
+    "base" : "chieftain",
+    "slot" : "magic",
+    "defaultOn" : true,
+    "name" : "chieftain_magic_pot",
+    "textures" : 1,
+    "event" : "-"
+  }, {
+    "group" : "natives",
+    "base" : "chieftain",
+    "slot" : "weapon",
+    "defaultOn" : true,
+    "name" : "chieftain_club",
+    "textures" : 1,
+    "event" : "-"
+  }, {
+    "group" : "natives",
+    "base" : "peon",
+    "slot" : "belt",
+    "defaultOn" : true,
+    "name" : "peon_pumpkin_skirt",
+    "textures" : 1,
+    "event" : "halloween"
+  }, {
+    "group" : "natives",
+    "base" : "peon",
+    "slot" : "carried",
+    "defaultOn" : false,
+    "name" : "left_paddle",
+    "textures" : 1,
+    "event" : "-"
+  }, {
+    "group" : "natives",
+    "base" : "peon",
+    "slot" : "carried",
+    "defaultOn" : false,
+    "name" : "right_paddle",
+    "textures" : 1,
+    "event" : "-"
+  }, {
+    "group" : "natives",
+    "base" : "peon",
+    "slot" : "carried",
+    "defaultOn" : false,
+    "name" : "rock_resource",
+    "textures" : 2,
+    "event" : "-"
+  }, {
+    "group" : "natives",
+    "base" : "peon",
+    "slot" : "carried",
+    "defaultOn" : false,
+    "name" : "rubber_resource",
+    "textures" : 1,
+    "event" : "-"
+  }, {
+    "group" : "natives",
+    "base" : "peon",
+    "slot" : "carried",
+    "defaultOn" : false,
+    "name" : "wood_resource",
+    "textures" : 1,
+    "event" : "-"
+  }, {
+    "group" : "natives",
+    "base" : "peon",
+    "slot" : "hat",
+    "defaultOn" : true,
+    "name" : "peon_pumpkin_hat",
+    "textures" : 1,
+    "event" : "halloween"
+  }, {
+    "group" : "natives",
+    "base" : "peon",
+    "slot" : "weapon",
+    "defaultOn" : true,
+    "name" : "peon_hammer",
+    "textures" : 1,
+    "event" : "-"
+  }, {
+    "group" : "natives",
+    "base" : "quarters",
+    "slot" : "prop",
+    "defaultOn" : false,
+    "name" : "quarters_native_building_pumpkins",
+    "textures" : 1,
+    "event" : "halloween"
+  }, {
+    "group" : "natives",
+    "base" : "rally_point",
+    "slot" : "prop",
+    "defaultOn" : false,
+    "name" : "rally_point_pumpkin",
+    "textures" : 1,
+    "event" : "halloween"
+  }, {
+    "group" : "natives",
+    "base" : "tower",
+    "slot" : "prop",
+    "defaultOn" : false,
+    "name" : "tower_pumpkins",
+    "textures" : 1,
+    "event" : "halloween"
+  }, {
+    "group" : "natives",
+    "base" : "warrior",
+    "slot" : "hat",
+    "defaultOn" : true,
+    "name" : "warrior_pumpkin_hat",
+    "textures" : 1,
+    "event" : "halloween"
+  }, {
+    "group" : "natives",
+    "base" : "warrior",
+    "slot" : "weapon",
+    "defaultOn" : true,
+    "name" : "warrior_spear",
+    "textures" : 3,
+    "event" : "-"
+  }, {
+    "group" : "vikings",
+    "base" : "armory",
+    "slot" : "prop",
+    "defaultOn" : false,
+    "name" : "armory_pumpkins",
+    "textures" : 1,
+    "event" : "halloween"
+  }, {
+    "group" : "vikings",
+    "base" : "chieftain",
+    "slot" : "weapon",
+    "defaultOn" : true,
+    "name" : "chieftain_lur",
+    "textures" : 1,
+    "event" : "-"
+  }, {
+    "group" : "vikings",
+    "base" : "peon",
+    "slot" : "belt",
+    "defaultOn" : true,
+    "name" : "peon_pumpkin_pants",
+    "textures" : 1,
+    "event" : "halloween"
+  }, {
+    "group" : "vikings",
+    "base" : "peon",
+    "slot" : "carried",
+    "defaultOn" : false,
+    "name" : "left_paddle",
+    "textures" : 1,
+    "event" : "-"
+  }, {
+    "group" : "vikings",
+    "base" : "peon",
+    "slot" : "carried",
+    "defaultOn" : false,
+    "name" : "right_paddle",
+    "textures" : 1,
+    "event" : "-"
+  }, {
+    "group" : "vikings",
+    "base" : "peon",
+    "slot" : "carried",
+    "defaultOn" : false,
+    "name" : "rock_resource",
+    "textures" : 2,
+    "event" : "-"
+  }, {
+    "group" : "vikings",
+    "base" : "peon",
+    "slot" : "carried",
+    "defaultOn" : false,
+    "name" : "rubber_resource",
+    "textures" : 1,
+    "event" : "-"
+  }, {
+    "group" : "vikings",
+    "base" : "peon",
+    "slot" : "carried",
+    "defaultOn" : false,
+    "name" : "wood_resource",
+    "textures" : 1,
+    "event" : "-"
+  }, {
+    "group" : "vikings",
+    "base" : "peon",
+    "slot" : "hat",
+    "defaultOn" : true,
+    "name" : "peon_pumpkin_hat",
+    "textures" : 1,
+    "event" : "halloween"
+  }, {
+    "group" : "vikings",
+    "base" : "peon",
+    "slot" : "weapon",
+    "defaultOn" : true,
+    "name" : "peon_hammer",
+    "textures" : 1,
+    "event" : "-"
+  }, {
+    "group" : "vikings",
+    "base" : "quarters",
+    "slot" : "prop",
+    "defaultOn" : false,
+    "name" : "quarters_pumpkins",
+    "textures" : 1,
+    "event" : "halloween"
+  }, {
+    "group" : "vikings",
+    "base" : "rally_point",
+    "slot" : "prop",
+    "defaultOn" : false,
+    "name" : "rally_point_pumpkin",
+    "textures" : 1,
+    "event" : "halloween"
+  }, {
+    "group" : "vikings",
+    "base" : "tower",
+    "slot" : "prop",
+    "defaultOn" : false,
+    "name" : "tower_pumpkins",
+    "textures" : 1,
+    "event" : "halloween"
+  }, {
+    "group" : "vikings",
+    "base" : "warrior",
+    "slot" : "hat",
+    "defaultOn" : true,
+    "name" : "warrior_pumpkin_hat",
+    "textures" : 1,
+    "event" : "halloween"
+  }, {
+    "group" : "vikings",
+    "base" : "warrior",
+    "slot" : "weapon",
+    "defaultOn" : true,
+    "name" : "warrior_axe_held",
+    "textures" : 3,
+    "event" : "-"
+  } ],
+  "skins" : [ {
+    "group" : "misc",
+    "skin" : "pumpkin",
+    "replaces" : "oak_tree_crown",
+    "name" : "oak_tree_crown_pumpkin",
+    "textures" : 1,
+    "event" : "autumn"
+  }, {
+    "group" : "natives",
+    "skin" : "pumpkin",
+    "replaces" : "armory",
+    "name" : "armory_pumpkin",
+    "textures" : 1,
+    "event" : "halloween"
+  }, {
+    "group" : "natives",
+    "skin" : "pumpkin",
+    "replaces" : "peon",
+    "name" : "peon_pumpkin",
+    "textures" : 1,
+    "event" : "halloween"
+  }, {
+    "group" : "natives",
+    "skin" : "pumpkin",
+    "replaces" : "quarters",
+    "name" : "quarters_pumpkin",
+    "textures" : 1,
+    "event" : "halloween"
+  }, {
+    "group" : "natives",
+    "skin" : "pumpkin",
+    "replaces" : "tower",
+    "name" : "tower_pumpkin",
+    "textures" : 1,
+    "event" : "halloween"
+  }, {
+    "group" : "natives",
+    "skin" : "pumpkin",
+    "replaces" : "warrior",
+    "name" : "warrior_pumpkin",
+    "textures" : 3,
+    "event" : "halloween"
+  }, {
+    "group" : "vikings",
+    "skin" : "pumpkin",
+    "replaces" : "peon",
+    "name" : "peon_pumpkin",
+    "textures" : 1,
+    "event" : "halloween"
+  }, {
+    "group" : "vikings",
+    "skin" : "pumpkin",
+    "replaces" : "warrior",
+    "name" : "warrior_pumpkin",
+    "textures" : 3,
+    "event" : "halloween"
+  } ],
+  "decorations" : [ {
+    "group" : "misc",
+    "name" : "mushroom",
+    "grounds" : "grass,dirt,snow",
+    "count" : 20,
+    "event" : "halloween"
+  }, {
+    "group" : "misc",
+    "name" : "pumpkin_plant_2x2",
+    "grounds" : "grass,dirt,snow",
+    "count" : 20,
+    "event" : "halloween"
+  }, {
+    "group" : "misc",
+    "name" : "pumpkin_plant_3x3",
+    "grounds" : "grass,dirt,snow",
+    "count" : 20,
+    "event" : "halloween"
+  } ],
+  "lights" : [ {
+    "group" : "natives",
+    "name" : "armory_pumpkins",
+    "texture" : 0,
+    "color" : "#ff712a",
+    "reach" : 8.0,
+    "strength" : 1.0,
+    "x" : -2.0814908,
+    "y" : 3.762663,
+    "z" : 2.3727477
+  }, {
+    "group" : "natives",
+    "name" : "armory_pumpkins",
+    "texture" : 0,
+    "color" : "#ff712a",
+    "reach" : 8.0,
+    "strength" : 1.0,
+    "x" : -1.1002563,
+    "y" : -4.764401,
+    "z" : 7.2542977
+  }, {
+    "group" : "natives",
+    "name" : "armory_pumpkins",
+    "texture" : 0,
+    "color" : "#ff712a",
+    "reach" : 8.0,
+    "strength" : 1.0,
+    "x" : 0.9293751,
+    "y" : -4.728944,
+    "z" : 7.3436384
+  }, {
+    "group" : "natives",
+    "name" : "armory_pumpkins",
+    "texture" : 0,
+    "color" : "#ff712a",
+    "reach" : 8.0,
+    "strength" : 1.0,
+    "x" : 1.9612725,
+    "y" : 3.8264596,
+    "z" : 2.4609053
+  }, {
+    "group" : "natives",
+    "name" : "quarters_native_building_pumpkins",
+    "texture" : 0,
+    "color" : "#ff8a3b",
+    "reach" : 8.0,
+    "strength" : 1.0,
+    "x" : -4.8843427,
+    "y" : 1.9845762,
+    "z" : 2.449082
+  }, {
+    "group" : "natives",
+    "name" : "quarters_native_building_pumpkins",
+    "texture" : 0,
+    "color" : "#ff8a3b",
+    "reach" : 8.0,
+    "strength" : 1.0,
+    "x" : -0.4534564,
+    "y" : 5.187657,
+    "z" : 2.3161964
+  }, {
+    "group" : "natives",
+    "name" : "quarters_native_building_pumpkins",
+    "texture" : 0,
+    "color" : "#ff8a3b",
+    "reach" : 8.0,
+    "strength" : 1.0,
+    "x" : 0.8747726,
+    "y" : -4.9525604,
+    "z" : 2.660682
+  }, {
+    "group" : "natives",
+    "name" : "quarters_native_building_pumpkins",
+    "texture" : 0,
+    "color" : "#ff8a3b",
+    "reach" : 8.0,
+    "strength" : 1.0,
+    "x" : 4.6486907,
+    "y" : 1.3167318,
+    "z" : 1.9912742
+  }, {
+    "group" : "natives",
+    "name" : "rally_point_pumpkin",
+    "texture" : 0,
+    "color" : "#ff8a3b",
+    "reach" : 16.0,
+    "strength" : 1.5,
+    "x" : -0.39692914,
+    "y" : -0.23332424,
+    "z" : 3.9028156
+  }, {
+    "group" : "natives",
+    "name" : "rally_point_pumpkin",
+    "texture" : 0,
+    "color" : "#ff8a3b",
+    "reach" : 16.0,
+    "strength" : 1.5,
+    "x" : -0.1989541,
+    "y" : -0.43022552,
+    "z" : 3.785248
+  }, {
+    "group" : "natives",
+    "name" : "rally_point_pumpkin",
+    "texture" : 0,
+    "color" : "#ff8a3b",
+    "reach" : 16.0,
+    "strength" : 1.5,
+    "x" : 0.1421278,
+    "y" : -0.4448172,
+    "z" : 3.8263705
+  }, {
+    "group" : "natives",
+    "name" : "rally_point_pumpkin",
+    "texture" : 0,
+    "color" : "#ff8a3b",
+    "reach" : 16.0,
+    "strength" : 1.5,
+    "x" : 0.32116693,
+    "y" : -0.29215896,
+    "z" : 3.7751734
+  }, {
+    "group" : "natives",
+    "name" : "tower_pumpkins",
+    "texture" : 0,
+    "color" : "#ff712a",
+    "reach" : 8.0,
+    "strength" : 1.0,
+    "x" : -1.6299685,
+    "y" : -0.2940743,
+    "z" : 13.631923
+  }, {
+    "group" : "natives",
+    "name" : "tower_pumpkins",
+    "texture" : 0,
+    "color" : "#ff712a",
+    "reach" : 8.0,
+    "strength" : 1.0,
+    "x" : 0.07578911,
+    "y" : 0.025905663,
+    "z" : 2.277433
+  }, {
+    "group" : "natives",
+    "name" : "tower_pumpkins",
+    "texture" : 0,
+    "color" : "#ff712a",
+    "reach" : 8.0,
+    "strength" : 1.0,
+    "x" : 0.83301306,
+    "y" : 1.3793498,
+    "z" : 13.570794
+  }, {
+    "group" : "natives",
+    "name" : "tower_pumpkins",
+    "texture" : 0,
+    "color" : "#ff712a",
+    "reach" : 8.0,
+    "strength" : 1.0,
+    "x" : 0.8885692,
+    "y" : -1.9761095,
+    "z" : 13.642988
+  }, {
+    "group" : "vikings",
+    "name" : "armory_pumpkins",
+    "texture" : 0,
+    "color" : "#ff7029",
+    "reach" : 8.0,
+    "strength" : 1.0,
+    "x" : -2.6790257,
+    "y" : 1.2856127,
+    "z" : 7.3504014
+  }, {
+    "group" : "vikings",
+    "name" : "armory_pumpkins",
+    "texture" : 0,
+    "color" : "#ff7029",
+    "reach" : 8.0,
+    "strength" : 1.0,
+    "x" : -0.14212833,
+    "y" : 5.4687176,
+    "z" : 3.181331
+  }, {
+    "group" : "vikings",
+    "name" : "armory_pumpkins",
+    "texture" : 0,
+    "color" : "#ff7029",
+    "reach" : 8.0,
+    "strength" : 1.0,
+    "x" : 1.001082,
+    "y" : 2.8197117,
+    "z" : 8.571404
+  }, {
+    "group" : "vikings",
+    "name" : "armory_pumpkins",
+    "texture" : 0,
+    "color" : "#ff7029",
+    "reach" : 8.0,
+    "strength" : 1.0,
+    "x" : 1.077443,
+    "y" : -1.4645791,
+    "z" : 7.9721327
+  }, {
+    "group" : "vikings",
+    "name" : "quarters_pumpkins",
+    "texture" : 0,
+    "color" : "#ff5810",
+    "reach" : 8.0,
+    "strength" : 1.0,
+    "x" : -4.275756,
+    "y" : 1.3880231,
+    "z" : 5.6429777
+  }, {
+    "group" : "vikings",
+    "name" : "quarters_pumpkins",
+    "texture" : 0,
+    "color" : "#ff5810",
+    "reach" : 8.0,
+    "strength" : 1.0,
+    "x" : -1.3942643,
+    "y" : -4.703872,
+    "z" : 3.3809633
+  }, {
+    "group" : "vikings",
+    "name" : "quarters_pumpkins",
+    "texture" : 0,
+    "color" : "#ff5810",
+    "reach" : 8.0,
+    "strength" : 1.0,
+    "x" : 2.3036282,
+    "y" : 4.05652,
+    "z" : 5.021088
+  }, {
+    "group" : "vikings",
+    "name" : "quarters_pumpkins",
+    "texture" : 0,
+    "color" : "#ff5810",
+    "reach" : 8.0,
+    "strength" : 1.0,
+    "x" : 4.225408,
+    "y" : -0.80845845,
+    "z" : 5.970214
+  }, {
+    "group" : "vikings",
+    "name" : "rally_point_pumpkin",
+    "texture" : 0,
+    "color" : "#ff8a3b",
+    "reach" : 16.0,
+    "strength" : 1.5,
+    "x" : 0.03611481,
+    "y" : 0.21378197,
+    "z" : 4.8847547
+  }, {
+    "group" : "vikings",
+    "name" : "rally_point_pumpkin",
+    "texture" : 0,
+    "color" : "#ff8a3b",
+    "reach" : 16.0,
+    "strength" : 1.5,
+    "x" : 0.2646563,
+    "y" : 0.26825696,
+    "z" : 4.782682
+  }, {
+    "group" : "vikings",
+    "name" : "rally_point_pumpkin",
+    "texture" : 0,
+    "color" : "#ff8a3b",
+    "reach" : 16.0,
+    "strength" : 1.5,
+    "x" : 0.36615902,
+    "y" : 0.70465404,
+    "z" : 4.703943
+  }, {
+    "group" : "vikings",
+    "name" : "rally_point_pumpkin",
+    "texture" : 0,
+    "color" : "#ff8a3b",
+    "reach" : 16.0,
+    "strength" : 1.5,
+    "x" : 0.4083916,
+    "y" : 0.5208422,
+    "z" : 4.780411
+  }, {
+    "group" : "vikings",
+    "name" : "tower_pumpkins",
+    "texture" : 0,
+    "color" : "#ff7029",
+    "reach" : 4.0,
+    "strength" : 0.5,
+    "x" : -1.0095632,
+    "y" : -1.17937,
+    "z" : 10.39027
+  }, {
+    "group" : "vikings",
+    "name" : "tower_pumpkins",
+    "texture" : 0,
+    "color" : "#ff7029",
+    "reach" : 4.0,
+    "strength" : 0.5,
+    "x" : -1.0085065,
+    "y" : 1.1645609,
+    "z" : 10.40887
+  }, {
+    "group" : "vikings",
+    "name" : "tower_pumpkins",
+    "texture" : 0,
+    "color" : "#ff7029",
+    "reach" : 4.0,
+    "strength" : 0.5,
+    "x" : 1.1472155,
+    "y" : 1.1444813,
+    "z" : 10.692229
+  }, {
+    "group" : "vikings",
+    "name" : "tower_pumpkins",
+    "texture" : 0,
+    "color" : "#ff7029",
+    "reach" : 4.0,
+    "strength" : 0.5,
+    "x" : 1.1651901,
+    "y" : -1.1439319,
+    "z" : 10.582136
+  } ]
+}

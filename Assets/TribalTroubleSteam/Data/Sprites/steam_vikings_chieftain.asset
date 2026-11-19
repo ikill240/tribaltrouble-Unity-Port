@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4830e8a0f3a8fc4ea36a099637bca5c, type: 3}
+  m_Name: steam_vikings_chieftain
+  m_EditorClassIdentifier: 
+  group: vikings
+  spriteName: chieftain
+  model: {fileID: -7981514964708312862, guid: b8532a3b4424dfa4387e3bbe921104d0, type: 3}
+  skinned: 1
+  lods:
+  - nodeName: lod0
+    textures:
+    - name: viking_chieftain
+      baseMap: {fileID: 2800000, guid: 65a266daae6f20e469cb12577768463b, type: 3}
+      teamMask: {fileID: 2800000, guid: fcaef773a1178c5448ef286431b5d12a, type: 3}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  - nodeName: lod1
+    textures:
+    - name: viking_chieftain
+      baseMap: {fileID: 2800000, guid: 65a266daae6f20e469cb12577768463b, type: 3}
+      teamMask: {fileID: 2800000, guid: fcaef773a1178c5448ef286431b5d12a, type: 3}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  animations:
+  - name: idle
+    clip: {fileID: -2474113961476506421, guid: b8532a3b4424dfa4387e3bbe921104d0, type: 3}
+    wpc: 1
+    loop: 1
+    frames: 75
+  - name: run
+    clip: {fileID: 8291298685565124274, guid: b8532a3b4424dfa4387e3bbe921104d0, type: 3}
+    wpc: 6.4
+    loop: 1
+    frames: 80
+  - name: attack
+    clip: {fileID: -7633015044865952520, guid: b8532a3b4424dfa4387e3bbe921104d0, type: 3}
+    wpc: 1
+    loop: 0
+    frames: 120
+  - name: die
+    clip: {fileID: -5788828422494046478, guid: b8532a3b4424dfa4387e3bbe921104d0, type: 3}
+    wpc: 1
+    loop: 0
+    frames: 150
+  - name: magic
+    clip: {fileID: 188188976223656800, guid: b8532a3b4424dfa4387e3bbe921104d0, type: 3}
+    wpc: 1
+    loop: 0
+    frames: 160
+  - name: thor
+    clip: {fileID: -8046259799891856938, guid: b8532a3b4424dfa4387e3bbe921104d0, type: 3}
+    wpc: 1
+    loop: 1
+    frames: 75

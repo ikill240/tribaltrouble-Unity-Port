@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4830e8a0f3a8fc4ea36a099637bca5c, type: 3}
+  m_Name: steam_natives_quarters
+  m_EditorClassIdentifier: 
+  group: natives
+  spriteName: quarters
+  model: {fileID: 6604131403312789586, guid: 0ef580dfaf0c10942b1e7d6af6c5e544, type: 3}
+  skinned: 0
+  lods:
+  - nodeName: lod0
+    textures:
+    - name: native_building_hi
+      baseMap: {fileID: 2800000, guid: a30882b8044271b44aef32654384900e, type: 3}
+      teamMask: {fileID: 2800000, guid: b641915663c607a409a6389ca23620d1, type: 3}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  - nodeName: lod1
+    textures:
+    - name: native_building_lo
+      baseMap: {fileID: 2800000, guid: e516d41a410e13d4984ae3b6d4fa9bbb, type: 3}
+      teamMask: {fileID: 2800000, guid: 9970a60a7f9cc0b4aa277ef7d9717814, type: 3}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  animations: []

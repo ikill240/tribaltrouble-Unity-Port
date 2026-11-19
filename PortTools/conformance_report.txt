@@ -1,0 +1,7 @@
+c01: PASS (512m NATIVE, 4p, generated in 1527 ms)
+c02: PASS (256m VIKING, 2p, generated in 661 ms)
+c05: PASS (512m VIKING, 3p, generated in 1660 ms)
+c07: PASS (256m NATIVE, 2p, generated in 865 ms)
+c08: PASS (512m NATIVE, 5p, generated in 1590 ms)
+c10: PASS (512m NATIVE, 2p, generated in 1471 ms)
+== 6 passed, 0 failed

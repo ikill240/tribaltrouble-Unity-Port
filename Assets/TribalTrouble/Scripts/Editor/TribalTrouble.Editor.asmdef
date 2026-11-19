@@ -1,0 +1,22 @@
+{
+    "name": "TribalTrouble.Editor",
+    "rootNamespace": "TribalTrouble.EditorTools",
+    "references": [
+        "TribalTrouble.Runtime",
+        "TribalTrouble.Sim",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Core.Runtime",
+        "TribalTrouble.JavaSim"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

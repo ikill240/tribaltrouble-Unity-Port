@@ -1,0 +1,43 @@
+23:45:25 started
+23:46:02 screenshot steam_shot_0.png: main menu
+23:46:03 screenshot steam_shot_1.png: patch notes
+23:46:04 click 'OK'
+23:46:06 click 'Single player'
+23:46:09 screenshot steam_shot_2.png: single player menu
+23:46:10 click 'OK'
+23:46:48 in game: tick 51, players 2
+23:46:56 screenshot steam_shot_3.png: in game, day
+23:47:16 screenshot steam_shot_4.png: in game, 20 s later
+23:47:16 world tick 1451, night False; Player: units 20, buildings 0; AI1: units 23, buildings 2
+23:47:16 view: items 10, trees 25, instances 55, live 0, far 0, culled 5
+23:47:16 scene: Supply 5 Unit 2 Attach 2 Carry 1
+23:47:16 shaders: terrain TribalTroubleSteam/Terrain, sprites TribalTroubleSteam/Sprite; Steam shaders loaded: sprite True, terrain True, decal True, ghost True, water True
+23:47:16 java camera at 753.5,135.0,59.5 horiz -4.65 vert -0.79
+23:47:16 unity camera at (753.51, 59.54, 135.05) looking (-0.04, -0.71, 0.71)
+23:47:16 unit Unit at 269.0,67.0,24.2
+23:47:16 unit Unit at 271.0,67.0,24.2
+23:47:16 unit Unit at 267.0,65.0,24.2
+23:47:16 fps 118
+23:47:20 screenshot steam_shot_5.png: in game, night
+23:47:20 night True: globals tint (0.30, 0.35, 0.52, 1.00) ambient (0.22, 0.25, 0.36, 1.00) ready 1
+23:47:21 selected 8
+23:47:22 screenshot steam_shot_6.png: in game, units selected
+23:47:24 screenshot steam_shot_7.png: in game, placing a quarters, a click on the ground
+23:47:24 building sites around the ghost: 519
+23:47:26 built: armory True, quarters True, tower True
+23:47:27 armory on screen at (-420172.80, -40225.44, 1.03)
+23:47:28 selected by the click: False
+23:47:28 selected it directly
+23:47:28 screenshot steam_shot_8.png: in game, buildings, armory clicked
+23:47:29 action panel: True
+23:47:30 before: spinner BuildSpinner shows 0 (order 0), minus at (2333.50, 386.50) size 21x21
+23:47:30 hotkeys: R / Shift+R
+23:47:33 after + x3: spinner BuildSpinner shows 3 (order 0), minus at (2333.50, 386.50) size 21x21
+23:47:34 after - x1: spinner BuildSpinner shows 2 (order 0), minus at (2333.50, 386.50) size 21x21
+23:47:34 screenshot steam_shot_9.png: in game, the armory's weapons after + + + -
+23:47:34 rock, before keys: spinner BuildSpinner shows 0 (order 0), minus at (2333.50, 524.50) size 21x21
+23:47:35 rock, after R R: spinner BuildSpinner shows 2 (order 0), minus at (2333.50, 524.50) size 21x21
+23:47:36 rock, after Shift+R: spinner BuildSpinner shows 1 (order 0), minus at (2333.50, 524.50) size 21x21
+23:47:39 screenshot steam_shot_10.png: in game, zoomed out
+23:47:41 screenshot steam_shot_11.png: in game, map mode
+23:47:42 done

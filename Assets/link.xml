@@ -1,0 +1,16 @@
+<!--
+  IL2CPP / managed stripping: keep everything in the game's own assemblies. The Java port finds types and members by
+  reflection (network serialization of 207 classes, the ARMI method tables, J2CS.Generated.NetTables registration,
+  Class.forName in the AI harness), which the linker can't see.
+-->
+<linker>
+  <assembly fullname="TribalTrouble.JavaSim" preserve="all"/>
+  <assembly fullname="TribalTrouble.Sim" preserve="all"/>
+  <assembly fullname="TribalTrouble.Runtime" preserve="all"/>
+  <assembly fullname="TribalTrouble.Relay" preserve="all"/>
+  <assembly fullname="TribalTrouble.Steam" preserve="all"/>
+  <assembly fullname="TikiMadness.Core" preserve="all"/>
+  <assembly fullname="TikiMadness.Art" preserve="all"/>
+  <assembly fullname="TikiMadness.Client" preserve="all"/>
+  <assembly fullname="com.rlabrecque.steamworks.net" preserve="all"/>
+</linker>

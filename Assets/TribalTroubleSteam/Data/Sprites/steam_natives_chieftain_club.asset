@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4830e8a0f3a8fc4ea36a099637bca5c, type: 3}
+  m_Name: steam_natives_chieftain_club
+  m_EditorClassIdentifier: 
+  group: natives
+  spriteName: chieftain_club
+  model: {fileID: -7981514964708312862, guid: b7a1667cfb1d08d408a6d1e904c9ec02, type: 3}
+  skinned: 1
+  lods:
+  - nodeName: lod0
+    textures:
+    - name: native_chieftain_club
+      baseMap: {fileID: 2800000, guid: 61899fa100076c64680ef7ec50176a65, type: 3}
+      teamMask: {fileID: 2800000, guid: 6856bc57a7d0c40498ea9b96289e2b70, type: 3}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  - nodeName: lod1
+    textures:
+    - name: native_chieftain_club
+      baseMap: {fileID: 2800000, guid: 61899fa100076c64680ef7ec50176a65, type: 3}
+      teamMask: {fileID: 2800000, guid: 6856bc57a7d0c40498ea9b96289e2b70, type: 3}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  animations:
+  - name: idle
+    clip: {fileID: -2474113961476506421, guid: b7a1667cfb1d08d408a6d1e904c9ec02, type: 3}
+    wpc: 1
+    loop: 1
+    frames: 40
+  - name: run
+    clip: {fileID: 8291298685565124274, guid: b7a1667cfb1d08d408a6d1e904c9ec02, type: 3}
+    wpc: 4
+    loop: 1
+    frames: 50
+  - name: attack
+    clip: {fileID: -7633015044865952520, guid: b7a1667cfb1d08d408a6d1e904c9ec02, type: 3}
+    wpc: 1
+    loop: 0
+    frames: 130
+  - name: die
+    clip: {fileID: -5788828422494046478, guid: b7a1667cfb1d08d408a6d1e904c9ec02, type: 3}
+    wpc: 1
+    loop: 0
+    frames: 150
+  - name: magic
+    clip: {fileID: 188188976223656800, guid: b7a1667cfb1d08d408a6d1e904c9ec02, type: 3}
+    wpc: 1
+    loop: 0
+    frames: 225

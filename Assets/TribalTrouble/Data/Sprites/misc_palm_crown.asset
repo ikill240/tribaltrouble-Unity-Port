@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c721b67d8d87a14280969847e89d0c4, type: 3}
+  m_Name: misc_palm_crown
+  m_EditorClassIdentifier: 
+  group: misc
+  spriteName: palm_crown
+  model: {fileID: 8270277156430636952, guid: e0e292f280a72ea4da5b8093445e6181, type: 3}
+  skinned: 0
+  lods:
+  - nodeName: lod0
+    textures:
+    - name: trees
+      baseMap: {fileID: 2800000, guid: b0ddcfdd5d38b4f40974f04f0217844f, type: 3}
+      teamMask: {fileID: 0}
+    clearColor: {r: 0.1254902, g: 0.2509804, b: 0, a: 1}
+    alphaClip: 1
+  animations: []

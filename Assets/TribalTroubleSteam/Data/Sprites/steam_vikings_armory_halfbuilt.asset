@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4830e8a0f3a8fc4ea36a099637bca5c, type: 3}
+  m_Name: steam_vikings_armory_halfbuilt
+  m_EditorClassIdentifier: 
+  group: vikings
+  spriteName: armory_halfbuilt
+  model: {fileID: -1466855058761874251, guid: ba5e97c3425c894428cf362b660c8370, type: 3}
+  skinned: 0
+  lods:
+  - nodeName: lod0
+    textures:
+    - name: viking_buildings_hi
+      baseMap: {fileID: 2800000, guid: 3dd123c17171e3448bd7c20bd82946e1, type: 3}
+      teamMask: {fileID: 2800000, guid: c61d1ec4a9e44cf438cdea4f3f5c484c, type: 3}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  - nodeName: lod1
+    textures:
+    - name: viking_buildings_lo
+      baseMap: {fileID: 2800000, guid: 89896c7bcafa0f943a859bc23b34c343, type: 3}
+      teamMask: {fileID: 2800000, guid: 6031d8dccda3b754a8060e0f337af450, type: 3}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  animations: []

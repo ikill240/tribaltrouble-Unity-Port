@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c721b67d8d87a14280969847e89d0c4, type: 3}
+  m_Name: vikings_axe
+  m_EditorClassIdentifier: 
+  group: vikings
+  spriteName: axe
+  model: {fileID: -7211884424079376722, guid: 4ceb8b1bf6112ab4f95d9edc5cb721f7, type: 3}
+  skinned: 0
+  lods:
+  - nodeName: lod0
+    textures:
+    - name: viking_warrior_rock
+      baseMap: {fileID: 2800000, guid: b2a812f0b55f4724e9430b9b49bb336f, type: 3}
+      teamMask: {fileID: 0}
+    - name: viking_warrior_iron
+      baseMap: {fileID: 2800000, guid: 4d12e1569d704ca4e87e4d0bbfba3a9d, type: 3}
+      teamMask: {fileID: 0}
+    - name: viking_warrior_rubber
+      baseMap: {fileID: 2800000, guid: e1083b31f8531bb4db11f27a5b569f7a, type: 3}
+      teamMask: {fileID: 0}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  animations: []

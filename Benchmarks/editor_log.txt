@@ -1,0 +1,1352 @@
+23:24:44 Warning: Skinned mesh attributes use wrong streams: TexCoord0 should use stream 1 (was 2), BlendWeight should use stream 2 (was 3), BlendIndices should use stream 2 (was 3)
+23:25:24 Log: [TT] Auto benchmark requested: entering play mode
+23:25:31 Log: [Tribal Trouble] Ambient occlusion settings already fast
+23:31:36 Log: [Tribal Trouble] Ambient occlusion settings already fast
+22:18:52 Log: [Tribal Trouble] Ambient occlusion settings already fast
+22:25:32 Warning: [ServicesCore]: To use Unity's dashboard services, you need to link your Unity project to a project ID. To do this, go to Project Settings to select your organization, select your project and then link a project ID. You also need to make sure your organization has access to the required products. Visit https://dashboard.unity3d.com to sign up.
+22:25:55 Warning: Shader warning in 'TribalTrouble/Terrain': use of potentially uninitialized variable (TriSampleSoft) at Assets/TribalTrouble/Shaders/TTTerrain.shader(150) (on d3d11)
+
+Compiling Subshader: 0, Pass: ForwardLit, Fragment program with _MAIN_LIGHT_SHADOWS_CASCADE _SHADOWS_SOFT
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: FOG_EXP FOG_EXP2 FOG_LINEAR SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_SCREEN _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT_HIGH _SHADOWS_SOFT_LOW _SHADOWS_SOFT_MEDIUM
+00:27:16 Log: [TT] Auto benchmark requested: entering play mode
+00:27:21 Log: [Tribal Trouble] Ambient occlusion settings already fast
+00:33:15 Log: [Tribal Trouble] Ambient occlusion settings already fast
+00:33:45 Log: [TT] Auto benchmark requested: entering play mode
+00:33:52 Log: [TT Steam] Steam: ikill240 (76561198127349288), app 3945720
+00:33:52 Log: [TT Steam] Maximum texture size 16384
+00:33:52 Log: [TT Steam] loopback address = /127.0.0.1
+00:33:52 Log: [TT Steam] Maximum texture size 16384
+00:33:52 Log: [TT Steam] autorun: started
+00:33:54 Log: [Tribal Trouble] Ambient occlusion settings already fast
+00:33:54 Log: [TT] World load took 1772 ms (0 collections during it)
+00:33:55 Log: [TT Steam] View built in 86 ms (128 grid)
+00:34:01 Log: [TT Steam] autorun: screenshot steam_shot_0.png: main menu
+00:34:03 Log: [TT Steam] autorun: click 'Single player'
+00:34:06 Log: [TT Steam] autorun: screenshot steam_shot_1.png: single player menu
+00:34:07 Log: [TT Steam] autorun: click 'OK'
+00:34:07 Log: [TT Steam] hills = 1.0 | vegetation_amount = 1.0 | supplies_amount = 0.0 | seed = 454457124
+00:34:07 Log: [TT Steam] loopback address = /127.0.0.1
+00:34:07 Log: [TT Steam] loopback address = /127.0.0.1
+00:34:07 Log: [TT Steam] Start server
+00:34:07 Log: [TT Steam] Map code: PERCENTAGE SELF PHYSICS
+00:34:47 Log: [TT] World load took 38667 ms (1 collections during it)
+00:34:47 Log: [TT Steam] View built in 75 ms (256 grid)
+00:34:48 Log: [TT Steam] autorun: in game: tick 50, players 2
+00:34:56 Log: [TT Steam] autorun: screenshot steam_shot_2.png: in game, day
+00:35:16 Log: [TT Steam] autorun: screenshot steam_shot_3.png: in game, 20 s later
+00:35:16 Log: [TT Steam] autorun: world tick 1451, night False; Player: units 20, buildings 0; AI1: units 21, buildings 1
+00:35:16 Log: [TT Steam] autorun: view: items 53, trees 292, instances 632, live 40, far 0, culled 3
+00:35:16 Log: [TT Steam] autorun: scene: Supply 10 Unit 21 Attach 21 Carry 1
+00:35:16 Log: [TT Steam] autorun: java camera at 239.6,495.3,40.6 horiz 4.78 vert -0.79
+00:35:16 Log: [TT Steam] autorun: unity camera at (239.58, 40.64, 495.27) looking (0.05, -0.71, -0.71)
+00:35:16 Log: [TT Steam] autorun: unit Unit at 243.0,461.0,5.0
+00:35:16 Log: [TT Steam] autorun: unit Unit at 243.0,463.0,5.0
+00:35:16 Log: [TT Steam] autorun: unit Unit at 243.0,465.0,5.0
+00:35:16 Log: [TT Steam] autorun: fps 118
+00:35:20 Log: [TT Steam] autorun: screenshot steam_shot_4.png: in game, night
+00:35:22 Log: [TT Steam] autorun: done
+01:05:01 Log: [TT] Refresh requested
+01:05:36 Log: [TT] Auto benchmark requested: entering play mode
+01:05:44 Log: [TT Steam] Steam: ikill240 (76561198127349288), app 3945720
+01:05:44 Log: [TT Steam] Maximum texture size 16384
+01:05:45 Log: [TT Steam] loopback address = /127.0.0.1
+01:05:45 Log: [TT Steam] Maximum texture size 16384
+01:05:45 Log: [TT Steam] autorun: started
+01:05:47 Log: [Tribal Trouble] Ambient occlusion settings already fast
+01:06:37 Log: [TT] World load took 51588 ms (1 collections during it)
+01:06:38 Log: [TT Steam] View built in 343 ms (128 grid)
+01:06:44 Log: [TT Steam] autorun: screenshot steam_shot_0.png: main menu
+01:06:46 Log: [TT Steam] autorun: click 'Single player'
+01:06:49 Log: [TT Steam] autorun: screenshot steam_shot_1.png: single player menu
+01:06:50 Log: [TT Steam] autorun: click 'OK'
+01:06:50 Log: [TT Steam] hills = 0.8 | vegetation_amount = 0.0 | supplies_amount = 1.0 | seed = 957345481
+01:06:50 Log: [TT Steam] loopback address = /127.0.0.1
+01:06:50 Log: [TT Steam] loopback address = /127.0.0.1
+01:06:50 Log: [TT Steam] Start server
+01:06:50 Log: [TT Steam] Map code: EDITOR FARMER EMOTION
+01:07:45 Log: [TT] World load took 53816 ms (1 collections during it)
+01:07:46 Log: [TT Steam] View built in 140 ms (256 grid)
+01:07:46 Log: [TT Steam] autorun: in game: tick 58, players 2
+01:07:54 Log: [TT Steam] autorun: screenshot steam_shot_2.png: in game, day
+01:08:14 Log: [TT Steam] autorun: screenshot steam_shot_3.png: in game, 20 s later
+01:08:14 Log: [TT Steam] autorun: world tick 1459, night False; Player: units 20, buildings 0; AI1: units 21, buildings 2
+01:08:14 Log: [TT Steam] autorun: view: items 105, trees 69, instances 272, live 40, far 0, culled 14
+01:08:14 Log: [TT Steam] autorun: scene: Unit 25 Attach 25 Supply 51 Rubber 3 Carry 1
+01:08:14 Log: [TT Steam] autorun: java camera at 231.6,60.9,61.0 horiz -4.84 vert -0.79
+01:08:14 Log: [TT Steam] autorun: unity camera at (231.61, 61.02, 60.92) looking (0.09, -0.71, 0.70)
+01:08:14 Log: [TT Steam] autorun: unit Unit at 237.0,97.0,25.7
+01:08:14 Log: [TT Steam] autorun: unit Unit at 235.0,99.0,26.0
+01:08:14 Log: [TT Steam] autorun: unit Unit at 237.0,99.0,25.9
+01:08:14 Log: [TT Steam] autorun: fps 122
+01:08:18 Log: [TT Steam] autorun: screenshot steam_shot_4.png: in game, night
+01:08:20 Log: [TT Steam] autorun: selected 8
+01:08:22 Log: [TT Steam] autorun: screenshot steam_shot_5.png: in game, units selected
+01:08:23 Log: [TT Steam] autorun: screenshot steam_shot_6.png: in game, placing a quarters
+01:08:24 Log: [TT Steam] autorun: done
+01:11:36 Log: [TT] Auto benchmark requested: entering play mode
+01:11:42 Log: [TT Steam] Steam: ikill240 (76561198127349288), app 3945720
+01:11:42 Log: [TT Steam] Maximum texture size 16384
+01:11:42 Log: [TT Steam] loopback address = /127.0.0.1
+01:11:42 Log: [TT Steam] Maximum texture size 16384
+01:11:43 Log: [TT Steam] autorun: started
+01:12:19 Log: [Tribal Trouble] Ambient occlusion settings already fast
+01:12:19 Log: [TT] World load took 36432 ms (1 collections during it)
+01:12:20 Log: [TT Steam] View built in 65 ms (128 grid)
+01:12:26 Log: [TT Steam] autorun: screenshot steam_shot_0.png: main menu
+01:12:28 Log: [TT Steam] autorun: click 'Single player'
+01:12:32 Log: [TT Steam] autorun: screenshot steam_shot_1.png: single player menu
+01:12:33 Log: [TT Steam] autorun: click 'OK'
+01:12:33 Log: [TT Steam] hills = 0.7 | vegetation_amount = 0.5 | supplies_amount = 1.0 | seed = 1335975601
+01:12:33 Log: [TT Steam] loopback address = /127.0.0.1
+01:12:33 Log: [TT Steam] loopback address = /127.0.0.1
+01:12:33 Log: [TT Steam] Start server
+01:12:33 Log: [TT Steam] Map code: EXCITEMENT WEDDING STUDENT
+01:13:10 Log: [TT] World load took 36015 ms (1 collections during it)
+01:13:11 Log: [TT Steam] View built in 81 ms (256 grid)
+01:13:11 Log: [TT Steam] autorun: in game: tick 50, players 2
+01:13:19 Log: [TT Steam] autorun: screenshot steam_shot_2.png: in game, day
+01:13:39 Log: [TT Steam] autorun: screenshot steam_shot_3.png: in game, 20 s later
+01:13:39 Log: [TT Steam] autorun: world tick 1450, night False; Player: units 20, buildings 0; AI1: units 23, buildings 2
+01:13:39 Log: [TT Steam] autorun: view: items 112, trees 212, instances 588, live 40, far 0, culled 8
+01:13:39 Log: [TT Steam] autorun: scene: Supply 64 Rubber 4 Unit 22 Attach 22
+01:13:39 Log: [TT Steam] autorun: shaders: terrain TribalTroubleSteam/Terrain, sprites TribalTroubleSteam/Sprite; Steam shaders loaded: sprite True, terrain True, decal True, ghost True, water True
+01:13:39 Log: [TT Steam] autorun: java camera at 306.5,417.7,51.9 horiz 4.41 vert -0.79
+01:13:39 Log: [TT Steam] autorun: unity camera at (306.55, 51.95, 417.75) looking (-0.21, -0.71, -0.67)
+01:13:39 Log: [TT Steam] autorun: unit Unit at 297.0,385.0,16.6
+01:13:39 Log: [TT Steam] autorun: unit Unit at 299.0,385.0,16.6
+01:13:39 Log: [TT Steam] autorun: unit Unit at 295.0,383.0,16.7
+01:13:39 Log: [TT Steam] autorun: fps 116
+01:13:43 Log: [TT Steam] autorun: screenshot steam_shot_4.png: in game, night
+01:13:43 Log: [TT Steam] autorun: night True: globals tint (0.30, 0.35, 0.52, 1.00) ambient (0.22, 0.25, 0.36, 1.00) ready 1
+01:13:44 Log: [TT Steam] autorun: selected 8
+01:13:45 Log: [TT Steam] autorun: screenshot steam_shot_5.png: in game, units selected
+01:13:47 Log: [TT Steam] autorun: screenshot steam_shot_6.png: in game, placing a quarters, a click on the ground
+01:13:47 Log: [TT Steam] autorun: building sites around the ghost: 255
+01:13:49 Log: [TT Steam] autorun: done
+22:04:36 Log: [TT] Play starts Assets/TribalTrouble/Scenes/FaithfulSkirmish.unity
+22:04:36 Log: [Tribal Trouble] Ambient occlusion settings already fast
+22:04:40 Warning: [ServicesCore]: To use Unity's dashboard services, you need to link your Unity project to a project ID. To do this, go to Project Settings to select your organization, select your project and then link a project ID. You also need to make sure your organization has access to the required products. Visit https://dashboard.unity3d.com to sign up.
+22:05:02 Warning: Shader warning in 'TribalTrouble/Terrain': use of potentially uninitialized variable (TriSampleSoft) at Assets/TribalTrouble/Shaders/TTTerrain.shader(150) (on d3d11)
+
+Compiling Subshader: 0, Pass: ForwardLit, Fragment program with FOG_LINEAR _MAIN_LIGHT_SHADOWS
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: FOG_EXP FOG_EXP2 SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT _SHADOWS_SOFT_HIGH _SHADOWS_SOFT_LOW _SHADOWS_SOFT_MEDIUM
+22:05:04 Warning: Shader warning in 'TribalTroubleSteam/Terrain': _FORWARD_PLUS shader keyword has been deprecated. Please update your shaders to use _CLUSTER_LIGHT_LOOP shader keyword instead, otherwise shader compilation times may be negatively affected. at /Users/tre24/Documents/Unity Projects/TribalTrouble Classic/Library/PackageCache/com.unity.render-pipelines.universal@2b33a11d06a4/ShaderLibrary/ForwardPlusKeyword.deprecated.hlsl(12)
+22:05:16 Warning: Shader warning in 'TribalTroubleSteam/Sprite': _FORWARD_PLUS shader keyword has been deprecated. Please update your shaders to use _CLUSTER_LIGHT_LOOP shader keyword instead, otherwise shader compilation times may be negatively affected. at /Users/tre24/Documents/Unity Projects/TribalTrouble Classic/Library/PackageCache/com.unity.render-pipelines.universal@2b33a11d06a4/ShaderLibrary/ForwardPlusKeyword.deprecated.hlsl(12)
+23:24:11 Log: [TT] Refresh requested
+23:26:28 Log: [TT] Auto benchmark requested: entering play mode
+23:26:39 Log: [TT Steam] Steam is off (k_ESteamAPIInitResult_NoSteamClient: Cannot create IPC pipe to Steam client process.  Steam is probably not running.): Multiplayer uses the classic login
+23:26:39 Log: [TT Steam] Maximum texture size 16384
+23:26:39 Log: [TT Steam] loopback address = /127.0.0.1
+23:26:39 Log: [TT Steam] Maximum texture size 16384
+23:26:40 Log: [TT Steam] autorun: started
+23:26:42 Log: [Tribal Trouble] Ambient occlusion settings already fast
+23:26:42 Log: [TT] World load took 2664 ms (0 collections during it)
+23:26:43 Log: [TT Steam] View built in 489 ms (128 grid)
+23:26:54 Log: [TT Steam] autorun: screenshot steam_shot_0.png: main menu
+23:26:56 Log: [TT Steam] autorun: screenshot steam_shot_1.png: patch notes
+23:26:56 Log: [TT Steam] autorun: click 'OK'
+23:26:58 Log: [TT Steam] autorun: click 'Single player'
+23:27:01 Log: [TT Steam] autorun: screenshot steam_shot_2.png: single player menu
+23:27:02 Log: [TT Steam] autorun: click 'OK'
+23:27:02 Log: [TT Steam] hills = 0.2 | vegetation_amount = 0.7 | supplies_amount = 0.0 | seed = 211789809
+23:27:02 Log: [TT Steam] loopback address = /127.0.0.1
+23:27:02 Log: [TT Steam] loopback address = /127.0.0.1
+23:27:02 Log: [TT Steam] Start server
+23:27:02 Log: [TT Steam] Map code: PASSION APARTMENT TIP
+23:27:44 Log: [TT] World load took 40262 ms (1 collections during it)
+23:27:44 Log: [TT Steam] View built in 93 ms (256 grid)
+23:27:45 Log: [TT Steam] autorun: in game: tick 82, players 2
+23:27:53 Log: [TT Steam] autorun: screenshot steam_shot_3.png: in game, day
+23:28:13 Log: [TT Steam] autorun: screenshot steam_shot_4.png: in game, 20 s later
+23:28:13 Log: [TT Steam] autorun: world tick 1482, night False; Player: units 20, buildings 0; AI1: units 20, buildings 1
+23:28:13 Log: [TT Steam] autorun: view: items 68, trees 247, instances 618, live 40, far 0, culled 10
+23:28:13 Log: [TT Steam] autorun: scene: Supply 18 Rubber 7 Unit 21 Attach 21 Building 1
+23:28:13 Log: [TT Steam] autorun: shaders: terrain TribalTroubleSteam/Terrain, sprites TribalTroubleSteam/Sprite; Steam shaders loaded: sprite True, terrain True, decal True, ghost True, water True
+23:28:13 Log: [TT Steam] autorun: java camera at 268.0,40.7,40.3 horiz -4.66 vert -0.79
+23:28:13 Log: [TT Steam] autorun: unity camera at (267.96, 40.35, 40.70) looking (-0.04, -0.71, 0.71)
+23:28:13 Log: [TT Steam] autorun: unit Unit at 267.0,77.0,5.0
+23:28:13 Log: [TT Steam] autorun: unit Unit at 267.0,79.0,5.1
+23:28:13 Log: [TT Steam] autorun: unit Unit at 269.0,79.0,4.9
+23:28:13 Log: [TT Steam] autorun: fps 103
+23:28:17 Log: [TT Steam] autorun: screenshot steam_shot_5.png: in game, night
+23:28:17 Log: [TT Steam] autorun: night True: globals tint (0.30, 0.35, 0.52, 1.00) ambient (0.22, 0.25, 0.36, 1.00) ready 1
+23:28:18 Log: [TT Steam] autorun: selected 8
+23:28:19 Log: [TT Steam] autorun: screenshot steam_shot_6.png: in game, units selected
+23:28:21 Log: [TT Steam] autorun: screenshot steam_shot_7.png: in game, placing a quarters, a click on the ground
+23:28:21 Log: [TT Steam] autorun: building sites around the ghost: 85
+23:28:23 Log: [TT Steam] autorun: built: armory True, quarters True, tower True
+23:28:24 Log: [TT Steam] autorun: armory on screen at (1035.13, 482.94, 51.65)
+23:28:27 Log: [TT Steam] autorun: selected by the click: True
+23:28:27 Log: [TT Steam] autorun: screenshot steam_shot_8.png: in game, buildings, armory clicked
+23:28:27 Log: [TT Steam] autorun: before: no production spinner
+23:28:31 Log: [TT Steam] autorun: screenshot steam_shot_9.png: in game, zoomed out
+23:28:33 Log: [TT Steam] autorun: screenshot steam_shot_10.png: in game, map mode
+23:28:34 Log: [TT Steam] autorun: done
+23:30:23 Log: [Tribal Trouble] Ambient occlusion settings already fast
+23:31:09 Log: [TT] Auto benchmark requested: entering play mode
+23:31:14 Log: [TT Steam] Steam is off (k_ESteamAPIInitResult_NoSteamClient: Cannot create IPC pipe to Steam client process.  Steam is probably not running.): Multiplayer uses the classic login
+23:31:14 Log: [TT Steam] Maximum texture size 16384
+23:31:14 Log: [TT Steam] loopback address = /127.0.0.1
+23:31:14 Log: [TT Steam] Maximum texture size 16384
+23:31:14 Log: [TT Steam] autorun: started
+23:31:55 Log: [Tribal Trouble] Ambient occlusion settings already fast
+23:31:55 Log: [TT] World load took 40832 ms (1 collections during it)
+23:31:56 Log: [TT Steam] View built in 113 ms (128 grid)
+23:32:02 Log: [TT Steam] autorun: screenshot steam_shot_0.png: main menu
+23:32:03 Log: [TT Steam] autorun: screenshot steam_shot_1.png: patch notes
+23:32:04 Log: [TT Steam] autorun: click 'OK'
+23:32:06 Log: [TT Steam] autorun: click 'Single player'
+23:32:09 Log: [TT Steam] autorun: screenshot steam_shot_2.png: single player menu
+23:32:10 Log: [TT Steam] autorun: click 'OK'
+23:32:10 Log: [TT Steam] hills = 0.6 | vegetation_amount = 0.9 | supplies_amount = 1.0 | seed = 566820864
+23:32:10 Log: [TT Steam] loopback address = /127.0.0.1
+23:32:10 Log: [TT Steam] loopback address = /127.0.0.1
+23:32:10 Log: [TT Steam] Start server
+23:32:10 Log: [TT Steam] Map code: REGION EMPLOYER COUNTY
+23:32:51 Log: [TT] World load took 40028 ms (1 collections during it)
+23:32:52 Log: [TT Steam] View built in 119 ms (256 grid)
+23:32:52 Log: [TT Steam] autorun: in game: tick 54, players 2
+23:33:00 Log: [TT Steam] autorun: screenshot steam_shot_3.png: in game, day
+23:33:20 Log: [TT Steam] autorun: screenshot steam_shot_4.png: in game, 20 s later
+23:33:20 Log: [TT Steam] autorun: world tick 1455, night False; Player: units 20, buildings 0; AI1: units 22, buildings 2
+23:33:20 Log: [TT Steam] autorun: view: items 107, trees 200, instances 518, live 46, far 4, culled 43
+23:33:20 Log: [TT Steam] autorun: scene: Supply 59 Unit 21 Attach 21 Rubber 6
+23:33:20 Log: [TT Steam] autorun: shaders: terrain TribalTroubleSteam/Terrain, sprites TribalTroubleSteam/Sprite; Steam shaders loaded: sprite True, terrain True, decal True, ghost True, water True
+23:33:20 Log: [TT Steam] autorun: java camera at 397.3,503.9,40.8 horiz 4.71 vert -0.79
+23:33:20 Log: [TT Steam] autorun: unity camera at (396.23, 40.77, 503.65) looking (0.00, -0.71, -0.71)
+23:33:20 Log: [TT Steam] autorun: unit Unit at 257.0,431.0,6.0
+23:33:20 Log: [TT Steam] autorun: unit Unit at 259.0,431.0,5.3
+23:33:20 Log: [TT Steam] autorun: unit Unit at 255.0,429.0,5.5
+23:33:20 Log: [TT Steam] autorun: fps 114
+23:33:24 Log: [TT Steam] autorun: screenshot steam_shot_5.png: in game, night
+23:33:24 Log: [TT Steam] autorun: night True: globals tint (0.30, 0.35, 0.52, 1.00) ambient (0.22, 0.25, 0.36, 1.00) ready 1
+23:33:25 Log: [TT Steam] autorun: selected 8
+23:33:26 Log: [TT Steam] autorun: screenshot steam_shot_6.png: in game, units selected
+23:33:28 Log: [TT Steam] autorun: screenshot steam_shot_7.png: in game, placing a quarters, a click on the ground
+23:33:28 Log: [TT Steam] autorun: building sites around the ghost: 41
+23:33:30 Log: [TT Steam] autorun: built: armory True, quarters True, tower True
+23:33:31 Log: [TT Steam] autorun: armory on screen at (-217367.60, 20674.82, -2.08)
+23:33:34 Log: [TT Steam] autorun: selected by the click: False
+23:33:34 Log: [TT Steam] autorun: screenshot steam_shot_8.png: in game, buildings, armory clicked
+23:33:34 Log: [TT Steam] autorun: action panel: True
+23:33:34 Log: [TT Steam] autorun: before: no production spinner
+23:33:38 Log: [TT Steam] autorun: screenshot steam_shot_9.png: in game, zoomed out
+23:33:39 Log: [TT Steam] autorun: screenshot steam_shot_10.png: in game, map mode
+23:33:41 Log: [TT Steam] autorun: done
+23:35:32 Log: [TT] Auto benchmark requested: entering play mode
+23:35:36 Log: [TT Steam] Steam is off (k_ESteamAPIInitResult_NoSteamClient: Cannot create IPC pipe to Steam client process.  Steam is probably not running.): Multiplayer uses the classic login
+23:35:36 Log: [TT Steam] Maximum texture size 16384
+23:35:36 Log: [TT Steam] loopback address = /127.0.0.1
+23:35:36 Log: [TT Steam] Maximum texture size 16384
+23:35:36 Log: [TT Steam] autorun: started
+23:36:08 Log: [Tribal Trouble] Ambient occlusion settings already fast
+23:36:08 Log: [TT] World load took 32005 ms (1 collections during it)
+23:36:09 Log: [TT Steam] View built in 73 ms (128 grid)
+23:36:15 Log: [TT Steam] autorun: screenshot steam_shot_0.png: main menu
+23:36:16 Log: [TT Steam] autorun: screenshot steam_shot_1.png: patch notes
+23:36:17 Log: [TT Steam] autorun: click 'OK'
+23:36:19 Log: [TT Steam] autorun: click 'Single player'
+23:36:22 Log: [TT Steam] autorun: screenshot steam_shot_2.png: single player menu
+23:36:23 Log: [TT Steam] autorun: click 'OK'
+23:36:23 Log: [TT Steam] hills = 1.0 | vegetation_amount = 0.4 | supplies_amount = 0.2 | seed = 320839744
+23:36:23 Log: [TT Steam] loopback address = /127.0.0.1
+23:36:23 Log: [TT Steam] loopback address = /127.0.0.1
+23:36:23 Log: [TT Steam] Start server
+23:36:23 Log: [TT Steam] Map code: FOOTBALL EXPRESSION NOISE
+23:36:55 Log: [TT] World load took 31538 ms (1 collections during it)
+23:36:56 Log: [TT Steam] View built in 81 ms (256 grid)
+23:36:57 Log: [TT Steam] autorun: in game: tick 74, players 2
+23:37:05 Log: [TT Steam] autorun: screenshot steam_shot_3.png: in game, day
+23:37:25 Log: [TT Steam] autorun: screenshot steam_shot_4.png: in game, 20 s later
+23:37:25 Log: [TT Steam] autorun: world tick 771, night False; Player: units 20, buildings 0; AI1: units 20, buildings 1
+23:37:25 Log: [TT Steam] autorun: view: items 67, trees 176, instances 498, live 40, far 0, culled 3
+23:37:25 Log: [TT Steam] autorun: scene: Supply 24 Unit 20 Attach 20 Rubber 3
+23:37:25 Log: [TT Steam] autorun: shaders: terrain TribalTroubleSteam/Terrain, sprites TribalTroubleSteam/Sprite; Steam shaders loaded: sprite True, terrain True, decal True, ghost True, water True
+23:37:25 Log: [TT Steam] autorun: java camera at 241.1,68.9,56.0 horiz -4.87 vert -0.79
+23:37:25 Log: [TT Steam] autorun: unity camera at (241.10, 56.03, 68.89) looking (0.11, -0.71, 0.70)
+23:37:25 Log: [TT Steam] autorun: unit Unit at 233.0,103.0,20.5
+23:37:25 Log: [TT Steam] autorun: unit Unit at 235.0,103.0,20.5
+23:37:25 Log: [TT Steam] autorun: unit Unit at 233.0,105.0,20.2
+23:37:25 Log: [TT Steam] autorun: fps 120
+23:37:29 Log: [TT Steam] autorun: screenshot steam_shot_5.png: in game, night
+23:37:29 Log: [TT Steam] autorun: night True: globals tint (0.30, 0.35, 0.52, 1.00) ambient (0.22, 0.25, 0.36, 1.00) ready 1
+23:37:30 Log: [TT Steam] autorun: selected 8
+23:37:31 Log: [TT Steam] autorun: screenshot steam_shot_6.png: in game, units selected
+23:37:33 Log: [TT Steam] autorun: screenshot steam_shot_7.png: in game, placing a quarters, a click on the ground
+23:37:33 Log: [TT Steam] autorun: building sites around the ghost: 116
+23:37:35 Log: [TT Steam] autorun: built: armory True, quarters True, tower True
+23:37:36 Log: [TT Steam] autorun: armory on screen at (1002.71, 572.40, 59.09)
+23:37:39 Log: [TT Steam] autorun: selected by the click: False
+23:37:39 Log: [TT Steam] autorun: selected it directly
+23:37:39 Log: [TT Steam] autorun: screenshot steam_shot_8.png: in game, buildings, armory clicked
+23:37:39 Log: [TT Steam] autorun: action panel: False
+23:37:40 Log: [TT Steam] autorun: before: no production spinner
+23:37:43 Log: [TT Steam] autorun: screenshot steam_shot_9.png: in game, zoomed out
+23:37:45 Log: [TT Steam] autorun: screenshot steam_shot_10.png: in game, map mode
+23:37:46 Log: [TT Steam] autorun: done
+23:40:58 Log: [TT] Auto benchmark requested: entering play mode
+23:41:02 Log: [TT Steam] Steam is off (k_ESteamAPIInitResult_NoSteamClient: Cannot create IPC pipe to Steam client process.  Steam is probably not running.): Multiplayer uses the classic login
+23:41:02 Log: [TT Steam] Maximum texture size 16384
+23:41:03 Log: [TT Steam] loopback address = /127.0.0.1
+23:41:03 Log: [TT Steam] Maximum texture size 16384
+23:41:03 Log: [TT Steam] autorun: started
+23:41:36 Log: [Tribal Trouble] Ambient occlusion settings already fast
+23:41:37 Log: [TT] World load took 33560 ms (1 collections during it)
+23:41:37 Log: [TT Steam] View built in 77 ms (128 grid)
+23:41:46 Log: [TT Steam] autorun: screenshot steam_shot_0.png: main menu
+23:41:47 Log: [TT Steam] autorun: screenshot steam_shot_1.png: patch notes
+23:41:48 Log: [TT Steam] autorun: click 'OK'
+23:41:50 Log: [TT Steam] autorun: click 'Single player'
+23:41:53 Log: [TT Steam] autorun: screenshot steam_shot_2.png: single player menu
+23:41:54 Log: [TT Steam] autorun: click 'OK'
+23:41:54 Log: [TT Steam] hills = 0.7 | vegetation_amount = 0.1 | supplies_amount = 0.7 | seed = 603832329
+23:41:54 Log: [TT Steam] loopback address = /127.0.0.1
+23:41:54 Log: [TT Steam] loopback address = /127.0.0.1
+23:41:54 Log: [TT Steam] Start server
+23:41:54 Log: [TT Steam] Map code: EMPLOYEE MANNER BAR
+23:42:42 Log: [TT] World load took 47373 ms (1 collections during it)
+23:42:43 Log: [TT Steam] View built in 81 ms (256 grid)
+23:42:43 Log: [TT Steam] autorun: in game: tick 50, players 2
+23:42:51 Log: [TT Steam] autorun: screenshot steam_shot_3.png: in game, day
+23:43:11 Log: [TT Steam] autorun: screenshot steam_shot_4.png: in game, 20 s later
+23:43:11 Log: [TT Steam] autorun: world tick 1450, night False; Player: units 20, buildings 0; AI1: units 20, buildings 1
+23:43:11 Log: [TT Steam] autorun: view: items 84, trees 104, instances 262, live 42, far 0, culled 5
+23:43:11 Log: [TT Steam] autorun: scene: Supply 38 Unit 21 Attach 21 Rubber 3 Carry 1
+23:43:11 Log: [TT Steam] autorun: shaders: terrain TribalTroubleSteam/Terrain, sprites TribalTroubleSteam/Sprite; Steam shaders loaded: sprite True, terrain True, decal True, ghost True, water True
+23:43:11 Log: [TT Steam] autorun: java camera at 273.2,64.8,44.6 horiz -4.62 vert -0.79
+23:43:11 Log: [TT Steam] autorun: unity camera at (273.16, 44.62, 64.79) looking (-0.06, -0.71, 0.70)
+23:43:11 Log: [TT Steam] autorun: unit Unit at 271.0,101.0,9.5
+23:43:11 Log: [TT Steam] autorun: unit Unit at 271.0,103.0,9.5
+23:43:11 Log: [TT Steam] autorun: unit Unit at 271.0,105.0,9.4
+23:43:11 Log: [TT Steam] autorun: fps 119
+23:43:15 Log: [TT Steam] autorun: screenshot steam_shot_5.png: in game, night
+23:43:15 Log: [TT Steam] autorun: night True: globals tint (0.30, 0.35, 0.52, 1.00) ambient (0.22, 0.25, 0.36, 1.00) ready 1
+23:43:16 Log: [TT Steam] autorun: selected 8
+23:43:17 Log: [TT Steam] autorun: screenshot steam_shot_6.png: in game, units selected
+23:43:19 Log: [TT Steam] autorun: screenshot steam_shot_7.png: in game, placing a quarters, a click on the ground
+23:43:19 Log: [TT Steam] autorun: building sites around the ghost: 557
+23:43:21 Log: [TT Steam] autorun: built: armory True, quarters True, tower True
+23:43:22 Log: [TT Steam] autorun: armory on screen at (1487.80, 492.09, 53.63)
+23:43:24 Log: [TT Steam] autorun: selected by the click: True
+23:43:24 Log: [TT Steam] autorun: screenshot steam_shot_8.png: in game, buildings, armory clicked
+23:43:24 Log: [TT Steam] autorun: action panel: True
+23:43:25 Log: [TT Steam] autorun: before: spinner BuildSpinner shows 0 (order 0), minus at (2333.50, 386.50) size 21x21
+23:43:25 Log: [TT Steam] autorun: hotkeys: R / Shift+R
+23:43:28 Log: [TT Steam] autorun: after + x3: spinner BuildSpinner shows 3 (order 0), minus at (2333.50, 386.50) size 21x21
+23:43:29 Log: [TT Steam] autorun: after - x1: spinner BuildSpinner shows 2 (order 0), minus at (2333.50, 386.50) size 21x21
+23:43:29 Log: [TT Steam] autorun: screenshot steam_shot_9.png: in game, the armory's weapons after + + + -
+23:43:32 Log: [TT Steam] autorun: screenshot steam_shot_10.png: in game, zoomed out
+23:43:34 Log: [TT Steam] autorun: screenshot steam_shot_11.png: in game, map mode
+23:43:35 Log: [TT Steam] autorun: done
+23:45:21 Log: [TT] Auto benchmark requested: entering play mode
+23:45:25 Log: [TT Steam] Steam is off (k_ESteamAPIInitResult_NoSteamClient: Cannot create IPC pipe to Steam client process.  Steam is probably not running.): Multiplayer uses the classic login
+23:45:25 Log: [TT Steam] Maximum texture size 16384
+23:45:25 Log: [TT Steam] loopback address = /127.0.0.1
+23:45:25 Log: [TT Steam] Maximum texture size 16384
+23:45:25 Log: [TT Steam] autorun: started
+23:45:55 Log: [Tribal Trouble] Ambient occlusion settings already fast
+23:45:55 Log: [TT] World load took 29775 ms (1 collections during it)
+23:45:56 Log: [TT Steam] View built in 75 ms (128 grid)
+23:46:02 Log: [TT Steam] autorun: screenshot steam_shot_0.png: main menu
+23:46:03 Log: [TT Steam] autorun: screenshot steam_shot_1.png: patch notes
+23:46:04 Log: [TT Steam] autorun: click 'OK'
+23:46:06 Log: [TT Steam] autorun: click 'Single player'
+23:46:09 Log: [TT Steam] autorun: screenshot steam_shot_2.png: single player menu
+23:46:10 Log: [TT Steam] autorun: click 'OK'
+23:46:10 Log: [TT Steam] hills = 0.4 | vegetation_amount = 0.9 | supplies_amount = 0.0 | seed = 1176078436
+23:46:10 Log: [TT Steam] loopback address = /127.0.0.1
+23:46:10 Log: [TT Steam] loopback address = /127.0.0.1
+23:46:10 Log: [TT Steam] Start server
+23:46:10 Log: [TT Steam] Map code: ACTOR LIMIT AGENT
+23:46:47 Log: [TT] World load took 35835 ms (1 collections during it)
+23:46:47 Log: [TT Steam] View built in 87 ms (256 grid)
+23:46:48 Log: [TT Steam] autorun: in game: tick 51, players 2
+23:46:56 Log: [TT Steam] autorun: screenshot steam_shot_3.png: in game, day
+23:47:16 Log: [TT Steam] autorun: screenshot steam_shot_4.png: in game, 20 s later
+23:47:16 Log: [TT Steam] autorun: world tick 1451, night False; Player: units 20, buildings 0; AI1: units 23, buildings 2
+23:47:16 Log: [TT Steam] autorun: view: items 10, trees 25, instances 55, live 0, far 0, culled 5
+23:47:16 Log: [TT Steam] autorun: scene: Supply 5 Unit 2 Attach 2 Carry 1
+23:47:16 Log: [TT Steam] autorun: shaders: terrain TribalTroubleSteam/Terrain, sprites TribalTroubleSteam/Sprite; Steam shaders loaded: sprite True, terrain True, decal True, ghost True, water True
+23:47:16 Log: [TT Steam] autorun: java camera at 753.5,135.0,59.5 horiz -4.65 vert -0.79
+23:47:16 Log: [TT Steam] autorun: unity camera at (753.51, 59.54, 135.05) looking (-0.04, -0.71, 0.71)
+23:47:16 Log: [TT Steam] autorun: unit Unit at 269.0,67.0,24.2
+23:47:16 Log: [TT Steam] autorun: unit Unit at 271.0,67.0,24.2
+23:47:16 Log: [TT Steam] autorun: unit Unit at 267.0,65.0,24.2
+23:47:16 Log: [TT Steam] autorun: fps 118
+23:47:20 Log: [TT Steam] autorun: screenshot steam_shot_5.png: in game, night
+23:47:20 Log: [TT Steam] autorun: night True: globals tint (0.30, 0.35, 0.52, 1.00) ambient (0.22, 0.25, 0.36, 1.00) ready 1
+23:47:21 Log: [TT Steam] autorun: selected 8
+23:47:22 Log: [TT Steam] autorun: screenshot steam_shot_6.png: in game, units selected
+23:47:24 Log: [TT Steam] autorun: screenshot steam_shot_7.png: in game, placing a quarters, a click on the ground
+23:47:24 Log: [TT Steam] autorun: building sites around the ghost: 519
+23:47:26 Log: [TT Steam] autorun: built: armory True, quarters True, tower True
+23:47:27 Log: [TT Steam] autorun: armory on screen at (-420172.80, -40225.44, 1.03)
+23:47:28 Log: [TT Steam] autorun: selected by the click: False
+23:47:28 Log: [TT Steam] autorun: selected it directly
+23:47:28 Log: [TT Steam] autorun: screenshot steam_shot_8.png: in game, buildings, armory clicked
+23:47:29 Log: [TT Steam] autorun: action panel: True
+23:47:30 Log: [TT Steam] autorun: before: spinner BuildSpinner shows 0 (order 0), minus at (2333.50, 386.50) size 21x21
+23:47:30 Log: [TT Steam] autorun: hotkeys: R / Shift+R
+23:47:33 Log: [TT Steam] autorun: after + x3: spinner BuildSpinner shows 3 (order 0), minus at (2333.50, 386.50) size 21x21
+23:47:34 Log: [TT Steam] autorun: after - x1: spinner BuildSpinner shows 2 (order 0), minus at (2333.50, 386.50) size 21x21
+23:47:34 Log: [TT Steam] autorun: screenshot steam_shot_9.png: in game, the armory's weapons after + + + -
+23:47:34 Log: [TT Steam] autorun: rock, before keys: spinner BuildSpinner shows 0 (order 0), minus at (2333.50, 524.50) size 21x21
+23:47:35 Log: [TT Steam] autorun: rock, after R R: spinner BuildSpinner shows 2 (order 0), minus at (2333.50, 524.50) size 21x21
+23:47:36 Log: [TT Steam] autorun: rock, after Shift+R: spinner BuildSpinner shows 1 (order 0), minus at (2333.50, 524.50) size 21x21
+23:47:39 Log: [TT Steam] autorun: screenshot steam_shot_10.png: in game, zoomed out
+23:47:41 Log: [TT Steam] autorun: screenshot steam_shot_11.png: in game, map mode
+23:47:42 Log: [TT Steam] autorun: done
+03:54:36 Log: [TT] Play starts Assets/TribalTrouble/Scenes/FaithfulSkirmish.unity
+03:54:36 Log: [Tribal Trouble] Ambient occlusion settings already fast
+01:06:03 Warning: Serialized file "Assets/ThirdParty/Mobile_FV/Materials/Misc/Textures/bark_TrunkAdd2.png.meta" contains a TextureImporter object at version 5, below the supported minimum (10). Open and re-save the file to upgrade.
+01:06:18 Warning: Serialized file "Assets/ThirdParty/Mobile_FV/Materials/Misc/Textures/bark_TrunkAdd3.tga.meta" contains a TextureImporter object at version 4, below the supported minimum (10). Open and re-save the file to upgrade.
+01:06:26 Warning: Serialized file "Assets/ThirdParty/Mobile_FV/Materials/Misc/Textures/bark_TrunkAdd1.png.meta" contains a TextureImporter object at version 5, below the supported minimum (10). Open and re-save the file to upgrade.
+01:07:01 Warning: Skinned mesh attributes use wrong streams: TexCoord0 should use stream 1 (was 2), BlendWeight should use stream 2 (was 3), BlendIndices should use stream 2 (was 3)
+01:08:06 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Resources/_Conifer_short.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (3) (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 4 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:06 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer1snow_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 3 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:07 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W1_SkinnyBunches_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (2) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (2) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:07 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer1snow_young_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (2) (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 2 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:07 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Summer/Sm2_SkinnyTall_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (14) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:07 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Spring/S2_SkinnyBunches_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (1) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (2) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:07 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W2_5Arms_v1_00 .prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (4) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:07 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W1_5Arms_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (2) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:07 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer2snow_young_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (1) (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 2 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:07 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Summer/Sm1_SkinnyTall_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (9) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:07 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Spring/S2_5Arms_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (2) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:07 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer2snow_young_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (1) (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 2 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:07 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Spring/S1_SkinnyTall_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (27) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:08 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W2_SkinnyTall_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (26) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:08 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer2snow_young_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (2) (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 2 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:08 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/New Branches/Newbranch.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (1) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 2 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:08 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Uniques/unique1__SkinnyTall_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (4) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:08 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Summer/Sm1_SkinnyTall_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (2) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:08 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W2_5Arms_v3_snow_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:08 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W1_5Arms_v1_snow_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (2) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:08 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W2_5Arms_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (4) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:08 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Summer/Sm1_5Arms_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (4) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:08 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W1_5Arms_v3_snow_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (1) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:09 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W2_5Arms_v1_snow_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (1) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:09 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer2snow_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 3 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:09 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W1_SkinnyTall_v1_snow_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (24) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:09 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Autumn/A1_SkinnyBunches_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (5) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (2) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:09 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W2_SkinnyBunches_v2_snow_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (5) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:09 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Autumn/A2_SkinnyBunches_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (5) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:09 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W2_SkinnyBunches_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (5) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (2) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:09 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer1_young_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (2) (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 2 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:09 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Autumn/A1_SkinnyTall_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (4) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:10 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Uniques/unique1__5Arms_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:10 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer2snow_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (2) (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 3 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:10 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Uniques/unique1__SkinnyTall_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (15) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:10 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Misc/SpiralTree_Younger.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Nested Prefab problem. Missing Nested Prefab Asset: '_leafBunch_v1 (2) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'
+	Nested Prefab problem. Missing Nested Prefab Asset: '_branch3_v1 (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'
+
+
+01:08:10 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W1_5Arms_v2_00).prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (3) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:10 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Uniques/unique1__SkinnyBunches_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (5) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (1) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:10 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W1_SkinnyTall_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (12) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:11 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W1_SkinnyTall_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (23) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:11 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Uniques/unique1__SkinnyBunches_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (3) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (3) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:11 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Misc/SpiralTree_Adult.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Nested Prefab problem. Missing Nested Prefab Asset: '_leafBunch_v1 (2) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'
+	Nested Prefab problem. Missing Nested Prefab Asset: '_branch3_v1 (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'
+
+
+01:08:11 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Autumn/A2_SkinnyBunches_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (4) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (2) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:11 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Spring/S1_5Arms_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (2) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:11 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Summer/Sm2_5Arms_v1_00 .prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (3) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:11 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W2_SkinnyTall_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (15) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:11 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Summer/Sm2_SkinnyBunches_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (2) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (2) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:11 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W1_SkinnyTall_v2_snow_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (13) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:11 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W1_SkinnyBunches_v2_snow_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (3) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (3) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:11 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Spring/S1_5Arms_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (1) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:11 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Spring/S1_SkinnyBunches_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (1) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (3) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:11 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W2_SkinnyTall_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (2) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:11 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W1_SkinnyBunches_v3_snow_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (5) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:11 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W1_SkinnyTall_v3_snow_00 .prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (3) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:12 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Spring/S2_SkinnyBunches_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (5) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (3) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:12 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Uniques/unique1__SkinnyTall_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (7) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:12 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W1_5Arms_v2_snow_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:12 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Summer/Sm1_5Arms_v2_00).prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (3) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:12 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W2_SkinnyTall_v1_snow_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (28) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:12 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer1snow_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (2) (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 3 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:12 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Spring/S2_SkinnyTall_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (24) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:12 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer1_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (2) (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 3 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:13 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W1_5Arms_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (4) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:13 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer2snow_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (1) (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 3 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:13 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Autumn/A2_SkinnyBunches_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (5) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:13 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer2_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (1) (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 3 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:13 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Winter_BareBranches_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_emptyBranch2 (5) (Missing Prefab with guid: 1647d38a07c43104ead447c3e55dd7c8)'. 15 instances are missing the same Prefab Asset with guid 1647d38a07c43104ead447c3e55dd7c8.
+
+
+01:08:14 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer1_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 3 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:14 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Summer/Sm2_5Arms_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:14 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Autumn/A1_SkinnyTall_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (27) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:14 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer1snow_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (1) (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 3 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:14 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W2_SkinnyBunches_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (5) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (3) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:14 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W1_SkinnyBunches_v1_snow_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (5) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (1) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:14 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Spring/S1_SkinnyBunches_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (4) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (1) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:14 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Winter_BareBranches_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_emptyBranch2 (12) (Missing Prefab with guid: 1647d38a07c43104ead447c3e55dd7c8)'. 15 instances are missing the same Prefab Asset with guid 1647d38a07c43104ead447c3e55dd7c8.
+
+
+01:08:14 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Spring/S2_SkinnyTall_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (18) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:14 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Uniques/unique1__5Arms_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (4) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:14 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W2_SkinnyBunches_v1_snow_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (1) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (2) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:15 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Summer/Sm1_SkinnyTall_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (25) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:15 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer2_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (1) (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 3 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:15 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Summer/Sm2_SkinnyTall_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (11) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:15 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Autumn/A1_SkinnyBunches_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (4) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (2) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:15 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Spring/S2_SkinnyBunches_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (2) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:15 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Autumn/A2_SkinnyTall_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (21) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:15 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer1snow_young_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (2) (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 2 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:15 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W2_SkinnyBunches_v3_snow_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (5) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:15 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Autumn/A2_5Arms_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (4) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:15 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Resources/_Tree_SkinnyTall.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (26) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:15 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer2_young_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (2) (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 2 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:15 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Summer/Sm1_SkinnyBunches_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (4) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (2) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:16 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer2_young_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (2) (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 2 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:16 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W2_5Arms_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (3) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:16 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Spring/S2_SkinnyTall_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (8) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:16 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Spring/S1_SkinnyTall_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (1) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:16 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W2_5Arms_v2_snow_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (3) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:16 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Uniques/unique1__5Arms_v2_00).prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (1) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:16 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Spring/S1_5Arms_v2_00).prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (1) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:16 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Autumn/A1_5Arms_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (4) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:17 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W1_SkinnyBunches_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (5) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (1) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:17 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Summer/Sm1_SkinnyBunches_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (3) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:17 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer1snow_young_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (2) (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 2 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:17 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer1_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (2) (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 3 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:17 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Summer/Sm2_SkinnyBunches_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (3) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:17 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Spring/S1_SkinnyBunches_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (3) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (1) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:17 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W2_SkinnyBunches_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (1) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (3) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:17 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Summer/Sm2_SkinnyTall_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (8) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:17 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Spring/S2_5Arms_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (1) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:17 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Summer/Sm2_SkinnyBunches_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (5) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (2) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:18 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Resources/_Tree_5Arms.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (1) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:18 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Autumn/A2_SkinnyTall_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (8) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:18 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Summer/Sm1_5Arms_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (4) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:18 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Winter_BareBranches_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_emptyBranch2 (10) (Missing Prefab with guid: 1647d38a07c43104ead447c3e55dd7c8)'. 15 instances are missing the same Prefab Asset with guid 1647d38a07c43104ead447c3e55dd7c8.
+
+
+01:08:18 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Summer/Sm1_SkinnyBunches_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (5) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (2) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:18 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W2_SkinnyTall_v3_snow_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (4) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:18 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer2_young_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (1) (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 2 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:18 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Uniques/unique1__SkinnyBunches_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (3) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (3) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:18 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W1_SkinnyBunches_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (5) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (1) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:19 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Autumn/A1_SkinnyTall_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (3) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:19 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer2_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 3 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:19 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Summer/Sm2_5Arms_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (2) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:19 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Autumn/A1_SkinnyBunches_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (5) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (2) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:19 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Spring/S1_SkinnyTall_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (2) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:19 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Autumn/A2_SkinnyTall_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (22) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:19 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W1_SkinnyTall_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (16) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:19 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Autumn/A2_5Arms_v1_00 .prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (4) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:19 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer1_young_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (1) (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 2 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:19 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Resources/_Tree_SkinnyBunches.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (3) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 9 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+	Prefab instance problem: '_branch3_v1 (3) (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'. 4 instances are missing the same Prefab Asset with guid f1b042af721e5e54aa8b638f520e3d9f.
+
+
+01:08:19 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/Conifer1_young_v3_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leaves1_v2 (2) (Missing Prefab with guid: 01a022927dc986a49a2566c5653501ab)'. 2 instances are missing the same Prefab Asset with guid 01a022927dc986a49a2566c5653501ab.
+
+
+01:08:20 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Autumn/A1_5Arms_v1_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (4) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:20 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Misc/SpiralTree.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Nested Prefab problem. Missing Nested Prefab Asset: '_leafBunch_v1 (2) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'
+	Nested Prefab problem. Missing Nested Prefab Asset: '_branch3_v1 (Missing Prefab with guid: f1b042af721e5e54aa8b638f520e3d9f)'
+
+
+01:08:20 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Autumn/A2_5Arms_v2_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (4) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:20 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Spring/S2_5Arms_v1_00 .prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:20 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Autumn/A1_5Arms_v2_00).prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_leafBunch_v1 (3) (Missing Prefab with guid: bdf6e4764fc373248bb6041638c023e5)'. 5 instances are missing the same Prefab Asset with guid bdf6e4764fc373248bb6041638c023e5.
+
+
+01:08:20 Error: Problem detected while importing the Prefab file: 'Assets/ThirdParty/Mobile_FV/Prefabs/Winter/W2_SkinnyTall_v2_snow_00.prefab'.
+The file might be corrupt or have a missing Variant parent or nested Prefabs. See details below.
+Errors:
+	Prefab instance problem: '_foliage4_v1 (19) (Missing Prefab with guid: 9091b72419e1280439f303328308bcfa)'. 29 instances are missing the same Prefab Asset with guid 9091b72419e1280439f303328308bcfa.
+
+
+01:08:34 Warning: Shader 'TribalTrouble/Terrain' uses 21 texture parameters, more than the 16 supported by the current graphics device.
+20:39:11 Warning: This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+20:39:42 Log: [TT] Play starts Assets/TribalTrouble/Scenes/FaithfulSkirmish.unity
+20:39:42 Log: [Tribal Trouble] Build settings: keep instancing variants, runtime shaders always included.
+20:39:43 Log: [Tribal Trouble] Ambient occlusion settings already fast
+20:39:52 Warning: [ServicesCore]: To use Unity's dashboard services, you need to link your Unity project to a project ID. To do this, go to Project Settings to select your organization, select your project and then link a project ID. You also need to make sure your organization has access to the required products. Visit https://dashboard.unity3d.com to sign up.
+20:39:52 Log: [TestRunBuilder] Creating new file 'Assets/Resources/PerformanceTestRunInfo.json' (2482 bytes)
+20:39:52 Log: [TestRunBuilder] Creating new file 'Assets/Resources/PerformanceTestRunSettings.json' (23 bytes)
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Determinism\J.cs(115,17): warning CS1718: Comparison made to same variable; did you mean to compare something else?
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Determinism\J.cs(122,17): warning CS1718: Comparison made to same variable; did you mean to compare something else?
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Determinism\J.cs(129,17): warning CS1718: Comparison made to same variable; did you mean to compare something else?
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Determinism\J.cs(136,17): warning CS1718: Comparison made to same variable; did you mean to compare something else?
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(341,17): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(352,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(370,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(320,17): warning CS0219: The variable 'search_x' is assigned but its value is never used
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(321,17): warning CS0219: The variable 'search_y' is assigned but its value is never used
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Determinism\J.cs(262,53): warning CS1718: Comparison made to same variable; did you mean to compare something else?
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Determinism\J.cs(263,53): warning CS1718: Comparison made to same variable; did you mean to compare something else?
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(460,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(473,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(489,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(505,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(519,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(533,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(557,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(561,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(585,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(599,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(616,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(656,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(699,28): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(722,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(724,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(732,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(767,28): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(799,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(801,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(809,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(901,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(946,32): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(948,32): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(950,32): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(952,32): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(960,32): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(962,32): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(964,32): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(966,32): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(975,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(1039,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(1155,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(1156,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(1169,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(1170,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(1179,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(1185,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(1191,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(1197,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(1437,32): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(1440,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(1441,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(1583,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(1585,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(1592,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(1593,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Landscape.cs(1594,24): warning CS0162: Unreachable code detected
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Sim\Procedural\Layer.cs(16,39): warning CS0414: The field 'Layer.INV_GAMMA_EXPONENT' is assigned but its value is never used
+20:40:25 Warning: Packages\com.rlabrecque.steamworks.net\Runtime\ISteamMatchmakingResponses.cs(15,90): warning UAC0008: UNITY_64 preprocessor directive has been deprecated. Please use either a runtime check (for example, condition based on IntPtr.Size) or replace it with bitness independent code instead.
+20:40:25 Warning: Packages\com.rlabrecque.steamworks.net\Runtime\autogen\NativeMethods.cs(14,62): warning UAC0008: UNITY_64 preprocessor directive has been deprecated. Please use either a runtime check (for example, condition based on IntPtr.Size) or replace it with bitness independent code instead.
+20:40:25 Warning: Packages\com.rlabrecque.steamworks.net\Runtime\autogen\NativeMethods.cs(16,65): warning UAC0008: UNITY_64 preprocessor directive has been deprecated. Please use either a runtime check (for example, condition based on IntPtr.Size) or replace it with bitness independent code instead.
+20:40:25 Warning: Packages\com.rlabrecque.steamworks.net\Runtime\types\SteamNetworkingTypes\SteamNetworkingConfigValue_t.cs(41,22): warning UAC1001: Field 'm_val' type 'Steamworks.SteamNetworkingConfigValue_t.OptionValue' is skipped by serialization (missing the [Serializable] attribute). Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.6/Documentation/Manual/script-serialization-analyzer.html#uac1001)
+20:40:25 Warning: Packages\com.rlabrecque.steamworks.net\Runtime\types\SteamRemotePlay\RemotePlayInput_t.cs(28,22): warning UAC1001: Field 'm_val' type 'Steamworks.RemotePlayInput_t.OptionValue' is skipped by serialization (missing the [Serializable] attribute). Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.6/Documentation/Manual/script-serialization-analyzer.html#uac1001)
+20:40:25 Warning: Packages\com.rlabrecque.steamworks.net\Runtime\types\SteamInput\SteamInputActionEvent_t.cs(43,36): warning UAC1001: Field 'analogActionData' type 'Steamworks.InputAnalogActionData_t' is skipped by serialization (missing the [Serializable] attribute). Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.6/Documentation/Manual/script-serialization-analyzer.html#uac1001)
+20:40:25 Warning: Packages\com.rlabrecque.steamworks.net\Runtime\types\SteamInput\SteamInputActionEvent_t.cs(52,37): warning UAC1001: Field 'digitalActionData' type 'Steamworks.InputDigitalActionData_t' is skipped by serialization (missing the [Serializable] attribute). Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.6/Documentation/Manual/script-serialization-analyzer.html#uac1001)
+20:40:25 Warning: Assets\TribalTroubleSteam\Scripts\JavaSim\Runtime\Maps.cs(322,23): warning CS0114: 'HashMap.clone()' hides inherited member 'Object.clone()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+20:40:25 Warning: Assets\TribalTroubleSteam\Scripts\JavaSim\Runtime\Lang.cs(337,17): warning CS1718: Comparison made to same variable; did you mean to compare something else?
+20:40:25 Warning: Assets\TribalTroubleSteam\Scripts\JavaSim\Runtime\Lang.cs(343,17): warning CS1718: Comparison made to same variable; did you mean to compare something else?
+20:40:25 Warning: Assets\TribalTroubleSteam\Scripts\JavaSim\Runtime\Lang.cs(349,17): warning CS1718: Comparison made to same variable; did you mean to compare something else?
+20:40:25 Warning: Assets\TribalTroubleSteam\Scripts\JavaSim\Runtime\Lang.cs(355,17): warning CS1718: Comparison made to same variable; did you mean to compare something else?
+20:40:25 Warning: Assets\TribalTroubleSteam\Scripts\JavaSim\Runtime\NetReflect.cs(111,33): warning UAC0005: AppDomain.GetAssemblies() in Unity may return already unloaded assemblies and result in errors or leaks. Use Unity APIs instead, such as 'CurrentAssemblies.GetLoadedAssemblies()' or 'TypeCache.GetTypesDerivedFrom()'.
+20:40:25 Warning: Assets\TribalTroubleSteam\Scripts\JavaSim\Runtime\NetSerial.cs(121,31): warning UAC0005: AppDomain.GetAssemblies() in Unity may return already unloaded assemblies and result in errors or leaks. Use Unity APIs instead, such as 'CurrentAssemblies.GetLoadedAssemblies()' or 'TypeCache.GetTypesDerivedFrom()'.
+20:40:25 Warning: Assets\TribalTrouble\Scripts\JavaSim\Runtime\Maps.cs(322,23): warning CS0114: 'HashMap.clone()' hides inherited member 'Object.clone()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword.
+20:40:25 Warning: Assets\TribalTrouble\Scripts\JavaSim\Runtime\Lang.cs(336,17): warning CS1718: Comparison made to same variable; did you mean to compare something else?
+20:40:25 Warning: Assets\TribalTrouble\Scripts\JavaSim\Runtime\Lang.cs(342,17): warning CS1718: Comparison made to same variable; did you mean to compare something else?
+20:40:25 Warning: Assets\TribalTrouble\Scripts\JavaSim\Runtime\Lang.cs(348,17): warning CS1718: Comparison made to same variable; did you mean to compare something else?
+20:40:25 Warning: Assets\TribalTrouble\Scripts\JavaSim\Runtime\Lang.cs(354,17): warning CS1718: Comparison made to same variable; did you mean to compare something else?
+20:40:25 Warning: Assets\TribalTrouble\Scripts\JavaSim\Runtime\NetSerial.cs(121,31): warning UAC0005: AppDomain.GetAssemblies() in Unity may return already unloaded assemblies and result in errors or leaks. Use Unity APIs instead, such as 'CurrentAssemblies.GetLoadedAssemblies()' or 'TypeCache.GetTypesDerivedFrom()'.
+20:40:25 Warning: Assets\TribalTrouble\Scripts\JavaSim\Runtime\NetReflect.cs(111,33): warning UAC0005: AppDomain.GetAssemblies() in Unity may return already unloaded assemblies and result in errors or leaks. Use Unity APIs instead, such as 'CurrentAssemblies.GetLoadedAssemblies()' or 'TypeCache.GetTypesDerivedFrom()'.
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Runtime\Game\RtsCamera.cs(8,26): warning UAC1001: Field 'world' type 'TribalTrouble.Game.GameWorld' is skipped by serialization (missing the [Serializable] attribute). Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.6/Documentation/Manual/script-serialization-analyzer.html#uac1001)
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Runtime\Game\PlayerController.cs(13,24): warning UAC1001: Field 'sim' type 'TribalTrouble.Game.GameSim' is skipped by serialization (missing the [Serializable] attribute). Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.6/Documentation/Manual/script-serialization-analyzer.html#uac1001)
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Runtime\Game\PlayerController.cs(14,25): warning UAC1001: Field 'view' type 'TribalTrouble.Game.GameView' is skipped by serialization (missing the [Serializable] attribute). Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.6/Documentation/Manual/script-serialization-analyzer.html#uac1001)
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Runtime\Game\PlayerController.cs(15,23): warning UAC1001: Field 'player' type 'TribalTrouble.Game.Player' is skipped by serialization (missing the [Serializable] attribute). Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.6/Documentation/Manual/script-serialization-analyzer.html#uac1001)
+20:40:25 Warning: Assets\TribalTrouble\Scripts\Runtime\Game\PlayerController.cs(18,26): warning UAC1001: Field 'sfx' type 'TribalTrouble.Game.SfxPlayer' is skipped by serialization (missing the [Serializable] attribute). Refer to the Serialization rules analyzer reference. (https://docs.unity3d.com/6000.6/Documentation/Manual/script-serialization-analyzer.html#uac1001)
+20:40:43 Warning: Shader warning in 'TribalTrouble/Terrain': use of potentially uninitialized variable (TriSampleSoft) at Assets/TribalTrouble/Shaders/TTTerrain.shader(150) (on dx11)
+
+Compiling Subshader: 0, Pass: ForwardLit, Fragment program with _MAIN_LIGHT_SHADOWS
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: FOG_EXP FOG_EXP2 FOG_LINEAR SHADER_API_GLES30 SHADER_API_GLES31 SHADER_API_GLES32 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT _SHADOWS_SOFT_HIGH _SHADOWS_SOFT_LOW _SHADOWS_SOFT_MEDIUM
+20:40:43 Warning: Shader warning in 'TribalTrouble/Terrain': use of potentially uninitialized variable (TriSampleSoft) at Assets/TribalTrouble/Shaders/TTTerrain.shader(150) (on dx12)
+
+Compiling Subshader: 0, Pass: ForwardLit, Fragment program with _MAIN_LIGHT_SHADOWS
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_PLATFORM_SUPPORTS_DEPTH_FETCH UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: FOG_EXP FOG_EXP2 FOG_LINEAR SHADER_API_GLES30 SHADER_API_GLES31 SHADER_API_GLES32 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT _SHADOWS_SOFT_HIGH _SHADOWS_SOFT_LOW _SHADOWS_SOFT_MEDIUM
+20:40:59 Warning: Shader warning in 'TribalTroubleSteam/Terrain': _FORWARD_PLUS shader keyword has been deprecated. Please update your shaders to use _CLUSTER_LIGHT_LOOP shader keyword instead, otherwise shader compilation times may be negatively affected. at /Users/tre24/Documents/Unity Projects/TribalTrouble Classic/Library/PackageCache/com.unity.render-pipelines.universal@9b1eb8be54e0/ShaderLibrary/ForwardPlusKeyword.deprecated.hlsl(12)
+20:41:17 Warning: Shader warning in 'TribalTroubleSteam/Sprite': _FORWARD_PLUS shader keyword has been deprecated. Please update your shaders to use _CLUSTER_LIGHT_LOOP shader keyword instead, otherwise shader compilation times may be negatively affected. at /Users/tre24/Documents/Unity Projects/TribalTrouble Classic/Library/PackageCache/com.unity.render-pipelines.universal@9b1eb8be54e0/ShaderLibrary/ForwardPlusKeyword.deprecated.hlsl(12)

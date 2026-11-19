@@ -1,0 +1,5 @@
+<!-- IL2CPP / managed code stripping: keep the translated Java game whole. Java serialization (the network protocol)
+     sets fields by reflection and creates objects without constructors, which the stripper can't see. -->
+<linker>
+  <assembly fullname="TribalTrouble.JavaSim" preserve="all"/>
+</linker>

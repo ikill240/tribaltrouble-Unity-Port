@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c721b67d8d87a14280969847e89d0c4, type: 3}
+  m_Name: misc_chicken
+  m_EditorClassIdentifier: 
+  group: misc
+  spriteName: chicken
+  model: {fileID: -7981514964708312862, guid: 04362242692865542afafd285d934bcc, type: 3}
+  skinned: 1
+  lods:
+  - nodeName: lod0
+    textures:
+    - name: chicken
+      baseMap: {fileID: 2800000, guid: 0ff4a1cca7c5b254da755cb7f9145d19, type: 3}
+      teamMask: {fileID: 0}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  animations:
+  - name: idle
+    clip: {fileID: -2474113961476506421, guid: 04362242692865542afafd285d934bcc, type: 3}
+    wpc: 1
+    loop: 1
+    frames: 50
+  - name: peck
+    clip: {fileID: -6280548411130719940, guid: 04362242692865542afafd285d934bcc, type: 3}
+    wpc: 1
+    loop: 0
+    frames: 120
+  - name: die
+    clip: {fileID: -5788828422494046478, guid: 04362242692865542afafd285d934bcc, type: 3}
+    wpc: 1
+    loop: 0
+    frames: 150
+  - name: run
+    clip: {fileID: 8291298685565124274, guid: 04362242692865542afafd285d934bcc, type: 3}
+    wpc: 4
+    loop: 1
+    frames: 25
+  - name: fly
+    clip: {fileID: -6934694729346333678, guid: 04362242692865542afafd285d934bcc, type: 3}
+    wpc: 8
+    loop: 1
+    frames: 100

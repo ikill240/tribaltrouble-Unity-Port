@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a10ec3c3894d4e46a77f7bc5e8a1a15, type: 3}
+  m_Name: TTRealTrees
+  m_EditorClassIdentifier: 
+  jungle:
+  - {fileID: 4462719808078266409, guid: a0aae056a61f4f8499058e6577a80929, type: 3}
+  - {fileID: 3738266113628182434, guid: 2ea6da9525130754cacf3d0903641dbd, type: 3}
+  - {fileID: 4035946328331260942, guid: 51d0c84c595ed6f4a90e41b4adefa76b, type: 3}
+  - {fileID: 2045177678333889324, guid: 507385a739e086c4e9f5d4a606592f49, type: 3}
+  - {fileID: 2636200762516655336, guid: e0a3c107a224f0a4bbf41ce588295b49, type: 3}
+  - {fileID: 7380378348123036916, guid: 7e2ab8367c264454ea57223ade9c7f38, type: 3}
+  palm: []
+  oak:
+  - {fileID: 7908963651354416109, guid: 15efa7f74bc9b2d49b0ff982be975e35, type: 3}
+  - {fileID: 3448590478100863996, guid: f21bed309ec18e942a329bc234de8827, type: 3}
+  - {fileID: 8458674270045769824, guid: 852421fd7d600944e8020c476371293e, type: 3}
+  - {fileID: 1705687853902686956, guid: aaf39484df4f71d40867c77a0c0c026b, type: 3}
+  - {fileID: 792671338239263444, guid: 837e68270f0cf6e45a8e69a42386e87c, type: 3}
+  - {fileID: 5417069577325978634, guid: a3acd6bd3d2a0a743b8957baca66d922, type: 3}
+  pine:
+  - {fileID: 8179375255157969537, guid: 2effe37f2933c6b43921be8301d6c760, type: 3}
+  - {fileID: 7381375154979217517, guid: ee648361dc0a7384db2b5be5b77b531b, type: 3}
+  - {fileID: 3205175045398246019, guid: 0f546ebad57fcc94f9b2707072911bbd, type: 3}
+  - {fileID: 6810737065360034288, guid: 71046397e9a6a0f4f8de4ce0d4179d36, type: 3}
+  - {fileID: 8737200555941405252, guid: 946d5d34d7bf750479c01016f76e6458, type: 3}
+  - {fileID: 5352822705521109303, guid: a6514aa2641a6754bbbf3983deaa175c, type: 3}
+  - {fileID: 8600440193965895079, guid: 383b200174bb9f941a63c08aaeb71bd1, type: 3}

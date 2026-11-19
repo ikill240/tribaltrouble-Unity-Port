@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c721b67d8d87a14280969847e89d0c4, type: 3}
+  m_Name: vikings_warrior
+  m_EditorClassIdentifier: 
+  group: vikings
+  spriteName: warrior
+  model: {fileID: -7981514964708312862, guid: b26aa737763b12646ad96c0e55a3ec6b, type: 3}
+  skinned: 1
+  lods:
+  - nodeName: lod0
+    textures:
+    - name: viking_warrior_rock
+      baseMap: {fileID: 2800000, guid: b2a812f0b55f4724e9430b9b49bb336f, type: 3}
+      teamMask: {fileID: 2800000, guid: 8d17c4fabd7d1eb408696f098411aaec, type: 3}
+    - name: viking_warrior_iron
+      baseMap: {fileID: 2800000, guid: 4d12e1569d704ca4e87e4d0bbfba3a9d, type: 3}
+      teamMask: {fileID: 2800000, guid: 25e0f5936f969894c90ceee80025bd67, type: 3}
+    - name: viking_warrior_rubber
+      baseMap: {fileID: 2800000, guid: e1083b31f8531bb4db11f27a5b569f7a, type: 3}
+      teamMask: {fileID: 2800000, guid: 495cd8fbfc71fa943a3de5cb8281c81e, type: 3}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  - nodeName: lod1
+    textures:
+    - name: viking_warrior_rock
+      baseMap: {fileID: 2800000, guid: b2a812f0b55f4724e9430b9b49bb336f, type: 3}
+      teamMask: {fileID: 2800000, guid: 8d17c4fabd7d1eb408696f098411aaec, type: 3}
+    - name: viking_warrior_iron
+      baseMap: {fileID: 2800000, guid: 4d12e1569d704ca4e87e4d0bbfba3a9d, type: 3}
+      teamMask: {fileID: 2800000, guid: 25e0f5936f969894c90ceee80025bd67, type: 3}
+    - name: viking_warrior_rubber
+      baseMap: {fileID: 2800000, guid: e1083b31f8531bb4db11f27a5b569f7a, type: 3}
+      teamMask: {fileID: 2800000, guid: 495cd8fbfc71fa943a3de5cb8281c81e, type: 3}
+    clearColor: {r: 0.3529412, g: 0.23529412, b: 0.11764706, a: 1}
+    alphaClip: 0
+  animations:
+  - name: idle
+    clip: {fileID: -2474113961476506421, guid: b26aa737763b12646ad96c0e55a3ec6b, type: 3}
+    wpc: 1
+    loop: 1
+    frames: 60
+  - name: run
+    clip: {fileID: 8291298685565124274, guid: b26aa737763b12646ad96c0e55a3ec6b, type: 3}
+    wpc: 5
+    loop: 1
+    frames: 62
+  - name: attack
+    clip: {fileID: -7633015044865952520, guid: b26aa737763b12646ad96c0e55a3ec6b, type: 3}
+    wpc: 1
+    loop: 0
+    frames: 58
+  - name: die
+    clip: {fileID: -5788828422494046478, guid: b26aa737763b12646ad96c0e55a3ec6b, type: 3}
+    wpc: 1
+    loop: 0
+    frames: 125
+  - name: sit
+    clip: {fileID: 6316130324300929012, guid: b26aa737763b12646ad96c0e55a3ec6b, type: 3}
+    wpc: 1
+    loop: 1
+    frames: 48
