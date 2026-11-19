@@ -1,6 +1,6 @@
-# Tribal Trouble — Unity 6.1 port
+# Tribal Trouble — Unity 6.6 port
 
-A staged port of `tribaltrouble-main(Working)1.4.1`. See `PORT_ROADMAP.md` for the plan.
+A staged port of `tribaltrouble-main`. See `PORT_ROADMAP.md` for the plan.
 
 ## Open it (Stage 0)
 
